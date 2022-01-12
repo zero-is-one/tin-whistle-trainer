@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tin-whistle-trainer/static/css/main.25b97b4c.css",
+    "main.js": "/tin-whistle-trainer/static/js/main.4ae86de7.js",
+    "static/js/845.14b51337.chunk.js": "/tin-whistle-trainer/static/js/845.14b51337.chunk.js",
+    "static/js/787.7fa1fcd5.chunk.js": "/tin-whistle-trainer/static/js/787.7fa1fcd5.chunk.js",
+    "static/media/tuner.svg": "/tin-whistle-trainer/static/media/tuner.e48a65d1da12f16f52f24ba886242232.svg",
+    "static/media/whistle.svg": "/tin-whistle-trainer/static/media/whistle.0077b776054e13b29b0e4aaa52f5baa1.svg",
+    "static/media/gear.svg": "/tin-whistle-trainer/static/media/gear.6f2811dfd351b54dbb93b43074100e9c.svg",
+    "index.html": "/tin-whistle-trainer/index.html",
+    "static/media/note.svg": "/tin-whistle-trainer/static/media/note.337a391fc77b5db1b8efb0e5faddb330.svg",
+    "main.25b97b4c.css.map": "/tin-whistle-trainer/static/css/main.25b97b4c.css.map",
+    "main.4ae86de7.js.map": "/tin-whistle-trainer/static/js/main.4ae86de7.js.map",
+    "845.14b51337.chunk.js.map": "/tin-whistle-trainer/static/js/845.14b51337.chunk.js.map",
+    "787.7fa1fcd5.chunk.js.map": "/tin-whistle-trainer/static/js/787.7fa1fcd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25b97b4c.css",
+    "static/js/main.4ae86de7.js"
+  ]
+}
