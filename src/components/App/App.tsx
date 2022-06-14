@@ -1,13 +1,11 @@
-import { SongbookPage } from "components/pages/SongbookPage";
+import { SongsPage } from "components/pages/Songs/SongsPage";
+import { TutorPage } from "components/pages/Tutor/TutorPage";
+
 import { Routes, Route, Link } from "react-router-dom";
 
-const About = () => {
-  return <div>about</div>;
-};
-
 const routes = [
-  { path: "/", element: SongbookPage, icon: "🎶", title: "Book" },
-  { path: "/about", element: About, icon: ":)", title: "About" },
+  { path: "/", element: SongsPage, icon: "🎶", title: "Songs" },
+  { path: "/tutor", element: TutorPage, icon: "🎤", title: "Tutor" },
 ];
 
 export const App = () => {
@@ -27,6 +25,8 @@ export const App = () => {
       <nav>
         {routes.map((r) => (
           <Link key={r.path} to={r.path}>
+            {r.icon}
+            <br />
             {r.title}
           </Link>
         ))}

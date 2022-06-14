@@ -9,7 +9,7 @@ import { Tune } from "./types";
 
 const playbackRates = [0.25, 0.5, 0.75, 1];
 
-export const SongbookPage = () => {
+export const SongsPage = () => {
   const [index, setIndex] = useState(0);
   const tune = songsJson[index] as Tune;
   const [currentTuneVideoIndex, setCurrentTuneVideoIndex] = useState(0);
@@ -71,7 +71,6 @@ export const SongbookPage = () => {
       <div
         className="page col"
         style={{
-          padding: "var(--gap)",
           gridTemplateRows: "1fr 2fr 1fr 1fr",
         }}
       >
