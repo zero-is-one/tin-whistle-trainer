@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useMicrophone } from "hooks/useMicrophone";
 import { useMicPitchAndNote } from "hooks/useMicPitchAndNote";
+import { Fingerings } from "components/Fingerings/Fingerings";
 
 export const TutorPage = () => {
   const { onClickActivateMicrophone, isRunning } = useMicrophone();
@@ -9,16 +10,15 @@ export const TutorPage = () => {
   const [sightingsCount, setSightingsCount] = useState(0);
   const sightingsCountGoal = 100;
 
-  // useMicPitchAndNote((pitch, note) => {
-  //   if (!currentNote) return;
-  //   if (note !== currentNote) return;
+  useMicPitchAndNote((pitch, note) => {
+    if (!currentNote) return;
+    if (note !== currentNote) return;
 
-  //   setSightingsCount((s) => s + 1);
-  //   if (sightingsCount >= sightingsCountGoal) refreshCard();
-  // });
+    setSightingsCount((s) => s + 1);
+    if (sightingsCount >= sightingsCountGoal) refreshCard();
+  });
 
   const refreshCard = () => {
-    console.log("here");
     setSightingsCount(0);
     setCurrentNote(basicNotes[Math.floor(Math.random() * basicNotes.length)]);
   };
@@ -30,9 +30,9 @@ export const TutorPage = () => {
           Allow Microphone Access
         </button>
       </dialog> */}
-
+      <Fingerings note="C6" />
       <div className="page">
-        {currentNote === "" && (
+        {!currentNote && (
           <>
             Flashcard types:
             <ul>
@@ -68,6 +68,8 @@ export const TutorPage = () => {
             </button>
           </>
         )}
+
+        {currentNote && <div>{currentNote}</div>}
       </div>
     </>
   );
