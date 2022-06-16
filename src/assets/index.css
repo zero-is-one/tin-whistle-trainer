@@ -93,3 +93,7 @@ dialog {
     opacity: 0;
   }
 }
+
+.hide-clef [data-name*="clef"] {
+  display: none !important;
+}

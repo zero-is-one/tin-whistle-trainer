@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import * as Tone from "tone";
 
-export const useMicrophone = () => {
-  const mic = new Tone.UserMedia();
-  const analyser = new Tone.Analyser({ type: "waveform" });
-  mic.connect(analyser);
+const mic = new Tone.UserMedia();
+const analyser = new Tone.Analyser({ type: "waveform" });
+mic.connect(analyser);
 
+export const useMicrophone = () => {
   const [contextState, setContextState] = useState<string>(Tone.context.state);
 
   const onClickActivateMicrophone = async () => {

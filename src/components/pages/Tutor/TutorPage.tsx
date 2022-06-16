@@ -2,13 +2,17 @@ import { useState } from "react";
 import { useMicrophone } from "hooks/useMicrophone";
 import { useMicPitchAndNote } from "hooks/useMicPitchAndNote";
 import { Fingerings } from "components/Fingerings/Fingerings";
-
+import { SingleMusicNote } from "components/SingleMusicNote/SingleMusicNote";
+import { useCountdown } from "hooks/useCoutdown";
 export const TutorPage = () => {
   const { onClickActivateMicrophone, isRunning } = useMicrophone();
-  const [currentCardTypes, setCurrentCardTypes] = useState(cardTypes);
+  const [sessionCardTypes, setSessionCardTypes] = useState(cardTypes);
   const [currentNote, setCurrentNote] = useState("");
+  const [currentType, setCurrentType] = useState("");
+  const { reset: resetCountdown, count } = useCountdown(5);
+  const [cardsSeenCount, setCardsSeenCout] = useState(0);
   const [sightingsCount, setSightingsCount] = useState(0);
-  const sightingsCountGoal = 100;
+  const sightingsCountGoal = 20;
 
   useMicPitchAndNote((pitch, note) => {
     if (!currentNote) return;
@@ -19,58 +23,107 @@ export const TutorPage = () => {
   });
 
   const refreshCard = () => {
+    resetCountdown();
     setSightingsCount(0);
-    setCurrentNote(basicNotes[Math.floor(Math.random() * basicNotes.length)]);
+    const opts = basicNotes.filter((c) => c !== currentNote);
+    setCurrentNote(opts[Math.floor(Math.random() * opts.length)]);
+    setCardsSeenCout((c) => c + 1);
+    setCurrentType(
+      sessionCardTypes[Math.floor(Math.random() * sessionCardTypes.length)]
+    );
   };
 
   return (
     <>
-      {/* <dialog open={!isRunning}>
+      <dialog open={!isRunning}>
         <button onClick={() => onClickActivateMicrophone()}>
           Allow Microphone Access
         </button>
-      </dialog> */}
-      <Fingerings note="C6" />
-      <div className="page">
-        {!currentNote && (
-          <>
-            Flashcard types:
-            <ul>
-              {cardTypes.map((type) => (
-                <li key={type}>
-                  <label>
-                    <input
-                      name={type}
-                      value={type}
-                      type="checkbox"
-                      id={`checkbox-types-${type}`}
-                      checked={currentCardTypes.includes(type)}
-                      onChange={() => {
-                        setCurrentCardTypes(
-                          currentCardTypes.includes(type)
-                            ? currentCardTypes.filter((i) => i !== type)
-                            : [...currentCardTypes, type]
-                        );
-                      }}
-                    />{" "}
-                    {type}
-                  </label>
-                </li>
-              ))}
-            </ul>
-            <p>Play what you see or hear. </p>
-            <button
-              onClick={() => {
-                refreshCard();
-              }}
-            >
-              Start
-            </button>
-          </>
-        )}
+      </dialog>
 
-        {currentNote && <div>{currentNote}</div>}
-      </div>
+      {!currentNote && (
+        <div className="page">
+          Flashcard types:
+          <ul>
+            {cardTypes.map((type) => (
+              <li key={type}>
+                <label>
+                  <input
+                    name={type}
+                    value={type}
+                    type="checkbox"
+                    id={`checkbox-types-${type}`}
+                    checked={sessionCardTypes.includes(type)}
+                    onChange={() => {
+                      setSessionCardTypes(
+                        sessionCardTypes.includes(type)
+                          ? sessionCardTypes.filter((i) => i !== type)
+                          : [...sessionCardTypes, type]
+                      );
+                    }}
+                  />{" "}
+                  {type}
+                </label>
+              </li>
+            ))}
+          </ul>
+          <p>Play what you see or hear. </p>
+          <button
+            onClick={() => {
+              refreshCard();
+            }}
+          >
+            Start
+          </button>
+        </div>
+      )}
+
+      {currentNote && (
+        <div
+          className="page"
+          style={{
+            display: "grid",
+            gridTemplateRows: "auto 1fr auto",
+            justifyItems: "center",
+            alignItems: "center",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              width: "100%",
+            }}
+          >
+            <div>⌛ {count}</div>
+            <div>{cardsSeenCount} 👓</div>
+          </div>
+          <div
+            className="hide-clef"
+            style={{
+              marginTop: 5,
+              display: "grid",
+              gridTemplateColumns: "1fr",
+              justifyItems: "center",
+              alignItems: "center",
+            }}
+          >
+            {(count <= 0 || currentType === "note") && <h1>{currentNote}</h1>}
+            {count <= 0 && <Fingerings note={currentNote} />}
+            {(count <= 0 || currentType === "sheet") && (
+              <SingleMusicNote note={currentNote} />
+            )}
+          </div>
+          <div
+            style={{
+              width: `${(100 / sightingsCountGoal) * sightingsCount}%`,
+              height: 16,
+              background: "#bada55",
+              display: "block",
+            }}
+          ></div>
+        </div>
+      )}
     </>
   );
 };

@@ -19,13 +19,14 @@ export const Fingerings = ({
   const strokeWidth = 10;
   const plusLineWidth = 20;
 
-  if (!fingering || !interval.semitones) return <></>;
+  if (!fingering || interval.semitones === undefined)
+    return <>Unknown Fingering</>;
 
   return (
     <svg
-      style={{ background: "#eee", ...style }}
-      width="300"
-      height="500"
+      style={{ background: "#efefef", ...style }}
+      width="100"
+      height="400"
       viewBox={`0 0 100 ${100 * segments + (segments - 1) * gutter}`}
     >
       <defs>
