@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tin Whistle Trainer",
+  "name": "Tin Whistle Trainer",
+  "homepage": "https://zero-is-one.github.io/tin-whistle-trainer/",
   "icons": [
     {
       "src": "favicon.ico",
