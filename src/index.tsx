@@ -21,7 +21,7 @@ root.render(
   // removed because of https://github.com/cookpete/react-player/issues/1453
   // if fixed updated remove allow strict mode
   // <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename="tin-whistle-trainer">
     <App />
   </BrowserRouter>
   // </React.StrictMode>
