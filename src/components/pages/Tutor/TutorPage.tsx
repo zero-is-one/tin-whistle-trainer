@@ -5,7 +5,6 @@ import { Fingerings } from "components/Fingerings/Fingerings";
 import { SingleMusicNote } from "components/SingleMusicNote/SingleMusicNote";
 import { useCountdown } from "hooks/useCoutdown";
 import { useSampler } from "hooks/useSampler";
-import useLocalStorage from "use-local-storage";
 
 export const TutorPage = () => {
   const { onClickActivateMicrophone, isRunning } = useMicrophone();

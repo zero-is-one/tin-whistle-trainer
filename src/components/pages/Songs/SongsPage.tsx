@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import BaseReactPlayer from "react-player/base";
+import { useLocalStorage } from "react-use";
 import { SheetMusicModal } from "./SheetMusicModal";
 import { PlaylistModal } from "./PlaylistModal";
 import songsJson from "assets/songs.json";
@@ -12,7 +13,10 @@ const playbackRates = [0.25, 0.5, 0.75, 1];
 export const SongsPage = () => {
   const [index, setIndex] = useState(0);
   const tune = songsJson[index] as Tune;
-  const [currentTuneVideoIndex, setCurrentTuneVideoIndex] = useState(0);
+  const [currentTuneVideoIndex, setCurrentTuneVideoIndex] = useLocalStorage(
+    `current-tune-video-index-${index}`,
+    0
+  );
 
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
@@ -58,6 +62,8 @@ export const SongsPage = () => {
       setLoop([-1, -1]);
     }
   };
+
+  if (currentTuneVideoIndex === undefined) return;
 
   return (
     <>

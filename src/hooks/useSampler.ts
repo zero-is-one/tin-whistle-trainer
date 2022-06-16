@@ -22,7 +22,7 @@ export const useSampler = () => {
         setLoaded(true);
       },
     }).toDestination();
-  }, [isRunning, setLoaded, sampler.current]);
+  }, [isRunning, setLoaded]);
 
   return { sampler: sampler.current, loaded };
 };
