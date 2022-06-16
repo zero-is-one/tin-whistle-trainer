@@ -4,6 +4,9 @@ import { useMicPitchAndNote } from "hooks/useMicPitchAndNote";
 import { Fingerings } from "components/Fingerings/Fingerings";
 import { SingleMusicNote } from "components/SingleMusicNote/SingleMusicNote";
 import { useCountdown } from "hooks/useCoutdown";
+import { useSampler } from "hooks/useSampler";
+import useLocalStorage from "use-local-storage";
+
 export const TutorPage = () => {
   const { onClickActivateMicrophone, isRunning } = useMicrophone();
   const [sessionCardTypes, setSessionCardTypes] = useState(cardTypes);
@@ -13,6 +16,8 @@ export const TutorPage = () => {
   const [cardsSeenCount, setCardsSeenCout] = useState(0);
   const [sightingsCount, setSightingsCount] = useState(0);
   const sightingsCountGoal = 20;
+
+  const { sampler } = useSampler();
 
   useMicPitchAndNote((pitch, note) => {
     if (!currentNote) return;
@@ -26,11 +31,15 @@ export const TutorPage = () => {
     resetCountdown();
     setSightingsCount(0);
     const opts = basicNotes.filter((c) => c !== currentNote);
-    setCurrentNote(opts[Math.floor(Math.random() * opts.length)]);
+    const randomNote = opts[Math.floor(Math.random() * opts.length)];
+    setCurrentNote(randomNote);
     setCardsSeenCout((c) => c + 1);
-    setCurrentType(
-      sessionCardTypes[Math.floor(Math.random() * sessionCardTypes.length)]
-    );
+    const randomCardType =
+      sessionCardTypes[Math.floor(Math.random() * sessionCardTypes.length)];
+    setCurrentType(randomCardType);
+
+    if (randomCardType === "sound")
+      sampler?.triggerAttackRelease([randomNote], 1);
   };
 
   return (
@@ -108,7 +117,13 @@ export const TutorPage = () => {
               alignItems: "center",
             }}
           >
-            {(count <= 0 || currentType === "note") && <h1>{currentNote}</h1>}
+            {count > 0 && currentType === "sound" && (
+              <h1 style={{ fontSize: 60 }}>🔊</h1>
+            )}
+
+            {(count <= 0 || currentType === "note") && (
+              <h1 onClick={refreshCard}>{currentNote}</h1>
+            )}
             {count <= 0 && <Fingerings note={currentNote} />}
             {(count <= 0 || currentType === "sheet") && (
               <SingleMusicNote note={currentNote} />
