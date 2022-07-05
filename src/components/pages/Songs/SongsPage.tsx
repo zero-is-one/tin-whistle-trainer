@@ -17,11 +17,14 @@ export const SongsPage = () => {
     `current-tune-video-index-${index}`,
     0
   );
-
+  const [playbackRate, setPlaybackRate] = useLocalStorage(
+    `current-tune-speed-${index}`,
+    1
+  );
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
-  const [playbackRate, setPlaybackRate] = useState(1);
+
   const playerRef = useRef<BaseReactPlayer<any>>(null);
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showPlaylist, setShowPlaylist] = useState(false);
@@ -64,6 +67,7 @@ export const SongsPage = () => {
   };
 
   if (currentTuneVideoIndex === undefined) return;
+  if (!tune.videos[currentTuneVideoIndex]?.source) return;
 
   return (
     <>
@@ -157,7 +161,7 @@ export const SongsPage = () => {
             </p>
             <ReactPlayer
               style={{ height: 64, width: 48 }}
-              playbackRate={playbackRate}
+              playbackRate={playbackRate || 1}
               playing={playing}
               url={`https://www.youtube.com/watch?v=${tune.videos[currentTuneVideoIndex].youtubeId}`}
               width={"100%"}

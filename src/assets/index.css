@@ -50,6 +50,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  user-select: none;
 }
 
 button:focus,
