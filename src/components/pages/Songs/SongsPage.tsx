@@ -6,21 +6,18 @@ import { SheetMusicModal } from "./SheetMusicModal";
 import { PlaylistModal } from "./PlaylistModal";
 import songsJson from "assets/songs.json";
 
-import { Tune } from "./types";
+import { Tune, TuneSettings } from "./types";
 
 const playbackRates = [0.25, 0.5, 0.75, 1];
 
 export const SongsPage = () => {
   const [index, setIndex] = useState(0);
   const tune = songsJson[index] as Tune;
-  const [currentTuneVideoIndex, setCurrentTuneVideoIndex] = useLocalStorage(
-    `current-tune-video-index-${index}`,
-    0
+  const [settings, setSettings] = useLocalStorage<TuneSettings>(
+    `current-tune-settings-${index}`,
+    { videoIndex: 0, playbackRate: 1 }
   );
-  const [playbackRate, setPlaybackRate] = useLocalStorage(
-    `current-tune-speed-${index}`,
-    1
-  );
+
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
@@ -28,7 +25,6 @@ export const SongsPage = () => {
   const playerRef = useRef<BaseReactPlayer<any>>(null);
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showPlaylist, setShowPlaylist] = useState(false);
-
   const [loop, setLoop] = useState([-1, -1]);
 
   const onProgress = (e: { playedSeconds: number }) => {
@@ -53,7 +49,8 @@ export const SongsPage = () => {
 
   const onPlaylistSelect = (index: number) => {
     setShowPlaylist(false);
-    setCurrentTuneVideoIndex(index);
+    if (!settings) return;
+    setSettings({ ...settings, videoIndex: index });
   };
 
   const setLoopHead = () => {
@@ -66,8 +63,7 @@ export const SongsPage = () => {
     }
   };
 
-  if (currentTuneVideoIndex === undefined) return;
-  if (!tune.videos[currentTuneVideoIndex]?.source) return;
+  if (!settings) return;
 
   return (
     <>
@@ -85,15 +81,19 @@ export const SongsPage = () => {
         }}
       >
         <div className="button-row">
-          {playbackRates.map((s, index) => (
+          {playbackRates.map((playbackRate, index) => (
             <button
-              key={s}
-              className={` ${playbackRate === s && "active"} `}
-              onClick={() => setPlaybackRate(s)}
+              key={playbackRate}
+              className={` ${
+                settings.playbackRate === playbackRate && "active"
+              } `}
+              onClick={() => {
+                setSettings({ ...settings, playbackRate });
+              }}
             >
               {["🐌", "🐢", "🦙", "🐇"][index]}
               <br />
-              {`${s}`.replace("0.", ".")}
+              {`${playbackRate}`.replace("0.", ".")}
             </button>
           ))}
         </div>
@@ -155,15 +155,17 @@ export const SongsPage = () => {
             <p>
               {index + 1}. {tune.title}
             </p>
-            <p>{tune.videos[currentTuneVideoIndex].source}</p>
+            <p>{tune.videos[settings.videoIndex].source}</p>
             <p style={{ fontFamily: "monospace" }}>
               ⏲ {Math.floor(progress)} : {duration}
             </p>
             <ReactPlayer
               style={{ height: 64, width: 48 }}
-              playbackRate={playbackRate || 1}
+              playbackRate={settings.playbackRate}
               playing={playing}
-              url={`https://www.youtube.com/watch?v=${tune.videos[currentTuneVideoIndex].youtubeId}`}
+              url={`https://www.youtube.com/watch?v=${
+                tune.videos[settings.videoIndex].youtubeId
+              }`}
               width={"100%"}
               height={100}
               controls={false}

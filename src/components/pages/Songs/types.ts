@@ -8,3 +8,8 @@ export interface Tune {
   abc: string;
   videos: Video[];
 }
+
+export interface TuneSettings {
+  videoIndex: number;
+  playbackRate: number;
+}
