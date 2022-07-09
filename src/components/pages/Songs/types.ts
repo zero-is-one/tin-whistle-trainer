@@ -12,4 +12,5 @@ export interface Tune {
 export interface TuneSettings {
   videoIndex: number;
   playbackRate: number;
+  songIndex: number;
 }

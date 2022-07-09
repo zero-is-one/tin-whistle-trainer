@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import ReactPlayer from "react-player";
 import BaseReactPlayer from "react-player/base";
 import { useLocalStorage } from "react-use";
@@ -12,12 +12,8 @@ const playbackRates = [0.25, 0.5, 0.75, 1];
 
 export const SongsPage = () => {
   const [index, setIndex] = useState(0);
-  const tune = songsJson[index] as Tune;
-  const [settings, setSettings] = useLocalStorage<TuneSettings>(
-    `current-tune-settings-${index}`,
-    { videoIndex: 0, playbackRate: 1 }
-  );
-
+  const [tune, setTune] = useState<Tune>(songsJson[0]);
+  const [settings, setSettings] = useState<TuneSettings | undefined>();
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
@@ -26,6 +22,23 @@ export const SongsPage = () => {
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showPlaylist, setShowPlaylist] = useState(false);
   const [loop, setLoop] = useState([-1, -1]);
+
+  useEffect(() => {
+    const val: TuneSettings = JSON.parse(
+      window.localStorage.getItem(`current-tune-settings-${index}`) || "null"
+    ) || { videoIndex: 0, playbackRate: 1 };
+    setSettings({ ...val, songIndex: index });
+    setTune(songsJson[index]);
+  }, [setSettings, index, setTune]);
+
+  const updateSettings = (val: TuneSettings) => {
+    setSettings({ ...val, songIndex: index });
+
+    window.localStorage.setItem(
+      `current-tune-settings-${index}`,
+      JSON.stringify(val)
+    );
+  };
 
   const onProgress = (e: { playedSeconds: number }) => {
     setProgress(e.playedSeconds);
@@ -50,7 +63,7 @@ export const SongsPage = () => {
   const onPlaylistSelect = (index: number) => {
     setShowPlaylist(false);
     if (!settings) return;
-    setSettings({ ...settings, videoIndex: index });
+    updateSettings({ ...settings, videoIndex: index });
   };
 
   const setLoopHead = () => {
@@ -88,7 +101,7 @@ export const SongsPage = () => {
                 settings.playbackRate === playbackRate && "active"
               } `}
               onClick={() => {
-                setSettings({ ...settings, playbackRate });
+                updateSettings({ ...settings, playbackRate });
               }}
             >
               {["🐌", "🐢", "🦙", "🐇"][index]}
