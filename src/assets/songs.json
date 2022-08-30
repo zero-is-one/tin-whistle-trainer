@@ -4,1642 +4,1767 @@
     "abc": "X: 1\nT: Haunted House, The\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\nD |: GFG AGA | BGE EDE | GBd egd | ege edB |\nw: D G F G A G A B G E E D E G B d e g d e g e e d B\nGFG AGA | BGE EDE | GBd ege | dBA G2 D :|\nw: G F G A G A B G E E D E G B d e g e d B A G2 D\n|:GBd egd | ege edB | GAB ded| ded dBA |\nw: G B d e g d e g e e d B G A B d e d d e d d B A\n[1 GBd egd | ege edB | GBd ege | dBA G3 :|\nw: G B d e g d e g e e d B G B d e g e d B A G3\n[2 GFG AGA | BGE EDE | GBd ege | dBA G2 D ||\nw:  G F G A G A B G E E D E G B d e g e d B A G2 D\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "IfOkXh2Cxyk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=IfOkXh2Cxyk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "KtZE9UswozQ"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=KtZE9UswozQ"
       },
-      { "source": "bikemutt", "youtubeId": "Vp0vTpDRJ8g" }
-    ]
+      {
+        "title": "bikemutt",
+        "url": "https://www.youtube.com/watch?v=Vp0vTpDRJ8g"
+      }
+    ],
+    "id": "jcc1q0l51q"
   },
   {
     "title": "My Darling Asleep",
     "abc": "X: 1 - Speed 55\nT: My Darling Asleep\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|z4|:fd\"|\"d cA\"|\"A|BGB A2G|FA\"|\"A def|gfg e2g|\nw: f d d c A A B G B A2 G F A A d e f g f g e2 g\nfd\"|\"d cA\"|\"A|BGB A2G|FA\"|\"A def|gec d3:|\nw: f d d c A A B G B A2 G F A A d e f g e c d3\nFA\"|\"A BA\"/\"A|FA\"|\"A BA\"/\"A|FA\"|\"A def|gfg e2g|\nw: F A A  B A A F A A B A A F A A d e f g f g e2 g\nfd\"|\"d cA\"|\"A|BGB A2G|FA\"|\"A def|gec d3:|\nw: f d d c A A B G B A2 G F A A d e f g e c d3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "3xg2e31LnrU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=3xg2e31LnrU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "guT05atCESs"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=guT05atCESs"
       },
       {
-        "source": "whistletutor",
-        "youtubeId": "9hL_P5iuQpU"
+        "title": "whistletutor",
+        "url": "https://www.youtube.com/watch?v=9hL_P5iuQpU"
       }
-    ]
+    ],
+    "id": "pq1zvkgomo"
   },
   {
     "title": "Club Ceili ( The Old Favourite)",
     "abc": "X: 1 - Speed 55\nT: Club Ceili ( The Old Favourite)\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\n|:B2B BAB|dBA G2B|ded d2 B|ded B2A|\nw: B2 B B A B d B A G2 B d e d d2 B d e d B2 A \n|BcB BAB|dBA G2B|ded cBA|1 G3 G2A:|2G3GBd|\nw: B c B B A B d B A G2 B d e d c B A G3 G2 A G3 G B d\n|g2g f2f| e2e edB |d3 d2 B|ded B2d|g2g f2f|\nw: g2 g f2 f e2 e e d B d3 d2 B d e d B2 d g2 g f2 f\n|efe edB|1ded cBA |G3 GBd:|2dge dge| dge dBA|\nw: e f e e d B d e d c B A G3 G B d d g e d g e d g e d B A\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "ed48QZ7qVRs"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=ed48QZ7qVRs"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "y0SjsheBtHA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=y0SjsheBtHA"
       },
       {
-        "source": "Sarah Loughran - Fiddle",
-        "youtubeId": "w9Wfp9N87C0"
+        "title": "Sarah Loughran - Fiddle",
+        "url": "https://www.youtube.com/watch?v=w9Wfp9N87C0"
       }
-    ]
+    ],
+    "id": "8wtcqtpyqcc"
   },
   {
     "title": "The Little Diamond",
     "abc": "X: 1\nT: The Little Diamond\nR: polka\nM: 2/4\nL: 1/8\nK: Dmaj\n|:B2|A>B AF|DE FD|A>B AF|GF EF|\nDE FG|AB cd|ed ce|d2:|\n|:e2|f2 ge|fd cB|Ad cd|\nfe e2|f2 ge|fd cB|Ag ec|d2:|\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "nP_29BBfgbk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=nP_29BBfgbk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "xrs3aE0qTFA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=xrs3aE0qTFA"
       },
       {
-        "source": "Claire Shirey",
-        "youtubeId": "leMIL5-PNNI"
+        "title": "Claire Shirey",
+        "url": "https://www.youtube.com/watch?v=leMIL5-PNNI"
       }
-    ]
+    ],
+    "id": "ltna0lal0ie"
   },
   {
     "title": "The Murroe",
     "abc": "X: 1\nT: The Murroe\nR: polka\nM: 2/4\nL: 1/8\nK: Gmaj\n|:Bd G>A|Bd GB|A2 FA|GF ED|\nBd G>A|Bd GB|A2 FA|AG G>A:|\n|:Bd ef|g2 ga|f/e/d ef|ed BA|\nBd ef|g2 ga|f/e/d ef|e2 ed:|\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "hkLqM65ulIk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=hkLqM65ulIk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "WMINMMT1RNo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=WMINMMT1RNo"
       },
       {
-        "source": "Sarah Loughran - Fiddle",
-        "youtubeId": "pE1ilTLvK7o"
+        "title": "Sarah Loughran - Fiddle",
+        "url": "https://www.youtube.com/watch?v=pE1ilTLvK7o"
       }
-    ]
+    ],
+    "id": "rt7vziswjxq"
   },
   {
     "title": "The Maids Of Ardagh",
     "abc": "X: 1\nT: The Maids Of Ardagh\nR: polka\nM: 2/4\nL: 1/8\nK: Amix\nF>A BA|de f2|fe/f/ gc|ed BA|\nF>A BA|de f2|fe/f/ gc|ed d2:|\nef/e/ ce|fe a2|ef/e/ ce|fe c/B/A|\nef/e/ ce|fe a2|ef/e/ dB|BA A2:|\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "vN6hpLdOdic"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=vN6hpLdOdic"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "huem1ixYXJI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=huem1ixYXJI"
       }
-    ]
+    ],
+    "id": "v4ey8ugeuwc"
   },
   {
     "title": "Boyne Hunt, The",
     "abc": "X: 1 - 50\nT: Boyne Hunt, The\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:BAFA DAFA | DAFA BE\"~\"E2 | BAFA DAFA |ABde fd\"|\"d2:|\nw: B A F A D A F A D A F A B E E2 B A F A D A F A A B d e  f d d2\nfa\"|\"af a3f |gfga be \"~\"e2 |fa\"|\"af a2af | e2de fd\"|\"d2 |\nw: f a a f a3 f g f g a b e e2 f a a f a2 a f e2 d e f d d2\nfa\"|\"af a3f |gfga be \"~\"e2|f2fe d2dB |ABde fd\"|\"d2 |\nw: f a a f a3 f g f g a b e e2 f2 f e d2 d B A B d e f d d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "JZwuOlJI7Ek"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=JZwuOlJI7Ek"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "VfIcshp9ObQ"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=VfIcshp9ObQ"
       },
-      { "source": "Gilles Poutoux", "youtubeId": "QTbs02yBD3o" }
-    ]
+      {
+        "title": "Gilles Poutoux",
+        "url": "https://www.youtube.com/watch?v=QTbs02yBD3o"
+      }
+    ],
+    "id": "3uas5qeeoa8"
   },
   {
     "title": "Shannon Breeze - Rolling in Rye Grass",
     "abc": "X: 1 - 45\nT:Shannon Breeze - Rolling in Rye Grass\nT: Foinn Seisiun Session Book 1\nM:4/4\nK:D\n|:ABAF DFAF|\"|\"G2 BG dGBG|ABAF DFAF|GBAF \"/\"E2 D2 :|\nw: A B A F D F A F G2 B G d G B G A B A F D F A F G B A F E2 D2\n|: ABde \"|\"f2 df|\"|\"g2 eg fedB|ABde \"|\"f2 df|afdf \"/\"e2 d2 :|\nw: A B d e f2 d f g2 e g f e d B A B d e f2 d f a f d f e2 d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "3qw7AkjWQq0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=3qw7AkjWQq0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "vNZTXzlgKwY"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=vNZTXzlgKwY"
       },
       {
-        "source": "Dulahan Ireland",
-        "youtubeId": "kVKdTBVeo8s"
+        "title": "Dulahan Ireland",
+        "url": "https://www.youtube.com/watch?v=kVKdTBVeo8s"
       }
-    ]
+    ],
+    "id": "rfk9jwcb7ah"
   },
   {
     "title": "Red Haired Lass, The",
     "abc": "X: 1 - 35\nT: Red Haired Lass, The\nT: Foinn Seisiun Session Book 1\nM:4/4\nL:1/8\nR:Reel\nF:http://trillian.mit.edu/~jc/\nK:G\n|DG\"|\"GF G2BG|\"~~\"G2BG AGEG|DG\"|\"GF GABd|egdB c2BA|\nw: D G G F G2 B G G2 B G A G E G D G G F G A B d e g d B c2 B A \nDGGF G2BG|G2BG AGEG|DGGF GABd | egdB c2 Bc | \nw: D G G F G2 B G  G2 B G A G E G D G G F G A B d e g d B c2 B c \nd2gd edgd | d2gd BGBc | d2 gd edef |gedB c2 Bc | \nw: d2 g d e d g d d2 g d B G B c d2 g d e d e f g e d B c2 B c \nd2 gd edgd | d2gd BGAB | c2cA B3A | GABd egdB |\nw: d2 g d e d g d d2 g d B G A B c2 c A B3 A G A B d e g d B\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "nxuzFCIuzGQ"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=nxuzFCIuzGQ"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "YcuCudu2ODQ"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=YcuCudu2ODQ"
       },
       {
-        "source": "Online Academy of Irish Music",
-        "youtubeId": "lO2IY8SVZYg"
+        "title": "Online Academy of Irish Music",
+        "url": "https://www.youtube.com/watch?v=lO2IY8SVZYg"
       }
-    ]
+    ],
+    "id": "bsmmlmibz3m"
   },
   {
     "title": "Humours Of Glendart, The",
     "abc": "X: 1 - 55\nT: Humours Of Glendart, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:BAF AFD|FEF DFA|BAF AFD|FEE E2A|\nw: B A F A F D F E F D F A B A F A F D F E E E2 A \nBAF AFD|FEF FAB|dcB AFE|FDD D2A:|\nw: B A F A F D F E D F A B d c B A F E F D D D2 A \ndef d2B|ABA AFA|def d2d|ede fdB|\nw: d e f d2 B A B A A F A d e f d2 d e d e f d B \ndef edB|ABA ABc|dcB AFE|FDD D2A:|\nw: d e f e d B A B A  A B c d c B A F E F D D D2 A\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "VqlM3y3h7ng"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=VqlM3y3h7ng"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "CjiVvQeGxGk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=CjiVvQeGxGk"
       },
-      { "source": "Fergal Scahill", "youtubeId": "dibaObnK2KA" }
-    ]
+      {
+        "title": "Fergal Scahill",
+        "url": "https://www.youtube.com/watch?v=dibaObnK2KA"
+      }
+    ],
+    "id": "jkflpmuzlq"
   },
   {
     "title": "Saddle The Pony",
     "abc": "X: 1 - Speed 45\nT: Saddle The Pony\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\nD|GBA G2B|def gdB|GBA G2B|AFD AFD|\nw: D G B A G2 B d e f g d B G B A G2 B A F D A F D\nGBA G2B|def gfg|efe dBA|BGG G2:||\nw: G B A G2 B d e f g f g e f e d B A B G G G2\nd|efe edB|def gfg|efe edB|dBA ABd|\nw: d e f e e d B d e f g f g e f e e d B d B A A B d\nefe edB|def gfg|efe dBA|BGG G2:||\nw: e f e e d B d e f g f g e f e d B A B G G G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "n5QQgKqUq7k"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=n5QQgKqUq7k"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "zfjkWYDvSds"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=zfjkWYDvSds"
       }
-    ]
+    ],
+    "id": "v7azkk8czlo"
   },
   {
     "title": "Tobin's Favourite",
     "abc": "X: 1 Speed 45\nT: Tobin's Favourite\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|AF||DFA dcd|ecA cde|fdf gfg|ecA GFE|\nw: A F D F A d c d e c A c d e f d f g f g e c A G F E\nDFA dcd|ecA cde|(3fgaf gec|1edc dAF:|2 ece d d2|\nw: D F A d c d e c A c d e f g a f g e c e d c d\n||dfa agf|(3efge efg|fdf gfg|ecA GFE|\nw: d2 d f a a g f e f g e e f g f d f g f g e c A G F E\nDFA dcd|ecA cde|(3fgaf gec|edc d d2:||\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "7-Fg6UA5g1g"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7-Fg6UA5g1g"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "eLm8dpv8vTM"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=eLm8dpv8vTM"
       }
-    ]
+    ],
+    "id": "sukznbz6a5q"
   },
   {
     "title": "Tulla Reel (Humours Of Tulla)",
     "abc": "X: 1\nT: Tulla Reel (Humours Of Tulla)\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|: d2Ad BdAB | d2fd edBc | d2Ad BdAd | (3Bcd ef g2 fe|\nw: d2 A d B d A B d2 f d e d B c d2 A d B d A d b c d e f g2 f e\n|d2Ad BdAB | d2fd edBc | d2Ad BdAd | (3Bcd ef g2 fg|\nw: d2 A d B d A B d2 f d e d B c d2 A d B d A d b c d e f g2 f g\n| af~f2 df ~f2 | af~f2 ge e2| af~f2 dfed | (3Bcd ef g2 fg|\nw: a f f2 d f f2 a f f2 g e e2 a f f2 d f e d B c d e f g2 f g\n| af~f2 df ~f2 | af~f2 ge e2| af~f2 dfed | (3Bcd ef g2 fe||\nw: a f f2 d f f2 a f f2 g e e2 a f f2 d f e d B c d e f g2 f e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "fOUjspSA-tc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=fOUjspSA-tc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "xfq2l2QVzSE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=xfq2l2QVzSE"
       }
-    ]
+    ],
+    "id": "smaayx2o8vj"
   },
   {
     "title": "Skylark",
     "abc": "X: 1\nT:Skylark\nM:4/4\nL:1/8\nR: reel\nK:D\n|agfg efdB|AF (3FEF DFAd|BG (3GFG EFGE|FA A2 FAdf|\nw: a g f g e f d B A F F E F D F A d B G G F G E F G E F A A2 F A d f\nagfg egdB|AF (3FEF DFAd|BGGF G2 ag|faeg fd d2:||\nw: a g f g e g d B A F F E F D F A d B G G F G2 a g f a e g f d d2\na2 fd Adfd|efed cAA2|a2 fa bged|Beed efge|\nw: a2 f d A d f d e f e d c A A2 a2 f a b g e d B e e d e f g e\nf2 df g2 eg|f2 df edBA|FA (3ABA GBag| faeg fd d2:||\nw: f2 d f g2 e g f2 d f e d B A F A  A B A G B a g  f a e g f d d2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Mzfz3HekjNY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Mzfz3HekjNY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "kqmCfZBiQNk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=kqmCfZBiQNk"
       }
-    ]
+    ],
+    "id": "0gxdqx1st2g"
   },
   {
     "title": "Roaring Mary",
     "abc": "X: 1\nT: Roaring Mary\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\nDF (3FEF AF (3FEF|df (3fef g2 fe|dedB AFAB|defd efdB|\nw: D F F E F A F F E F d f f e f g2 f e d e d B A F A B d e f d e f d B\nDF (3FEF AF (3FEF|df (3fef g2 fe|dedB ABdf|afeg fdd2:|\nw: D F F E F A F F E F d f f e f g2 f e d e d B A B d f a f e g f d d2\n|:abag fgfe|dedA BGG2|eg (3gfg bg (3gfg|af (3fef ge e2|\nw: a b a g f g f e d e d A B G G2 e g g f g b g g f g a f f e f g e e2\nDF (3FEF AF (3FEF|df (3fef g2 fe|dedB ABdf|afeg fd d2:|\nw: D F F E F A F F E F d f f e f g2 f e d e d B A B d f a f e g f d d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Axzgg6NAHqY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Axzgg6NAHqY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "UAV8RCU0g7M"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=UAV8RCU0g7M"
       }
-    ]
+    ],
+    "id": "uiflc9z2jc"
   },
   {
     "title": "Brosna",
     "abc": "X: 1 - Speed 65\nT: Brosna\nM: 12/8\nL: 1/8\nR: slide\nK: Gmaj\n|D2G G2A BAB d2B|A2D FED A2D FED|\nw: D2 G G2 A B A B d2 B A2 D F E D A2 D F E D\nG2G G2A BAB d2B|A2D FED G3 G3 :|\nw: G2 G G2 A B A B d2 B A2 D F E D G3 G3\n|g2f efg f2e d2B|c2B A2B c2d e2f|\nw: g2 f e f g f2 e d2 B c2 B A2 B c2 d e2 f\ng2f efg f2e d2B|c2A FED G3 G3 :|\nw: g2 f e f g f2 e d2 B c2 A F E D G3 G3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "uG1YALFC4SI"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=uG1YALFC4SI"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "-WxXdCQFpTA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=-WxXdCQFpTA"
       }
-    ]
+    ],
+    "id": "ubv0j16dut"
   },
   {
     "title": "O'Keefe's slide (in D)",
     "abc": "X: 1 - 70\nT:O'Keefe's slide (in D)\nM:12/8\nL:1/8\nR:Slide\nK:D\n|E2BB2A FEFA2F|E2BB2AF2DD2F|\nw: E2 B B2 A F E F A2 F E2 B B2 A F2 D D2 F|\nE2B B2A FEF A2E|FEFA2BF2EE3:|\nw: E2 B B2 A F E F A2 E F E F A2 B F2 E E3|\n|B2ee2fe2dB2A|B2ee2fe2dB2c|\nw: B2 e e2 f e2 d B2 A B2 e e2 f e2 d B2 c|\nd2cd2B AFED2E|FEFA2BF2EE3:|\nw: d2 c d2 B A F E D2 E F E F A2 B F2 E E3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "put8ljeZDpA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=put8ljeZDpA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "avicGojS6ao"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=avicGojS6ao"
       }
-    ]
+    ],
+    "id": "c3nb9nndcqi"
   },
   {
     "title": "Denis Murphy's",
     "abc": "X: 1 - Speed 55\nT: Denis Murphy's\nM: 12/8\nL: 1/8\nR: slide\nK: Dmaj\n|:B|A2D FED F2A A2f|gfe fed e2d Bcd|\nw: B A2 D F E D F2 A A2 f g f e f e d e2 d B c d\nA2D FED F2A A2f|a2f efe d3 d2:|\nw: A2 D F E D F2 A A2 f a2 f e f e d3 d2\n|:A|d2e f3 gfe f3|gfe fed e2d B2c|\nw: A d2 e f3 g f e f3 g f e f e d e2 d B2 c\nd2e f3 gfe f2f|a2f efe d3 d2:|\nw: d2 e f3 g f e f2 f a2 f e f e d3 d2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "TBmNA-JLmcY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=TBmNA-JLmcY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "DlRRanjM8Nk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=DlRRanjM8Nk"
       }
-    ]
+    ],
+    "id": "5fkztip8u2w"
   },
   {
     "title": "Maid Behind The Bar, The",
     "abc": "X: 1 - Speed 45\nT: Maid Behind The Bar, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:A|FA\"|\"AF AFED|FA\"|\"AF A\"B\"Bde|fB\"|\"BA Bcde|\"|\"f3 g edBG|\nw: A F A A F A F E D F A A F A B d e f B B A B c d e f3 g e d B G\nFA\"|\"AF AFED|FA\"|\"AB A\"B\"Bde|fB\"|\"BA \"|\"BGdB|AF\"|\"EF D3:|\nw: F A A F A F E D F A A B A B d e f B B A B G d B A F E F D3\n|:g|fa\"|\"ag fede|fdag fd\"|\"df|efga b\"B\"e\"|\"ef|gebe gfeg|\nw: g f a a g f e d e f d a g f d d f e f g a b e e f g e b e g f e g\n\"|\"f3a bfaf|defa \"|\"e2 de|fB\"|\"BA \"|\"BGdB|AF\"|\"EF D3:|\nw: f3 a b f a f d e f a e2 d e f B B A B G d B A F E F D3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "PB8jjzbGaYc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=PB8jjzbGaYc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "NiL8Tb_uYG0"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=NiL8Tb_uYG0"
       }
-    ]
+    ],
+    "id": "wg8zdpsq5k"
   },
   {
     "title": "Kilmaley (Glen Allen)",
     "abc": "X: 1 - 35\nT: Kilmaley (Glen Allen)\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n||DE|G2DG EGDE|G2BG AGEG|\"|\"A2EA FAEA|ABcd edBA|!\nw: D E G2 D G E G D E G2 B G A G E G A2 E A F A E A A B c d e d B A\nG2DG EGDE|\"|\"G2BG AGEG|cBcd efge|dBAB G2:|!\nw: G2 D G E G D E G2 B G A G E G c B c d e f g e d B A B G2\nBd|g2dg egde|\"|\"g2bg ageg|a2ea faeg|a2bg agef|!\nw: B d g2 d g e g d e g2 b g a g e g a2 e a f a e g a2 b g a g e f\ng2dg egde|g2bg aged|cBcd efge|dBAB G2:|!\nw: g2 d g e g d e g2 b g a g e d c B c d e f g e d B A B G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "_TNuXyeSmjU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=_TNuXyeSmjU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "9wB92QLkkTs"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=9wB92QLkkTs"
       }
-    ]
+    ],
+    "id": "2uxff3j74dc"
   },
   {
     "title": "Green Mountain, The",
     "abc": "X: 1\nT: Green Mountain, The\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\nB|AF (3FEF AFEF|DF (3FEF ABde|f2 df efdB|Adfd edBd|\nw: B A F F E F A F E F D F F E F A B d e f2 d f e f d B A d f d e d B d\nAF (3FEF AFEF|DF (3FEF ABde|f2 df efdB|AFEF D3:|\nw: A F F E F A F E F D F F E F A B d e f2 d f e f d B A F E F D3\ne|fa (3afa bfaf|defd e2 de|f2 df efdB|Adfd edBd|\nw: e f a a f a b f a f d e f d e2 d e f2 d f e f d B A d f d e d B d\n|fa (3afa bfaf|defd e2 de|f2 df efdB|AFEF D3:|\nw: f a a f a b f a f d e f d e2 d e f2 d f e f d B A F E F D3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "v8-u1bUZo1Q"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=v8-u1bUZo1Q"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "cEBxgkQrGvU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=cEBxgkQrGvU"
       }
-    ]
+    ],
+    "id": "wnwnvlyooe9"
   },
   {
     "title": "Britches Full of Stitches (in G)",
     "abc": "X: 1\nT: Britches Full of Stitches (in G)\nM: 2/4\nL: 1/8\nQ: 300\nR: Polka\nK: G\nG>A BG|AG BG|G>A BG|AG E2|\nw: G A B G A G B G G A B G A G E2\nG>A BG|AG Bd|G>A GE|ED D2 :|\nw: G A B G A G B d G A G E E D D2\nd>e dB|AG AB|d>e dB|AG E2|\nw: d e d B A G A B d e d B A G E2\nd>e dB|AG AB|G>A GE|ED D2 :|\nw: d e d B A G A B G A G E E D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "biXQHcb6Asg"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=biXQHcb6Asg"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "HBqYquSHvj0"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=HBqYquSHvj0"
       }
-    ]
+    ],
+    "id": "c54gw179oog"
   },
   {
     "title": "Armagh Polka (Egan's)",
     "abc": "X: 1\nT: Armagh Polka (Egan's)\nM: 2/4\nL: 1/16\nR: Polka\nK: D\nd2 d2 BcdB|A2F2 A2F2|d2 d2 BcdB|A2F2 E2D2|\nw: d2 d2 B c d B A2 F2 A2 F2 d2 d2 B c d B A2 F2 E2 D2\nd2 d2 BcdB|A2F2 A2de|f2d2 e2c2|d4 d4 :|\nw: d2 d2 B c d B A2 F2 A2 d e f2 d2 e2 c2 d4 d4\nf2d2 d2ef|g2f2 e2de|f2d2 A2d2|f2df a3g|\nw: f2 d2 d2 e f g2 f2 e2 d e f2 d2 A2 d2 f2 d f a3 g\nf2d2 d2ef|g2f2 e2de|f2d2 e2c2|d4 d4 :|\nw: f2 d2 d2 e f g2 f2 e2 d e f2 d2 e2 c2 d4 d4\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "n6xHFFP-SqU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=n6xHFFP-SqU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Zsq1C-vFlHI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Zsq1C-vFlHI"
       }
-    ]
+    ],
+    "id": "b9bsgqae0w"
   },
   {
     "title": "Ballydesmond #3",
     "abc": "X: 1\nT: Ballydesmond #3\nM: 2/4\nL: 1/8\nQ: 300\nR: Polka\nK: G\nG>A Bd|gf ed|eA AB|cd/2c/2 BA|\nw: G A B d g f e d e A A B c d c BA\nG>A Bd|gf ed|ea ef|g2 g2 :|\nw: G A B d g f e d e a e f g2 g2\nae ae|ae e>f|gd gd|gd d>g|\nw: a e a e a e e f g d g d g d d g\nae ae|ae e>f|ge dB|A2 A2 :|\nw: a e a e a e e f g e d B A2 A2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "6HvQNgMapns"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=6HvQNgMapns"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "HmRSV2LyFLw"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=HmRSV2LyFLw"
       }
-    ]
+    ],
+    "id": "l9vxtyrfbgs"
   },
   {
     "title": "Geese In The Bog, The",
     "abc": "X: 1\nT: Geese In The Bog, The\nM: 6/8\nL: 1/8\nR: jig\nK: Amin\n|:cEE GEE|cEE GAB|cEE GED| EAA A2B|cEE GEE|\nw: c E E G E E c E E G A B c E E G E D E A A A2 B c E E G E E\ncEE GAB|cBA GED| EAA A2B:|cde ged| eaa ged|\nw: C E E G A B c B A G E D E A A A2 B c d e g e d  e a a g e d\ncde ged| eaa a2B|cde ged| eaa ged| cBA GED| EAA A2B:|\nw: c d e g e d e a a a2 B c d e g e d  e a a g e d c B A G E D E A A A2 B\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "LeRf6DDNgRE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=LeRf6DDNgRE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "GDc7Rtoz_0s"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=GDc7Rtoz_0s"
       }
-    ]
+    ],
+    "id": "yaou80hvczg"
   },
   {
     "title": "Connaughtman's Rambles, The",
     "abc": "X: 1\nT: Connaughtman's Rambles, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:A|FAA dAA|BAB dAG|FAA dfe|dBB B2A|\nw: A F A A d A A B A B d A G F A A d f e d B B B2 A\nFAA dAA|BAB def|gfe f2e|dBB B2:|\nw: F A A d A A B A B d e f g f e f2 e d B B B2\nK:Bmin\n|:g|fbb faa|fef d2e|fbb faa|fed ede|\nw: g f b b f a a f e f d2 e f b b f a a f e d ede\nfbb faa|fef def|gfe f2e| dBB B2:|\nw: f b b f a a f e f d e f g f e f2 e d B B B2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "fALsYcLCAqo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=fALsYcLCAqo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Mk-tw-g5G70"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Mk-tw-g5G70"
       }
-    ]
+    ],
+    "id": "jxob10zf1rp"
   },
   {
     "title": "Out On The Ocean",
     "abc": "X: 1 - 30\nT: Out On The Ocean\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\n|:E|D2B BAG|BdB ABA|GED G2A|BdB AGE|\nw: E D2 B B A G B d B A B A G E D G2 A B d B A G E\nD2B BAG|BdB ABA|GED G2A|BGG G2:|\nw: D2 B B A G B d B A B A G E D G2 A B G G G2\nB/d/|ege edB|ege edB|ded def|gfe dBA|\nw: B d e g e e d B e g e e d B d e d d e f g f e d B A\nG2A B2d|ege dBA|GED G2A|BGG G2:|\nw: G2 A B2 d e g e d B A G E D G2 A B G G G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "I28Hrog6cIM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=I28Hrog6cIM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "90fNOlKmSKU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=90fNOlKmSKU"
       }
-    ]
+    ],
+    "id": "wfph6v4exf9"
   },
   {
     "title": "Miss McLeod's",
     "abc": "X: 1\nT: Miss McLeod's\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:G2 BG AGBG|B2 BA BcBA|G2 BG AGBG|A2 AG AcBA|\nw: G2 B G A G B G B2 B A B c B A G2 B G A G B G A2 A G A c B A\nG2 BG AGBG| B2 BA B2 d2|e2 ef edef|gfed BcBA:|\nw: G2 B G A G B G B2 B A B2 d2 e2 e f e d e f g f e d B c B A\n|:G2 gf edeg|B2 BA BcBA| G2 gf edeg|a2 ag aeef|\nw: G2 g f e d e g B2 B A B c B A G2 g f e d e g a2 a g  a e ef\ng2 gf edeg|BcBA B2 d2|edef edef|gfed BcBA:|\nw: g2 g f e d e g B c B A B2 d2 e d e f e d e f g f e d B c B A",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "qnLfER9o-C4"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=qnLfER9o-C4"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "TQO9yZ9XVic"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=TQO9yZ9XVic"
       }
-    ]
+    ],
+    "id": "yxbszj2m82"
   },
   {
     "title": "Merry Blacksmith, The",
     "abc": "X: 1\nT: Merry Blacksmith, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:AB|d2dA BAFA|ABdA BAFA|ABde fded|Beed egfe|\nw: A B d2 d A B A F A A B d A B A F A A B d e f d e d B e e d e g f e\nd3A BAFA-|ABdA BAFA-|ABde fdec|dBAF D2:|\nw: d3 A B A F A A B d A B A F A A B d e  f d e c d B A F D2\n|:fg|a2ag f2fe|d2dA BAFA-|ABde fded|Beed egfg|\nw: f g a2 a g f2 f e d2 d A B A F A A B d e f d e d B e e d e g f g\nabag fgfe|dcdA BAFA|ABde fdec|dBAF D2:|\nw: a b a g f g f e d c d A B A F A A B d e f d e c d B A F D2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "dJz8TPijdXk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=dJz8TPijdXk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "0ADQcW7Rn8c"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=0ADQcW7Rn8c"
       }
-    ]
+    ],
+    "id": "v9iqk0a4a5"
   },
   {
     "title": "Sally Gardens, The",
     "abc": "X: 1 - 30\nT: Sally Gardens, The\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:G2GA BAGB|dBeB dBAB|d2Bd efge|dBAB GEDE|\nw: G2 G A B A G B d B e B d B A B d2 B d e f g e d B A B G E D E\nGFGA BAGB|d2eB dBAB|d2Bd efge|dBAB G4:|\nw: G F G A B A G B d2 e B d B A B d2 B d e f g e d B A B G4\n|:dggf g2de|g2bg ageg|eaag a2eg|a2bg ageg|\nw: d g g f g2 d e g2 b g a g e g e a a g a2 e g a2 b g a g e g\ndggf g2de|g2bg ageg|d2Bd efge|dBAB G4:|\nw: d g g f g2 d e g2 b g a g e g d2 B d e f g e d B A B G4\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "ohQ2cF4H6NE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=ohQ2cF4H6NE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "KmTphcdNgfo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=KmTphcdNgfo"
       }
-    ]
+    ],
+    "id": "3pb943o87t8"
   },
   {
     "title": "Jerry Beaver's Hat",
     "abc": "X: 1\nT: Jerry Beaver's Hat\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nD|DFA d2 e|fdB BAF|ABA dAF|EFE GFE|\nw: D D F A d2 e f d B B A F A B A d A F E F E G F E\nDFA d2 e|fdB BAF|ABA dAF|DED D2 :||\nw: D F A d2 e f d B B A F A B A d A F D E D D2\nd|dfa afd|gbg faf|dfa afd|cee ecA|\nw: d d f a a f d g b g f a f d f a a f d c e e e c A\ndfa afd|gbg faf|BdB AFA|DED D2 :||\nw: d f a a f d g b g f a f B d B A F A D E D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "9u4zV-6UBIA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=9u4zV-6UBIA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "zA540NHR1ik"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=zA540NHR1ik"
       }
-    ]
+    ],
+    "id": "b1hpxmbratc"
   },
   {
     "title": "Kesh Jig, The",
     "abc": "X:65 Speed - JMS\nT:Kesh \nM:6/8\nL:1/8\nR:jig\nK:Gmaj\n|D|:\"~~\"G3 GAB| \"~~\"A3 ABd|edd gdd|edB dBA|\nw: D G3 G A B A3 A B d e d d g d d e d B d B A\n\"~~\"G3 GAB|\"~~\"A3 ABd|edd gdB|[1AGF G2D:|[2AGF G2A||\nw: G3 G A B A3 A B d e d d g d B A G F G2 D A G F G2 A\n|:\"~~\"B3 dBd|ege dBG|\"~~\"B3 dBG|\"~~\"A3 AGA|\nw: B3 d B d e g e d B G B3 d B G A3 A G A\n\"~~\"B3 dBd|ege dBd|\"~~\"g3 aga|bgf g2A:|\nw: B3 d B d e g e d B d g3 a g a b g f g2 A\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "dqg28m7tA58"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=dqg28m7tA58"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "kwr9TgFyJbo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=kwr9TgFyJbo"
       }
-    ]
+    ],
+    "id": "46pz65rctkm"
   },
   {
     "title": "Rambling Pitchfork, The",
     "abc": "X: 1\nT: Rambling Pitchfork, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nE| ~F3 AFF|dFF AFD|GFG ABc|ded cAG|\nw: E F3 A F F d F F A F D G F G A B c d e d c A G\nFEF AFF|dFF AFD|GFG BAB|AFD D2:|\nw: F E F A F F d F F A F D G F G B A B A F D D2\nA|dcd fed|ecA AFA|dcd efg|(3fga f gfe|\nw: A d c d f e d e c A A F A d c d e f g f g a f g f e\ndcd ~f3|ecA AGF|GFG BAB|AFD D2:|\nw: d c d f3 e c A A G F G F G B A B A F D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "n3I1Koz5XNc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=n3I1Koz5XNc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "wdPKNPfm3mw"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=wdPKNPfm3mw"
       }
-    ]
+    ],
+    "id": "5z6nfq2dn7y"
   },
   {
     "title": "Sonny's",
     "abc": "X: 1\nT: Sonny's\nR: mazurka\nM: 3/4\nL: 1/8\nK: Dmaj\n|:DF|A2 AG FA|d2 dA BA|G3 B AG|FA EA DF|\nA2 AG FA|de dA BA|G3 g fe|d4:|\n|:Ad|f2 fa gf|e2 eg fe|d2 df ed|cd Bd Ad|\nf2 fa gf|e2 eg fe|d2 df ec|d4:|\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "znK_-gw-nnc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=znK_-gw-nnc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "qJh-9JXg92M"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=qJh-9JXg92M"
       }
-    ]
+    ],
+    "id": "cq2lgn8a9cu"
   },
   {
     "title": "Shoe The Donkey",
     "abc": "X: 1\nT: Shoe The Donkey\nR: mazurka\nM: 3/4\nL: 1/8\nK: Gmaj\nDG|:B2 B2 DG|B2 B2 DG|B2 c2 B2|A4 DF|\nA2 A2 DF|A2 A2 DF|A2 B2 A2|1 G4 DG:|2 G3 ABc||\n|:d2 g2 f2|A3 GAB|c2 e2 d2|B4 BB|\nB2 A2 B2|c3 Bcd|1 e2 d2 G2|B3 ABc:|2 e2 d2 F2|G4 DG||\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "DcFiIVQhN-w"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=DcFiIVQhN-w"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "ESwTHzoACj8"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=ESwTHzoACj8"
       }
-    ]
+    ],
+    "id": "4d8z55pdogw"
   },
   {
     "title": "Jackie Coleman's",
     "abc": "X: 1\nT: Jackie Coleman's\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\ndB|:AF ~F2 EFDE|F2 AF BFAF|E2 BE dEBE|ABde fedB|\nw: d B A F F2 E F D E F2 A F B F A F E2 B E d E B E A B d e f e d B\nAF  ~F2 EFDE|F2 AF BFAF|E2 BE dEBE|ABde fddB:|\nw: A F  F2 E F D E F2 A F B F A F E2 B E d E B E A B d e f d d B\n|:fddc d2de|fddc dfaf|eA c/B/A eAfA|eA c/B/A efge|\nw: f d d c d2 d e f d d c d f a f e A c B A e A f A e A c B A e f g e\nfddc d2de|fddc dfaf|g2 gf gbag|f/g/a eg fdde:|\nw: f d d c d2 d e f d d c d f a f g2 g f  g b a g f g a e g f d d e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Iw96jEfWa0s"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Iw96jEfWa0s"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "DPWCt30v_mc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=DPWCt30v_mc"
       }
-    ]
+    ],
+    "id": "m0yp9ngb0w"
   },
   {
     "title": "Mountain Road, The",
     "abc": "X: 1\nT: Mountain Road, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\nF2 AF BFAF| F2 AF EFDE| F2 AF BFAF| G2 FG EFDE|\nw: F2 A F B F A F F2 A F E F D E F2 A F B F A F G2 F G  E F D E\nF2 AF BFAF|F2 AF EFD2| FAA2 BAFA|BABd eddA|\nw: F2 A F B F A F F2 A F E F D2 F A A2 B A F A B A B d e d d A\nd2dA BAFA| d2 de fgfe| d2 dA BAFA| G2 FG EDFA|\nw: d2 d A B A F A d2 d e f g f e d2 d A B A F A G2 F G  E D F A\nd2 dA BAFA| d2 de fgfe| d2 dA BAFA| G2 FG EFDE|\nw: d2 d A B A F A d2 d e f g f e d2 d A B A F A G2 F G  E F D E\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "ZMIwwzQBVfU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=ZMIwwzQBVfU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "aW2E6OOARek"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=aW2E6OOARek"
       }
-    ]
+    ],
+    "id": "vky56qspfo"
   },
   {
     "title": "Cregg's Pipes (Greig's Pipes)",
     "abc": "X: 1\nT: Cregg's Pipes (Greig's Pipes)\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|: ~B2BA BAGA | B2GB AGEG |~B2BA BAGB |cABG AGEG|\nw: B2 B A B A G A B2 G B A G E G B2 B A B A G B c A B G A G E G\n |~B2BA BAGA |B2GB AGEG | Beed BddB|(3ABc BG AGEG||\nw: B2 B A B A G A B2 G B A G E G B e e d B d d B A B c B G A G E G\n| DG~G2 DGBG | DGBG AGEG | DGGF GABc | dBAc BGG2:|\nw: D G G2 D G B G D G B G A G E G D G G F G A B c d B A c B G G2\n|d2 Bd efge|d2BG AGEG | DGBG AGEG |d2 (3Bcd efge| a2bg ageg :||\nw: d2 B d e f g e d2 B G A G E G D G B G A G E G d2 B c d  e f g e a2 b g a g e g\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "NL6lV5w9mE4"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=NL6lV5w9mE4"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "rkRy48LiHYo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=rkRy48LiHYo"
       }
-    ]
+    ],
+    "id": "7mvngg6vait"
   },
   {
     "title": "Queen Of The Fair",
     "abc": "X: 1\nT: Queen Of The Fair\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nE|~F3 D2A|DFA dAF|~G3 FGA|BGE EAG|\nw: E F3 D2 A D F A d A F G3 F G A B G E E A G\n~F3 D2A|DFA dAF|~G3 EAG|FDD D2:|\nw: F3 D2 A D F A d A F G3 E A G F D D D2\ng|fdf ece|dAG FEF|DFA dAF|GFG E2g|\nw: g f d f e c e d A G F E F D F A d A F G F G E2 g\nfdf ece|dAG FED|EFG BAG|FDD D2:|\nw: f d f e c e d A G F E D E F G B A G F D D D2\nB|Add fdd|add fdd|B3f ~g3|fdf ecA|\nw: B A d d f d d a d d f d d B3 f g3 f d f e c A\n[1 Add fdd|add fdd|EFG BAG|FDD D2:|\nw: A d d f d d a d d f d d E F G B A G F D D D2\n[2 ~a3 geg|fdf ~e3|EFG BAG|FDD D2||\nw: a3 g e g f d f e3 E F G B A G F D D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Z50Q72q56W4"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Z50Q72q56W4"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "0dEgrydd7ms"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=0dEgrydd7ms"
       }
-    ]
+    ],
+    "id": "zrpq4ccz6u"
   },
   {
     "title": "Pay The Reckoning",
     "abc": "X: 1\nT: Pay The Reckoning\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\nG2e dBG|~B3 dBA|G2e dBG|~A3 BGE|\nw: G2 e d B G B3 d B A G2 e d B G A3 B G E\nG2e dBG|~B3 deg|age dBG|~A3 BGE:|\nw: G2 e d B G B3 d e g a g e d B G A3 B G E\n~g3 faf|e/f/ge def|gfg efg|a2a bge|\nw: g3 f a f e f g e d e f g f g e f g a2 a b g e\ngbg faf|efe deg|age dBG|~A3 BGE:|\nw: g b g f a f e f e d e g a g e d B G A3 B G E\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "3GSc5i-cEGs"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=3GSc5i-cEGs"
       }
-    ]
+    ],
+    "id": "v9tf98ocugs"
   },
   {
     "title": "Carraroe, The",
     "abc": "X: 1\nT: Carraroe, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nE|DED F2A|dfe d2A|BAF Adf|afd e2E|\nw: E D E D F2 A d f e d2 A B A F A d f a f d e2 E\nDED F2A|dfe d2B|d2B AFA| dAF E2:|\nw: D E D F2 A d f e d2 B A F A d A F E2\nD|dfa afa|bge edB|dfa afa|bge e2f|\nw: D d f a a f a b g e e d B d f a a f a b g e e2 f\ndfa afa|bge edB|d2B AFA|dAF E2:|\nw: d f a a f a b g e e d B d2 B A F A d A F E2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "ovsggc94Yag"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=ovsggc94Yag"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "WMINMMT1RNo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=WMINMMT1RNo"
       }
-    ]
+    ],
+    "id": "wywyi7z93q9"
   },
   {
     "title": "Sheehan's",
     "abc": "X: 1\nT: Sheehan's\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:D|G2BG DGBG|ABcA BGGB|A3B cBAB|cBAG FDEF|\nw: D G2 B G D G B G A B c A B G G B A3 B c B A B c B A G F D E F\nG2BG DGBG|cBAB cdef|gedB c2Bc|1dBcA BGGD:|2 dBcA BGGd||\nw: G2 B G D G B G c B A B c d e f g e d B c2 B c d B c A B G G D d B c A B G G d\n|:g2bg dgbg|gbag fdde|f2af dfaf|gbag fddf|\nw: g2 b g d g b g g b a g f d d e f2 a f d f a f g b a g f d d f\ng2bg dgbg|gbag fdef|gedB c2Bc|1dBcA BGGd:|2dBcA BGGD||\nw: g2 b g d g b g g b a g f d e f g e d B c2 B c d B c A B G G d d B c A B G G D",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "i11w7DoUY4A"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=i11w7DoUY4A"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "BgH10MQiU5Y"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=BgH10MQiU5Y"
       }
-    ]
+    ],
+    "id": "0nad2tofz29o"
   },
   {
     "title": "Cameronian, The",
     "abc": "X: 1\nT: Cameronian, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n||A2 FA DAFA|GFEF GBdB|A2FA DAFA|GBAG FD D2|\nw: A2 F A D A F A G F E F G B d B A2 F A D A F A G B A G F D D2\n|AFF/E/F DFF/E/F|GEE/D/E GBdB|A2 FA DAFA|GBAG FDD2:|\nw: A F F E F D F F E F G E E D E G B d B A2 F A D A F A G B A G F D D2\n|:Addc d2dA|Bdef gfed|cAeA fAeA|cdef gfeg|\nw: A d d c d2 d A B d e f g f e d c A e A f A e A c d e f g f e g\n|faeg faeg|fddc defg|afge d2cA|BdAG FDD2:|\nw: f a e g f a e g f d d c d e f g a f g e d2 c A B d A G F D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "PygEzDJh0nI"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=PygEzDJh0nI"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "MmaMpb0mFqU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=MmaMpb0mFqU"
       }
-    ]
+    ],
+    "id": "f3i1yf0urtr"
   },
   {
     "title": "The Fox-Hunter",
     "abc": "X: 1\nT:The Fox-Hunter\nM:4/4\nL:1/8\nK:G\nd2 BG dGBG |d2BG AGEG |d2 BG dGBG |GABG AGEG :|\nw: d2 B G d G B G d2 B G A G E G d2 B G d G B G G A B G A G E G\n|:D3 B BAGE |D2 BG AGEG |D3 B BABG |A/B/c BG AGEG :|\nw: D3 B B A G E D2 B G A G E G D3 B B A B G A B c B G A G E G\ngedB G2 Bd |gdBd eA A2 |gedB GBdB|ABcd eA A2 :|\nw: g e d B G2 B d g d B d e A A2 g e d B G B d B A B c d e A A2\ndggf g3 e |dgg/f/g ef/g/dB |dggf g3 d |egdB AGAB :|\nw: d g g f g3 e d g g f g e f g d B d g g f g3 d e g d B A G A B\n|:G2 BG dGBG |GBB/A/B AGAB |G2 BG dGBG |egdB AGAB :|\nw: G2 B G d G B G G B B A B A G A B G2 B G d G B G e g d B A G A B",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Bs-5-nxMUDQ"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Bs-5-nxMUDQ"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "1i-v72LfZS4"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=1i-v72LfZS4"
       }
-    ]
+    ],
+    "id": "kmxbjwsimx"
   },
   {
     "title": "Lark in the Morning, The",
     "abc": "X:40\nT:Lark in the Morning, The\nR:jig\nM:6/8\nK:D\nD B| AFA AFA|BGB BdB|AFA Ade|fed BdB|AFA AFA|BAB BAB|def afe|fdB BdB:||\nw: D B A F A A F A B G B B d B A F A A d e f e d B d B A F A A F A B A B B A B d e f a f e f d B B d B\n|:def afa|baf afe|def afe|fdB BAB|def afa|baf afd|~g3 fef|edB B2A:|\nw: d e f a f a b a f a f e d e f a f e f d B B A B d e f a f a b a f a f d g3 f e f e d B B2 A\n|:d2f fef|fef fef|d2f fef|edB BAB|d2f fef|fef fef|~g3 ~f3| edB BAB:||\nw: d2 f f e f f e f f e f d2 f f e f e d B B A B d2 f f e f f e f f e f g3 f3 e d B B A B\n|:Add fdd|ede fdB|Add fdd|efe edB|Add fdd|ede fed|~g3 ~f3| edB B2d:||\nw: A d d  f d d e d e f d B A d d f d d e f e e d B A d d f d d e d e f e d g3 f3 e d B B2 d",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "YJDdPS0qG98"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=YJDdPS0qG98"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "8KP4kB-n17M"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=8KP4kB-n17M"
       }
-    ]
+    ],
+    "id": "hut0b9zal28"
   },
   {
     "title": "Humours of Ennistymon",
     "abc": "X: 1\nT:Humours of Ennistymon\nM:6/8\nL:1/8\nK:G\nA|~B3 GBd|cBc ABc|~B3 GBd|cAG FGA|~B3 GBd|cBc ABc|ded cAF|AGF G2:|\nw: A B3 G B d c B c A B c B3 G B d c A G F G A B3 G B d c B c A B c d e d c A F A G F G2\n|:e|~f3 fed|cAG FGA|~g3 gfg|afd d2 e|~f3 fed|cAG FGA|BdB cAF|AGF G2:|\nw: e f3 f e d c A G F G A g3 g f g a f d d2 e f3 f e d c A G F G A B d B c A F A G F G2\n|:d|gdB gdB|ecA ecA|~B3 GBd|cAG FGA|1 gdB gdB|ecA ecA|BAB GBd|cAF G2:|2\nw: d g d B g d B e c A e c A B3 G B d c A G F G A g d B g d B e c A e c A B A B G B d c A F G2\n|B2B GBd|cBc ABc|ded cAF|AGF G2||\nw: B2 B G B d c B c A B c d e d c A F A G F G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "yCZ0uLpUUHA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=yCZ0uLpUUHA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "4dlbnoTO1Hc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=4dlbnoTO1Hc"
       }
-    ]
+    ],
+    "id": "5f4j6gjx5ad"
   },
   {
     "title": "Wandering Minstrel, The",
     "abc": "X: 1\nT: Wandering Minstrel, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:ADD BAF|Ade fdB|ADD BAG|F/G/AF GFE|\nw: A D D B A F A d e f d B A D D B A G F G A F G F E\nADD BAF|Ade fdB|AdB AFE|1FDD D2 B:|2 FDD D2 g|\nw: A D D B A F A d e f d B A d B A F E F D D D2 B F D D D2 g\n|:fef ede|fdB AFA|BdB AGF|GFG E2e|\nw: f e f e d e f d b A F A B d B A G F G F G E2 e\nfaf ede|fdB AFA|BdB AFE|FDD D2:|\nw: f a f e d e f d B A F A B d B A F E F D D D2\n|:e|f3 afd|gbe gbe|f3 afd|ceA ceA|\nw: e f3 a f d g b e g b e f3 a f d c e A c e A\nf3 afd|gbe gbe|fga efg|fdc d2:|\nw: f3 a f d g b e g b e f g a e f g f d c d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "7fW8TVQzjDo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7fW8TVQzjDo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "r8cvcpWfJnk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=r8cvcpWfJnk"
       }
-    ]
+    ],
+    "id": "wrekb1xwmzj"
   },
   {
     "title": "Boys Of Bluehill, The",
     "abc": "X: 1-70\nT: Boys Of Bluehill, The\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Dmaj\n|FA|BAFA D2 FA| BA (3Bcd e2 de |faaf egfe|dfed B2 dB|\nw: F A B A F A D2 F A B A B c d e2 d e f a a f e g f e d f e d B2 d B\n| BAFA D2 FA| BA (3Bcd e2 de |faaf egfe|d2 dc d2 :|\nw: B A F A D2 F A B A B c d e2 d e f a a f e g f e d2 d c d2\n|: fg| afdf a2 af | gfga b2 ag |fagf egfe |dfed B2 dB|\nw: f g a f d f a2 a f g f g a b2 a g f a g f e g f e d f e d B2 d B\n| BAFA D2 FA| BA (3Bcd e2 de |faaf egfe|d2 dc d2 :|\nw: B A F A D2 F A B A B c d e2 d e f a a f e g f e d2 d c d2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "xVmdpoTag_Q"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=xVmdpoTag_Q"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "FaGd2qpznNA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=FaGd2qpznNA"
       }
-    ]
+    ],
+    "id": "nw3yj0f4ow"
   },
   {
     "title": "Harvest Home  (Cork Hornpipe)",
     "abc": "X: 1-60\nT: Harvest Home  (Cork Hornpipe)\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Dmaj\n|AF|DAFA DAFA|defe dcBA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\nw: A F D A F A D A F A d e f e d c B A e A f A g A f A e f e d c B A B A G F E\nDAFA DAFA|defe dcBA|eAfA gfec|d2 f2 d2:|\nw: D A F A D A F A d e f e d c B A e A f A g f e c d2 f2 d2\n|:cd|eA~A2 fA~A2|gAfA eA~A2|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\nw: c d e A A2 f A A2 g A f A e A A2 e A f A g A f A e f e d c B  A B A G F E\nDAFA DAFA|defe dcBA|eAfA gfec|d2 f2 d2:|\nw: D A F A D A F A d e f e d c B A e A f A g f e c d2 f2 d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "azCU4Oyq3-w"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=azCU4Oyq3-w"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "eIvCA9jRCTQ"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=eIvCA9jRCTQ"
       }
-    ]
+    ],
+    "id": "n5gc9gi2068"
   },
   {
     "title": "Cronin's",
     "abc": "X: 1\nT: Cronin's\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Gmaj\nBA|GABd dBde|gage dega|bage dBGA|BAAG AcBA|\nw: B A G A B d d B d e g a g e d e g a b a g e d B G A B A A G A c B A\nGABd dBde|gage dega|bage dBAc|AG GF G2:|\nw: G A B d d B d e g a g e d e g a b a g e d B A c A G G F G2\n|:(3efg|afd^c dega|beed efga|(3bag (3agf gedB|BAAG AcBA|\nw: e f g a f d c d e g a b e e d e f g a b a g a g f g e d B B A A G A c B A\nGABd dBde|gage dega|bage dBAB|G2 GF G2:|\nw: G A B d d B d e g a g e d e g a b a g e d B A B G2 G F G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Q52SM3Jv6LM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Q52SM3Jv6LM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "OSSFYppKraY"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=OSSFYppKraY"
       }
-    ]
+    ],
+    "id": "upq017p2kwk"
   },
   {
     "title": "Earl's Chair, The",
     "abc": "X: 1\nT: Earl's Chair, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|FA|B2 dB BAFA | B2dB BAFB | AF ~F2 DF ~F2 | AFdB ADFA|\nw: F A B2 d B B A F A B2 d B B A F B A F F2 D F F2  A F d B  A D F A\nB2dB BAFA | ~B2dB BAFB | AFAB defd |edef d3z :||\nw: B2 d B B A F A B2 d B B A F B A F A B d e f d e d e f d3\n|:Bd|edef d2 (3Bcd | edef dBAB | ~e3f d3e | fedB ADFA |!\nw: B d e d e f d2 B c d e d e f d B A B e3 f d3 e f e d B A D F A\ne3f dB ~B2 | gB ~B2 defg |afbf afeg | fedB AD :||\nw: e3 f d B B2 g B B2 d e f g a f b f a f e g f e d B  A D\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "VAnCAnBlVR0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=VAnCAnBlVR0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "igPh2KI9I0I"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=igPh2KI9I0I"
       }
-    ]
+    ],
+    "id": "qe6zvox8k1"
   },
   {
     "title": "Tim Maloney's",
     "abc": "X: 1\nT: Tim Maloney's\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:DG (3GFG Bd d2|dedB gedB|G2 BG dGBG| c2 Bc AGEG|\nw: D G G F G B d d2 d e d B g e d B G2 B G d G B G c2 B c A G E G\nDG (3GFG Bd d2|dedB d2 gf|(3ege ed Bdef|gedB AGEG:|\nw: D G G F G B d d2 d e d B d2 g f e g e e d B d e f g e d B A G E G\n|:d~g3 b~g3|dBBA Bdef|g2 bg abge|(3ded BG AGEG|\nw: d g3 b g3 d B B A B d e f g2 b g a b g e d e d B G  A G E G\nd~g3 b~g3|dBBA B2gf|(3ege ed Bdef|gedB AGEG:|\nw: d g3 b g3 d B B A B2 g f e g e e d B d e f g e d B A G E G",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "zlYMlErz_4c"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=zlYMlErz_4c"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Z04X6kIJs7A"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Z04X6kIJs7A"
       }
-    ]
+    ],
+    "id": "z7p65izxe8"
   },
   {
     "title": "Ships Are Sailing, The",
     "abc": "X: 1\nT: Ships Are Sailing, The\nM: 4/4\nL: 1/8\nR: reel\nK: Edor\n|Beed BcdB | AD (3FED AD (3FED | EDEF GFGA | (3Bcdef gfed |\nw: B e e d B c d B A D F E D A D F E D E D E F G F G A B c d e f g f e d\nBeed BcdB | AD (3FED AD (3FED | EDEF GFGA |1 Beed e2ed :|2 Beed e2ef||\nw: B e e d B c d B A D F E D A D F E D E D E F G F G A B e e d e2 e d B e e d e2 e f\ngfga bgeg | fefg afdf | gfga bgeg | fedf e2 ef |\nw: g f g a b g e g f e f g a f d f g f g a b g e g f e d f e2 e f\ngfga bgeg | fefg afdf | g2ge f2fd |1 edef gfef :|2 edef gfed||\nw: g f g a b g e g f e f g a f d f g2 g e f2 f d e d e f g f e f e d e f g f e d\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "kG2tUKQ8lls"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=kG2tUKQ8lls"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "guf0EjX36qc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=guf0EjX36qc"
       }
-    ]
+    ],
+    "id": "1krwg4whhgj"
   },
   {
     "title": "Bell Table",
     "abc": "X: 1\nT: Bell Table\nR: waltz\nM: 3/4\nL: 1/8\nK: Dmaj\n|:d3 e d2|d2 c2 B2|A3 B A2|A2 G2 F2|\nG2 GA BG|A2 AB cA|G2 GA BG|A2 B2 c2|\nd3 e d2|d2 c2 B2|A3 B A2|A2 G2 F2|\nG2 GA BG|A2 AB cA|G2 F2 E2|D6:|\n|:a3 b a2|a4 g2|f3 g f2|f2 e2 f2|\ng3 a g2|g2 f2 g2|a3 b a2|a2 f2 g2|\na3 b a2|a4 g2|f3 g f2|f2 e2 d2|\nB4 g2|f a3 c2|e d3 c2|1 d3 A df:|2 d6||\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "qwNkqOZ6tHY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=qwNkqOZ6tHY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "lDGZNQh5MLA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=lDGZNQh5MLA"
       }
-    ]
+    ],
+    "id": "vt95grmwnj8"
   },
   {
     "title": "Trip To Athlone, The",
     "abc": "X: 1\nT: Trip To Athlone, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:ABA D2d|dcA AGF|ABA ABc|dAB cde|\nw: A B A D2 d d c A A G F A B A A B c d A B c d e\nABA D2d|dcA AGF|GFG Ade|1 fdc d2d:|2 fdc d2e||\nw: A B A D2 d d c A A G F G F G A d e f d c d2 d f d c d2 e\n|:fed edc|Add cde|fed efg|ABc def|\nw: f e d e d c A d d c d e f e d e f g A B c d e f\ng3 age|edA AGF|G3 Ade|1 fdc d2e:|2 fdc d2d||\nw: g3 a g e e d A A G F G3 A d e f d c d2 e f d c d2 d\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "4VakxCVCXW0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=4VakxCVCXW0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "zATPILO9BBE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=zATPILO9BBE"
       }
-    ]
+    ],
+    "id": "6ie2kkmfq8b"
   },
   {
     "title": "Langstrom's Pony",
     "abc": "X: 1\nT: Langstrom's Pony\nM: 6/8\nL: 1/8\nR: jig\nK: Amix\n|:fed cAA|EAA cAA|fed cAA|BGB dcB|fed cAA|EAA cAA|faf gfe|dBG Bcd:|\nw: f e d c A A E A A c A A f e d c A A B G B d c B f e d c A A E A A c A A f a f g f e d B G B c d\n|:cee dff|cee ecA|cee g2e|dBG Bcd|cee dff|cee efg|faf gfe|dBG Bcd:|\nw: c e e d f f c e e e c A c e e g2 e d B G B c d c e e d f f c e e e f g f a f g f e d B G B c d\n|:Ace a2f|ecA ecA|GBd g2e|dBG Bcd|eaf g2e|fed ecA|a2f gfe|dBG Bcd:|\nw: A c e a2 f e c A e c A G B d g2 e d B G B c d e a f g2 e f e d e c A a2 f g f e d B G B c d\n|:AEA A2d|cAc ecA|AEA AB=c|BGB dcB|AEA A2d|cAc efg|faf gfe|dBG Bcd:|\nw: A E A A2 d c A c e c A A E A A B =c B G B d c B A E A A2 d c A c e f g f a f g f e d B G B c d\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Q2sk23sdUnA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Q2sk23sdUnA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "NSJwOfiqyDI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=NSJwOfiqyDI"
       }
-    ]
+    ],
+    "id": "1lo18zx30ypj"
   },
   {
     "title": "Tripping Up The Stairs (Sackow's Jig)",
     "abc": "X: 1 35\nT: Tripping Up The Stairs (Sackow's Jig)\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:FAA GBB|FAd fed|cBc ABc|dfe dAG|\nw: F A A G B B F A d f e d c B c A B c d f e d A G\nFAA GBB|FAd fed|c2c ABc|dfe d2A:|\nw: F A A G B B F A d f e d c2 c A B c d f e d2 A\ndBB fBB|dBB fed|cAA eAA|efe edc|\nw: d B B f B B d B B f e d c A A e A A e f e e d c\ndBB fBB|fgf fed|cBc ABc|dfe d3:|\nw: d B B f B B f g f f e d c B c A B c d f e d3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "LXZHFXMdxLM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=LXZHFXMdxLM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "MvdpV1PBwqc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=MvdpV1PBwqc"
       }
-    ]
+    ],
+    "id": "ha7tl5cqotq"
   },
   {
     "title": "Concertina, The",
     "abc": "X: 1\nT: Concertina, The\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:dB|A2FA BAFA|A2FA BAFA|B2cA BAcA|B2cA BAFB|\nw: d B A2 F A B A F A A2 F A B A F A B2 c A  B A c A B2 c A B A F B\nA2 FA BAFA|A2 FA BAFE|FABc d2 dB |AFEF D2 :|\nw: A2 F A B A F A A2 F A B A F E F A B c d2 d B A F E F D2\n|:B|Ad (3dcd Ad (3dcd|Ad (3dcd  BAFA|B2 cA BAcA|B2 cA BAFB|\nw: B A d d c d A d d c d A d d c d  B A F A B2 c A B A c A B2 c A B A F B\nAd (3dcd Ad (3dcd|Ad (3dcd  BAFE|FABc d2dB|AFEF D3:|\nw: A d d c d A d d c d A d d c d  B A F E F A B c d2 d B A F E F D3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "j1mfZ15mPeA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=j1mfZ15mPeA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "JEGZRwIQH6k"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=JEGZRwIQH6k"
       }
-    ]
+    ],
+    "id": "6ueatehqg45"
   },
   {
     "title": "Come West Along The Road",
     "abc": "X: 1\nT: Come West Along The Road\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:d2BG dGBG|G2(3Bcd efge|d2BG dGBG|1 ABcd edce:|2 ABcd edBd||\nw: d2 B G d G B G G2 B c d e f g e d2 B G d G B G A B c d e d c e A B c d e d B d\n|g2bg egdg|(3efg dg edBd|g2bg egdg|ABcd edBd|\nw: g2 b g e g d g e f g d g e d B d g2 b g e g d g A B c d e d B d\n|g2bg egdg|(3efg dg edBd|gabg efge|dega bage||\nw: g2 b g e g d g e f g d g e d B d g a b g e f g e d e g a b a g e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "hAmMeg5vYhg"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=hAmMeg5vYhg"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "WA4vAtedwJs"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=WA4vAtedwJs"
       }
-    ]
+    ],
+    "id": "sj6jk7dr44"
   },
   {
     "title": "Anderson's",
     "abc": "X: 1\nT: Anderson's\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n| ABdf e2 dB | AF (3FEF EFDF | ABdf e2 df | afeg fd d2 |\nw: A B d f e2 d B A F F E F E F D F A B d f e2 d f a f e g f d d2 \nABdf e2 dB | AF (3FEF EFDF | ABdf e2 df | afef d3 f || \nw: A B d f e2 d B A F F E F E F D F A B d f e2 d f a f e f d3 f \na2 fa bafa | a2 fd edBd | a2 fa bafb | afef d3 f | \nw: a2 f a b a f a a2 f d e d B d a2 f a b a f b a f e f d3 f\na2 fa bafa | a2 fd edBd | (3ABA FA ABdf | afef d3B ||\nw: a2 f a b a f a a2 f d e d B d A B A  F A A B d f a f e f d3 B\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "39ermQfd6-U"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=39ermQfd6-U"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "uXdE_XM6f-o"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=uXdE_XM6f-o"
       }
-    ]
+    ],
+    "id": "7qes4c9x657"
   },
   {
     "title": "Brendan Tonra's Jig (Tone Rowe's)",
     "abc": "X: 1\nT: Brendan Tonra's Jig (Tone Rowe's)\nM: 6/8\nL: 1/8\nR: Jig\nK: D\nE|F2 F AFE|EDB, A,B,D|FEF GFG|ABF AFE|\nw: E F2 F A F E E D B, A, B, D F E F G F G A B F A F E\nF2 F AFE|EDB, A,B,D|FEF GFG|BAF D2 :|\nw: F2 F A F E E D B, A, B, D F E F G F G B A F D2\ne|f2 d dcd|edc Bcd|fdd dcd|ABF Ade|\nw: e f2 d d c d e d c B c d f d d d c d A B F  A d e\nf2 d dcd|edc Bcd|(3fgaf gec|dAF D2 :|\nw: f2 d d c d e d c B c d f g a f g e c d A F D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "MLd5i4rM3qQ"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=MLd5i4rM3qQ"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "RtpwwwmIf6Q"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=RtpwwwmIf6Q"
       }
-    ]
+    ],
+    "id": "8y2lc1lj1g8"
   },
   {
     "title": "Killavil, The",
     "abc": "X: 1\nT: Killavil, The\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\n|: BEE BEE | Bdf edB | BAF FEF | DFA BAF |\nw: B E E B E E B d f e d B B A F F E F D F A B A F\nBEE BEE | Bdf edB | BAB dAF | FED E3 :|\nw: B E E B E E B d f e d B B A B d A F F E D E3\n|: e2f gfe | faf edB | BAF FEF | DFA dBA |\nw: e2 f g f e f a f e d B B A F F E F D F A d B A\ne2f gfe | faf edB | BAB dAF | FED E3 :|\nw: e2 f g f e f a f e d B B A B d A F F E D E3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "TfSzJAWWU3Y"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=TfSzJAWWU3Y"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "rA3XBlvUXP8"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=rA3XBlvUXP8"
       }
-    ]
+    ],
+    "id": "h7r3ee94gi"
   },
   {
     "title": "Ships In Full Sail",
     "abc": "X: 1\nT: Ships In Full Sail\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\nE|DGG BAG|dBG GBd | edg dBG | AGA BGE |\nw: E D G G B A G d B G G B d e d g d B G A G A B G E\nDGG BAG|dBG GBd | efg dBG | AGF G3 :||\nw: D G G B A G d B G G B d e f g d B G A G F G3\nB|dgg bgg |aga bge |dgg bgg |aba age |\nw: B d g g b g g a g a b g e d g g b g g a b a a g e\ndgg bgg |aga bgd | efg dBG | AGE G2 :||\nw: d g g b g g a g a b g d e f g d B G A G E G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "arhdh4VE9hs"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=arhdh4VE9hs"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "eosW7hqzgAM"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=eosW7hqzgAM"
       }
-    ]
+    ],
+    "id": "wgpc96p1x3"
   },
   {
     "title": "Balleydesmond, The #2",
     "abc": "X: 1 - Speed 50\nT: Balleydesmond, The #2\nM: 2/4\nL: 1/8\nR: polka\nK: Ador\n|:EA \"|\"AB|cd e2|G>F GA|GE \"|\"ED|\nw: E A A B c d e2 G F G A G E E D\n|EA \"|\"AB|cd e>f|ge dB|\"~\"A2 \"|\"A2:|\nw: E A A B c d e f g e d B A2 A2\n|:a>g ab|ag ef|g>f ga|ge \"|\"ed|\nw: a g a b a g e f g f g a g e e d\n|ea \"|\"ab|ag e>f|ge dB|\"~\"A2 \"|\"A2:|\nw: e a a b a g e f g e d B A2 A2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "n6iprD3Et-0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=n6iprD3Et-0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "tzQDKhdZfW8"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=tzQDKhdZfW8"
       }
-    ]
+    ],
+    "id": "edcp83kk9hd"
   },
   {
     "title": "Balleydesmond, The #1",
     "abc": "X: 1 - Speed 45\nT: Balleydesmond, The #1\nM: 2/4\nL: 1/8\nR: polka\nK: Ador\n|:AB|c2 B2|A2 G>A|Bd ed|g2 ed|\nw: A B c2 B2 A2 G A B d e d g2 e d\nea g/a/g/e/|dB GA/B/|ce dB|A2:|\nw: e a g a g e d B G A B c e d B A2\n|:cd|ea\"|\"ag/e/|dg\"|\"gd|ea\"|\"ab|g2 ed|\nw: c d e a a g e d g g d e a a b g2 e d\nea g/a/g/e/|dB GA/B/|ce dB|A2:|\nw: e a g a g e d B G A B c e d B A2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "1Z28ex3kFB8"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=1Z28ex3kFB8"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "xsKSRLs9k0Y"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=xsKSRLs9k0Y"
       }
-    ]
+    ],
+    "id": "fabdli1puy9"
   },
   {
     "title": "Peg Ryan's/Kerry Polka No. 1",
     "abc": "X: 1\nT: Peg Ryan's/Kerry Polka No. 1\nM: 2/4\nL: 1/8\nR: Polka\nK: Dmaj\n|:fA {c}BA|fA {c}BA| d2 e>f |ed {c}BA |fA {c}BA|fA BA| d2 e>f |ed d2:|\nw: f A B A f A B A d2 e f e d B A f A B A f A B A d2 e f e d d2\n|: fa fe|fd BA|d2 e>f|ed BA | fa fe|fd BA|d2 e>f|ed d2:|\nw: f a f e f d B A d2 e f e d B A  f a f e f d B A d2 e f e d d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "rzxQqqD-4AY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=rzxQqqD-4AY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "7KMNSn271eg"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=7KMNSn271eg"
       }
-    ]
+    ],
+    "id": "kxkjft7m12"
   },
   {
     "title": "Silver Spear, The",
     "abc": "X: 1 - 40\nT: Silver Spear, The\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:F \"~\"A3 BAFA |dfed Bd A2|F \"~\"A3 BAFA|dfed B2 A2|\nw: F A3 A A B A F A d f e d B d A2 F A3 B A F A d f e d B2 A2\n|F \"~\"A3 BAFA|dfed BABd|g2 ge f2 fe| dfed B2 A2:||\nw: F A3  B A F A d f e d B A B d g2 g e f2 f e d f e d B2 A2\n|:f \"~\"a3 bfaf|gfed Bd A2|f \"~\"a3 bfaf|gfed B2 A2|\nw: f a3 b f a f g f e d B d A2 f a3 b f a f g f e d B2 A2\n|f \"~\"a3 bfaf|gfed BABd|g2 ge f2 fe| dfed B2 A2:||\nw: f a a2 b f a f g f e d B A B d g2 g e f2 f e d f e d B2 A2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "HiLdq2qroU8"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=HiLdq2qroU8"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "EmcsI0lH45A"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=EmcsI0lH45A"
       }
-    ]
+    ],
+    "id": "bwdaw7xg6n9"
   },
   {
     "title": "Father Kelly's (#1)",
     "abc": "X: 1 - 60\nT:Father Kelly's (#1)\nT: Foinn Seisiun Session Book 1\nR:reel\nM:C|\nK:G\n|: GA|B2GB AGEG|DGGF GABd|c2AB cBAG|EAAG FDGA|\nw: G A B2 G B A G E G D G G F G A B d c2 A B c B A G E A A G F D G A\nB2GB AGEG|DGGF GABc|d2Bd gdBd|1 cAFA \"~\"G2:|2 cAFA GABc||\nw: B2 G B A G E G D G G F G A B c d2 B d g d B d c A F A G2 c A F A G A B c\n|:d2Bd gdBd|d2Bd gdBd|e2ce agfe|defg agfe|\nw: d2 B d g d B d d2 B d g d B d e2 c e a g f e d e f g a g f e\nd2Bd gdBd|d2Bd gdBd|c2Ac B2GB|1 AGEF GABc:|2 AGFA G4||\nw: d2 B d g d B d d2 B d g d B d c2 A c B2 G B A G E F G A B c A G F A G4\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "wLJ4u46CAcU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=wLJ4u46CAcU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "z61Anhz3WzA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=z61Anhz3WzA"
       }
-    ]
+    ],
+    "id": "lofaftrdnqb"
   },
   {
     "title": "Miss Monaghan",
     "abc": "X: 1\nT: Miss Monaghan\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|: D2 F/E/D FAAd | B2BA FABc | d2dB ABde | fede fee2 |\nw: D2 F E D F A A d B2 B A F A B c d2 d B A B d e f e d e f e e2\n{E}D2 F/E/D FAAd | B2 BA FABc | d2dB ABdB | AFEG FDD2 :|\nw: D2 F E D F A A d B2 B A F A B c d2 d B A B d B A F E G F D D2\n|: faab afdf | g2 fg edBc | d2 dB ABde | fede fee2 |\nw: f a a b a f d f g2 f g e d B c d2 d B A B d e f e d e f e e2\nfaab afdf | g/f/e fd edBc | d2dB ABdB | AFEG FDD2 :|\nw: f a a b a f d f g f e f d e d B c d2 d B A B d B A F E G F D D2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "LI7DnqiuilU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=LI7DnqiuilU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "wuqNMYkBvbE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=wuqNMYkBvbE"
       }
-    ]
+    ],
+    "id": "0tbl0p7j8s09"
   },
   {
     "title": "Jim Ward's Jig",
     "abc": "X: 1\nT: Jim Ward's Jig\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\n|: D| G3 G2B | AGE GED | G2G AGE |GED D2D |\nw: D G3 G2 B A G E G E D G2 G A G E G E D D2 D\n G3 G2B | AGE GAB | c2A BGE | DED D2:|\nw: G3 G2 B A G E G A B c2 A B G E D E D D2\n|:B|c2A BAG | ABA AGE | c2A BGE |DED D2B |\nw: B c2 A B A G A B A A G E c2 A B G E D E D D2 B\nc2A BAG | ABA ABc |dcA AGE | GED D2 :|\nw: c2 A B A G A B A A B c d c A A G E G E D D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "IkxBgbvfzLQ"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=IkxBgbvfzLQ"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "J3td8qAhKyM"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=J3td8qAhKyM"
       }
-    ]
+    ],
+    "id": "m6h1jwu2q3"
   },
   {
     "title": "Blarney Pilgrim, The",
     "abc": "X: 1\nT: Blarney Pilgrim, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmix\n|:DED DEG| A2A ABc| BAG AGE| GEA GED|\nw: D E D D E G A2 A A B c B A G A G E G E A G E D\nDED DEG|A2A ABc|BAG AGE| GED D3:|\nw: D E D D E G A2 A A B c B A G A G E G E D D3\nded dBG|AGA BGE| ded dBG|ABA G3|\nw: d e d d B G A G A B G E d e d d B G A B A G3\ng2e dBG|AGA BGE|B2G AGE| GAG G3:|\nw: g2 e d B G A G A B G E B2 G A G E G A G G3\nA2D B2D| A2D ABc|BAG AGE|GEA GED|\nw: A2 D B2 D A2 D A B c B A G A G E G E A G E D\nA2D B2D|A2D ABc|BAG AGE|GED D3:|\nw: A2 D B2 D A2 D A B c B A G A G E G E D D3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "fopTazmLTQA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=fopTazmLTQA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "l_kgbDCJ7ws"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=l_kgbDCJ7ws"
       }
-    ]
+    ],
+    "id": "6n5sxjsqv2c"
   },
   {
     "title": "Cook In The Kitchen, The",
     "abc": "X: 1\nT: Cook In The Kitchen, The\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\n|: E | DGG GAG | FDE ~=F2E | DGG GFG | Add cAG |\nw: E D G G G A G F D E =F2 E D G G G F G A d d c A G\nDGG GAG | FDE =F2 d | cAG FGA | BGG G2 :||\nw: D G G G A G F D E =F2 d c A G F G A B G G G2\n|: A | BcB BAG | ABA AGF | GAG GFG | Add cAG |\nw: A B c B B A G A B A A G F G A G G F G A d d c A G\nBcB BAG | ABA A2 d | cAG FGA | BGG G2 :||\nw: B c B B A G A B A A2 d c A G F G A B G G G2\n|: B | d2 e f2 g | a2 g fed | cAG FGA | BdB cAF |\nw: B d2 e f2 g a2 g f e d c A G F G A B d B c A F\nd2 e f2 g | a2 g fed | cAG FGA | BGG G2 :||\nw: d2 e f2 g a2 g f e d c A G F G A B G G G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "7GD4jSgrCJo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7GD4jSgrCJo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Bk7f55L_q9I"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Bk7f55L_q9I"
       }
-    ]
+    ],
+    "id": "urnjrr82b6j"
   },
   {
     "title": "Sonny Murray's",
     "abc": "X: 1\nT: Sonny Murray's\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Dmaj\nFG|ABAF DEFG|AG (3FED =c2 (3AB^c|dcde fdAF|G2GF G2FG|\nw: F G A B A F D E F G A G F E D =c2 A B #c d c d e f d A F G2 G F G2 F G\nABAF DEFG|AG (3FED =c2 (3AB^c|dcde fdAG|F2D2 D2:||\nw: A B A F D E F G A G F E D =c2 A B #c d c d e f d A G F2 D2 D2\nde|f2fd ecAF|Gggf g2fg|a2ab agec|dcAF G2FG|\nw: d e f2 f d e c A F G g g f g2 f g a2 a b a g e c d c A F G2 F G\nABAF DEFG|AG (3FED =c2 (3AB^c|dcde fdAG|F2D2 D2 :||\nw: A B A F D E F G A G F E D =c2 A B #c d c d e f d A G F2 D2 D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "3i2qBlVOdwE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=3i2qBlVOdwE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "cbCiE0hxkeI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=cbCiE0hxkeI"
       }
-    ]
+    ],
+    "id": "v6zpjgk4zj"
   },
   {
     "title": "Home Ruler, The",
     "abc": "X: 1 - 40\nT: Home Ruler, The\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Dmaj\n|: AF|D2FA DAFA|dfed B2dB|A2AB AFDE|(3FED ED D2 AB|\nw: A F D2 F A D A F A d f e d B2 d B A2 A B A F D E F E D E D D2 A B\nD2FA DAFA|dfed B2dB|A2AB AFDE|F2D2 D2 :||\nw: D2 F A D A F A d f e d B2 d B A2 A B A F D E F2 D2 D2\ndB|Addc d3 f|afbf afed|efed BAFA|fded BdA2|\nw: d B A d d c d3 f a f b f a f e d e f e d B A F A f d e d B d A2\nAddc d3 f|afbf afed|efed BAdB|AFEF D2:||\nw: A d d c d3 f a f b f a f e d e f e d B A d B A F E F D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "-HO8XQ0DOtM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=-HO8XQ0DOtM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "MHcn7kT1Tto"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=MHcn7kT1Tto"
       }
-    ]
+    ],
+    "id": "jxq3tsrtqt9"
   },
   {
     "title": "Kitty's Wedding",
     "abc": "X: 1\nT: Kitty's Wedding\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Dmaj\n|:fe|d2Bd A2FA|BAFA D2 ED|BDAD DFBF|AFDF E2fe|\nw: f e d2 B d A2 F A B A F A D2 E D B D A D D F B F A F D F E2 f e\nd2Bd A2FA|BAFA D2 ED|BDAD DFBF|AFEF D2:|\nw: d2 B d A2 F A B A F A D2 E D B D A D D F B F A F E F D2\n|:fg|afed bafd|Adfd edBd|DFAd FAde|fdgf e2fg|\nw: f g a f e d b a f d A d f d e d B d D F A d F A d e f d g f e2 f g\nafed bafd|Adfd edBd|DFAd FAdf|eABc d2:|\nw: a f e d b a f d A d f d e d B d D F A d F A d f e A B c d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "nVyuBZNuyxI"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=nVyuBZNuyxI"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Le17vG80w5o"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Le17vG80w5o"
       }
-    ]
+    ],
+    "id": "f6fgdlzwqw"
   },
   {
     "title": "Tabhair Dom Do Lámh",
     "abc": "X: 1\nT: Tabhair Dom Do Lámh\nR: waltz\nM: 3/4\nL: 1/8\nK: Gmaj\nD2|E2 G2 G2|G4 D2|E2 G2 G>A|G4 D2|E2 G2 G2|G2 A2 B2|B2 e2 de|B4 AG|\nA2 A2 ed|B2 B2 dB|A2 AB AG|E4 D2|E2 G2 G2|G4 D2|E2 G2 G2|G4 D2|\nE2 G2 G2|G2 A2 B2|de dB AB|G4 D2|E2 G2 G2|G2 A2 B2|B2 e2 d2|B4 AG|\nA2 A2 ed|B2 B2 dB|A2 AB cd|e4 dB|d2 d2 e2|g4 ed|e2 e2 (3geg|a4 de|\ng2 g2 de|g2 g2 de|g2 g2 (3aga|b6|b2 b2 b2|b4 ag|a2 ag ab|a4 gf|\ne3 f2 (3gfe|d2 d2 g2|B3 d cB|A4 (3cBA|G2 GA Bd|=f4 ed|e2 e2 g2|e4 dB|\nE:lw4 d2 d2 g2|B2 B2 dB|A2 AB (3cBA|G6||",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "mPKSgZ8P8Go"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=mPKSgZ8P8Go"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "pHFEfp0PV9M"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=pHFEfp0PV9M"
       }
-    ]
+    ],
+    "id": "hp5yhg8b70l"
   },
   {
     "title": "Cooley's (Joe)",
     "abc": "X: 1 - 40\nT: Cooley's (Joe)\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: D\n|:F2|EB\"|\"BA B2 EB|\"|\"B2 AB dBAG|(3FED AD BDAD|(3FED AD BAGF|\nw: F2 E B B A B2 E B B2 A B d B A G F E D A D B D A D F E D A D B A G F\nEB\"|\"BA B2 EB|\"|\"B2 AB defg|afec dBAF|DEFD E2:|\nw: E B B A B2 E B B2 A B d e f g a f e c d B A F D E F D E2\n|:gf|eB \"~\"B2 eBgf|eB \"~\"B2 gedB|A2 FA DAFA|BAFA  defg|\nw: g f e B B B B e B g f e B B B B g e d B A2 F A D A F A B A F A  d e f g\neB \"~\"B2 eBgf|eB \"~\"B2 defg|afec dBAF|DEFD E2:|\nw: e B B B B  e B g f e B  B B B d e f g a f e c d B A F D E F D E2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "VMHshyl0cDg"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=VMHshyl0cDg"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "dHg9rc89vWI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=dHg9rc89vWI"
       }
-    ]
+    ],
+    "id": "7pd01vyec83"
   },
   {
     "title": "Wise Maid, The",
     "abc": "X: 1\nT: Wise Maid, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:F2FG FEDE|FAAB AFED|d2eg fdec|dBAG BEED|\nw: F2 F G F E D E F A A B A F E D d2 e g f d e c d B A G B E E D\nF2FG FEDE|FAAB AFED|d2eg fdec|dBAG FD D2:|\nw: F2 F G F E D E F A A B A F E D d2 e g f d e c d B A G F D D2\n|:d2AG FDFA|dfaf gfeg|fedf eAcA|dfed cA A2|\nw: d2 A G F D F A d f a f g f e g f e d f e A c A d f e d c A A2\nBEGB ADFA|dfaf gfed|Bdce dBAG|FGEF FD D2:|\nw: B E G B A D F A d f a f g f e d B d c e d B A G F G E F F D D2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "l4Uj0u-k2wo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=l4Uj0u-k2wo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Ad2ttyJxCr8"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Ad2ttyJxCr8"
       }
-    ]
+    ],
+    "id": "l879tukto7k"
   },
   {
     "title": "Bird In The Bush, The",
     "abc": "X: 1 - Speed 45\nT: Bird In The Bush, The\nT: Foinn Seisiun Session Book 1\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|: d2eB dB (3BAB | dBAB \"~\"G2 AG | EA \"~\"A2 BG \"~\"G2 | BGBd g2ge |\nw: d2 e B d B B A B d B A B G2 A G E A A2 B G G2 B G B d g2 g e\nd2eB dB (3BAB | dBAB \"~\"G2GE | DEGA B2 Bc | dBAc BG G2 :|\nw: d2 e B d B B A B d B A B G2 G E D E G A B2 B c d B A c B G G2\n|: (3Bcd ef \"|\"g2fg | afdf \"|\"gfed | (3Bcd ef gfgb | agab \"~\"g2 ga |\nw: B c d e f g2 f g a f d f g f e d B c d e f g f g b a g a b g2 g a\nbg (3gfg agef | \"|\"g2 fe dBAB | DEGA \"|\"B2 Bc | dBAd BG G2 :|\nw: b g g f g a g e f g2 f e d B A B D E G A B2 B c d B A d B G G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "EWGaqsZktOg"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=EWGaqsZktOg"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "3LiqM9s86oA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=3LiqM9s86oA"
       }
-    ]
+    ],
+    "id": "ob2iak6s1a"
   },
   {
     "title": "Dusty Windowsills, The",
     "abc": "X: 1\nT: Dusty Windowsills, The\nM: 6/8\nL: 1/8\nR: jig\nK: Ador\n|:A2B cBA|eAB cBA|GFG EGG|DGG EFG|A2B cBA|e2d efg|\nw: A2 B c B A e A B c B A G F G E G G D G G E F G A2 B c B A e2 d e f g\nage dBG|ABA A3:|a3 age|dBd g3|gag gfe|dBA GFG|\nw: a g e d B G A B A A3 a3 a g e d B d g3 g a g g f e d B A G F G\nEGG DGG|EFG ABc|Bed BAG|ABA A3:|A2A gAf|A2A ged|\nw: E G G D G G E F G A B c B e d B A G A B A A3 A2 A g A f A2 A g e d\nG2G edB|G2G edB|A2A gAf|A2d efg|age dBG|ABA A3:|\nw: G2 G  e d B G2 G e d B A2 A g A f A2 d e f g a g e d B G A B A A3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Whv_IwDAb6A"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Whv_IwDAb6A"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Hw4XYNd9Ljo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Hw4XYNd9Ljo"
       }
-    ]
+    ],
+    "id": "uahuz2eyky"
   },
   {
     "title": "Cliffs Of Moher, The",
     "abc": "X: 1\nT: Cliffs Of Moher, The\nM: 6/8\nL: 1/8\nR: jig\nK: Ador\n|:a3 bag| eaf ged| c2A BAG| EFG ABd|\nw: a3 b a g e a f g e d c2 A B A G E F G A B d\neaa bag| eaf ged|c2A BAG| EFG A3:|\nw: e a a b a g e a f g e d c2 A B A G E F G A3\ne2e dBA| e2e dBA| GAB dBA| GAB dBd|\nw: e2 e d B A e2 e d B A G A B d B A G A B d  B d\ne2e dBA| e2e dBA| GAB dBA| EFG A3|\nw: e2 e d B A e2 e d B A G A B d B A E F G A3\nefe dBA| efe dBA|GAB dBA| GAB dBd|\nw: e f e d B A e f e d B A G A B d B A G A B d B d\nefe dee| cee Bee| GFA BAG| EFG A3|\nw: e f e d e e c e e B e e G F A B A G E F G A3",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "mLfYTQ5lkPY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=mLfYTQ5lkPY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "hD3DcBIO8es"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=hD3DcBIO8es"
       }
-    ]
+    ],
+    "id": "hct9ph3d5b"
   },
   {
     "title": "Rose In The Heather, The",
     "abc": "X: 1\nT: Rose In The Heather, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nD2F EFE|DFA BAF|ABd ede|fdB AFE|\nw: D2 F E F E D F A B A F A B d e d e f d B A F E\n~D3 ~E3|DFA BAF|AdB AFE|FDD D3:|\nw: D3 E3 D F A B A F A d B A F E F D D D3\n|:fdB ABd|faa afd|~g3 fed|Bee edg|\nw: f d B A B d f a a a f d g3 f e d B e e e d g\nfdB ABd|faa afa|baf gfe|fdc d2e:|\nw: f d B A B d f a a a f a b a f g f e f d c d2 e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "ySA6FjQSblE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=ySA6FjQSblE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "2VBbFTFG7aM"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=2VBbFTFG7aM"
       }
-    ]
+    ],
+    "id": "4nky9pef1qn"
   },
   {
     "title": "Tommy Peoples' John Doherty’s",
     "abc": "X: 1\nT: Tommy Peoples' John Doherty’s\nR: mazurka\nM: 3/4\nL: 1/8\nK: Dmaj\n|:FG|AF A2 dc|BG B2 ef|ge cA Bc|BA F2 FG|\nAF A2 dc|BG B2 ef|ge cA Bc|d4:|\n|:fg|af dA cd|c2 B2 ef|ge cA Bc|BA F2 fg|\naf dA cd|c2 B2 ef|ge cA Bc|d4:|\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "_N33bNDrJA0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=_N33bNDrJA0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "qWcMaMwvArc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=qWcMaMwvArc"
       }
-    ]
+    ],
+    "id": "wedtolwqi4l"
   },
   {
     "title": "The Glenties Campbell’s",
     "abc": "X: 1\nT: The Glenties Campbell’s\nR: mazurka\nM: 3/4\nL: 1/8\nK: Gmaj\nGA|:\"G\"B2BAGE|DB, D2B,D|\"C\"EC E2CE|\"G\"DB, D2GA|\nB2BAGE|DB, D2B,D|\"C\"E2\"D\"F2D2|\"G\"G4GA:|\n|:\"G\"B2B2dB|\"C\"cB c2AF|\"D\"A2A2dc|\"G\"BA B2GA|\nB2B2dB|\"C\"cB c2DF|\"D\"A2AcBA|1 \"G\"G4GA:|2 \"G\"G6||",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "RbMMMed9DuU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=RbMMMed9DuU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "VfQwiNl3uls"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=VfQwiNl3uls"
       }
-    ]
+    ],
+    "id": "6xpk77xpdki"
   },
   {
     "title": "Drowsy Maggie",
     "abc": "X: 1 - Speed 45\nT: Drowsy Maggie \nT: Matt Malloy Version\nM: 4/4\nL: 1/8\nR: reel\nK: D\n||E2BE DEBE|\"|\"EDBA \"|\"AFDF|\"S\"E2BE DEB\"B\"E|\"~\"B3c dAFD|\nw: E2 B E D E B E E D B A A F D F E2 B E D E B B3 c d A F D\n\"|\"E2BE DEBE|\"|\"EDBA \"|\"AFDF|\"S\"E2BE DEB\"B\"E|\"~\"B3c dAFA|\nw: E2 B E D E B E E D B A A F D F E2 B E D E B B3 c d A F A\nd2fd cdec|defd faaf|defd cdec|BABc dAFA|\nw: d2 f d c d e c d e f d f a a f d2 f d c d e c B A B c d A F A\nd2fd cdec|defd faa2|bgaf gfed|BABc dAFD:|\nw: d2 f d c d e c d e f d f a a2 b g a f g f e d B A B c d A F DD",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "MWRC5uJlzuE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=MWRC5uJlzuE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "q3L_G-FrqVc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=q3L_G-FrqVc"
       }
-    ]
+    ],
+    "id": "ey4cxnniu9o"
   },
   {
     "title": "Glass Of Beer, The",
     "abc": "X: 1\nT: Glass Of Beer, The\nM: 4/4\nL: 1/8\nR: reel\nK: Bmin\n|:fB ~B2 fBaB|fB ~B2 e2 de|fB ~B2 fgfe|1 dfaf e2 de:|2 dfaf efdB||\nw: f B B2 f B a B f B B2 e2 d e f B B2 f g f e d f a f e2 d e d f a f e f d B\n|:d3e ~f3 e|defd edBc|dcde fgfe |1dfaf efdB:|2 dfaf e2||\nw: d3 e f3 e d e f d e d B c d c d e f g f e d f a f e f d B d f a f e2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "OoFqy6KK1Wo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=OoFqy6KK1Wo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "O0VU26RNTN4"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=O0VU26RNTN4"
       }
-    ]
+    ],
+    "id": "m8q6sszh27l"
   },
   {
     "title": "Toss The Feathers (D Version)",
     "abc": "X: 1\nT: Toss The Feathers (D Version)\nM: 4/4\nL: 1/8\nR: reel\nK: D\n|:D2 FD ADFD|FAAG EFGE|D2 (3FED ADFD|d2 ed cAGE|\nw: D2 F D A D F D F A A G E F G E D2 F E D A D F D d2 e d c A G E\n|~D2 FD ADFD|FAAG EFGE|=cABG A2 AB| d2ed cAGE:||\nw: D2 F D A D F D F A A G E F G E =c A B G A2 A B d2 e d c A G E\n|:Ad d/c/d Ad d/c/d|Ad d/c/d edcd|eaag a2 ag|eaag ed B/c/d|\nw: A d d c d A d d c d A d d c d e d c d e a a g a2 a g e a a g e d B cd\n|efge afge|f3e dcAB|=cABG A2 AB|d2 ed cAGE:||\nw: e f g e a f g e f3 e d c A B =c A B G A2 A B d2 e d c A G E\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "o1sLPMMHetM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=o1sLPMMHetM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "GMLbkc6anAU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=GMLbkc6anAU"
       }
-    ]
+    ],
+    "id": "nn5qforfztp"
   },
   {
     "title": "Toss The Feathers (Em)",
     "abc": "X: 6\nT: Toss The Feathers (Em)\nR: reel\nM: 4/4\nL: 1/8\nK: Edor\n|:\"Em\"EBB2 dBB2|\"Em\"EBBA \"D\"FDFA|\"Em\"BE E2 BABd|1 \"C\"egfe \"D\"dBAF:|2 \"C\"egfe \"D\"dBAe||\n\"Em\"Beed e2 de|\"D\"fede \"Bm\"fe e2|\"Em\"febe febe|\"D\"fede \"Bm\"feed|\n\"Em\"Beed e2 de|\"D\"fede fa a2|\"G\"b2bf \"D\"a2af|\"C\"egfe \"Bm\"dBAF||\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "mySqt_QJmbU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=mySqt_QJmbU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "GMLbkc6anAU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=GMLbkc6anAU"
       }
-    ]
+    ],
+    "id": "i7gd1fk1z2f"
   },
   {
     "title": "Morning Lark, The",
     "abc": "X: 1\nT: Morning Lark, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nAFD D2A,|DEF Adc|BGG DGG|B2B BdB|\nw: A F D D2A, D E F A d c B G G D G G B2 B B d B\nAFD D2A,|DEF A3|def gfe|fd^c d2B:|\nw: A F D D2 A, D E F A3 d e f g f e f d ^c d2 B\n|:ABd fdd|add fdB|Add fed|edB BAF|\nw: A B d f d d a d d f d B A d d f e d e d B B A F\nAdd fdd|add fdd|faf ede|fd^c d2B:|\nw: A d d f d d a d d f d d f a f e d e f d ^c d2 B\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "9dzipW9d9oI"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=9dzipW9d9oI"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "lfQEVsYOW_g"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=lfQEVsYOW_g"
       }
-    ]
+    ],
+    "id": "3hnjb6awhmn"
   },
   {
     "title": "Joe Cooley's Delight",
     "abc": "X: 1\nT: Joe Cooley's Delight\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nfef d2B|ABA ABd|~e3 edB|efe ede|\nw: f e f d2 B A B A A B d e3 e d B e f e e d e\nfef d2B|ABA ABd|e3 ede|f2e d2e:|\nw: f e f d2 B A B A A B d e3 e d e f2 e d2 e\n|:fef a2f|fef a2f|efe edB|efe ede|\nw: f e f a2 f f e f a2 f e f e e d B e f e e d e\n[1 fef a2f|fef a2f|efe ede|f2e d2e:|\nw: f e f a2 f f e f a2 f e f e e d e f2 e d2 e\n[2 fef d2B|ABA ABd|e3 ede|f2e d2e|\nw: f e f d2 B A B A A B d e3 e d e f2 e d2 e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "jd92QevccOc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=jd92QevccOc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "dHg9rc89vWI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=dHg9rc89vWI"
       }
-    ]
+    ],
+    "id": "9vfhim5pk8c"
   },
   {
     "title": "Flowers Of Spring(Tom Billy's)",
     "abc": "X: 1\nT: Flowers Of Spring(Tom Billy's)\nM: 6/8\nL: 1/8\nR: jig\nK: Ador\n|:G | ABA ABd | edB G2B | dBB GBB | AB defg |\nw:G A B A A B d  e d B G2 B d B B G B B  A B d e f g\nABA ABd | edB G2B | dBB GBB | ABA A2 :|\nw: A B A A B d e d B G2 B d B B G B B A B A A2\n|:e | eaa aga | bab age | ege dBd | ega ged |\nw: e e a a a g a b a b a g e e g e d B d e g a g e d\neab aga |bab age |e/2f/2ge dBG | ABA A2:||\nw: e a b a g a b a b a g e e/2 f/2 g e d B G A B A A2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "a2DOlI0CCos"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=a2DOlI0CCos"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "8ilQ_hhHtuI"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=8ilQ_hhHtuI"
       }
-    ]
+    ],
+    "id": "tygpbwlx2z"
   },
   {
     "title": "The Long Note",
     "abc": "X: 1\nT: The Long Note\nR: reel\nM: 4/4\nL: 1/8\nK: Dmix\n|:D3A AGEF|GE~E2 cEGE|~D3A AGEG|1 A2GA EAAE:|2 A2GE EDD2||\nd2dB cAdB|cAdB cAG2|d2dB cA (3Bcd|eaag eddc|\nd2dB cAdB|cAdB cAGE|DEFG AddB|cAGE EDD2||\n|:~a3b afdf|~g3a ge^ce|eaag aged|eaag eddf|\n~a3b afdf|g2fg ed^cB|AB^cd e2dB|1 A2GE FDD2:|2 (3ABA GA EAGE||\n\"variations\"\n|:D3A AGEF|GE~E2 cABG|~D3A AGEG|1 AEGE EAGE:|2 A2GA EDD2||\nd2de cAde|ecde cAGE|Aded cA (3Bcd|eaag (3ege dc|\nd2de cAde|cded cAGE|DEFG Add^c|A2GE EDD2||\n|:~a3b afdf|~g3a ge^ce|a2fa afdf|eaag (3ege df|\ndefa afdf|g2fd ed^cB|AB^cd e2d^c|1 A2GE FDD2:|2 (3ABA GA EDDE||\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "qozWvxe6_UM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=qozWvxe6_UM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "7Dx-Nn_p7rg"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=7Dx-Nn_p7rg"
       }
-    ]
+    ],
+    "id": "yws1yc9lv1"
   },
   {
     "title": "Teetotaler's, The",
     "abc": "X: 1\nT: Teetotaler's, The\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:(3DEF|G2 GF GABc|dBeB dBAc|BEED EFGA |BGAF GFED|\nw: D E F G2 G F G A B c d B e B d B A c B E E D E F G A B G A F G F E D\nDGGF GABc|dBeB dBAc|BEED EFGA |BcAF G2:|\nw: D G G F G A B c d B e B d B A c B E E D E F G A B c A F G2\n|:A|Beed e2ef| geaf gfed| Bddc d2de| fdaf gfed|\nw: A B e e d e2 e f g e a f g f e d B d d c d2 d e f d a f g f e d\nBeed e2ef|geaf gfed|BEED EFGA|BcAF G3:|\nw: B e e d e2 e f g e a f g f e d B E E D E F G A B c A F G3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "CblcnSEtpGE"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=CblcnSEtpGE"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "8lVENzI1Yts"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=8lVENzI1Yts"
       }
-    ]
+    ],
+    "id": "5bm5anr9xjx"
   },
   {
     "title": "Saint Anne's",
     "abc": "X: 1\nT: Saint Anne's\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|de|:fedf edcB|(3ABA FA DAFA|B2GB EBGB|(3ABA FA DAFA|\nw: d e f e d f e d c B A B A F A D A F A B2 G B E B G B A B A F A D A F A\nfedf edcB|(3ABA FA DAFA|BGed cABc|eddc d2 de:|\nw: f e d f e d c B A B A F A D A F A B G e d c A B c e d d c d2 d e\n|:f2fg fedc|Bggf g2gf|edcB ABce|baag abag|\nw: f2 f g f e d c B g g f g2 g f e d c B A B c e b a a g a b a g\nf2fg fedc|Bggf g2gf|edcB ABcd|eddc d2 de:|\nw: f2 f g f e d c B g g f g2 g f e d c B A B c d e d d c d2 d e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "7-dJxDa0Zg4"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7-dJxDa0Zg4"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "jus8iXptT9Q"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=jus8iXptT9Q"
       }
-    ]
+    ],
+    "id": "ko9crm8zmp"
   },
   {
     "title": "London Lasses",
     "abc": "X: 1\nT: London Lasses\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|G3 B d2 Bd | ea (3aga eg g2 | G3 B d2 Bd | egdB AGEF |\nw: G3 B d2 B d e a a g a e g g2 G3 B d2 B d e g d B A G E F\n|G3 B d2 Bd | eaag efga | bgag egfa | gedB AGEF :||\nw: G3 B d2 B d e a a g e f g a b g a g e g f a g e d B A G E F\n|g3 f efge | dG (3GFG BGBd | g3 f efge | dBGA BA A2 |\nw: g3 f e f g e d G G F G B G B d g3 f e f g e d B G A B A A2\n|g2 fg efge | dB (3BAB dega | bgaf egfa | gedB AGEF :||\nw: g2 f g e f g e d B B A B d e g a b g a f e g f a g e d B A G E F\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Xw4jkgKoLH8"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Xw4jkgKoLH8"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "D3FefB9n3_E"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=D3FefB9n3_E"
       }
-    ]
+    ],
+    "id": "jnvkkkrcx5"
   },
   {
     "title": "Kid On The Mountain, The",
     "abc": "X: 1\nT: Kid On The Mountain, The\nM: 9/8\nL: 1/8\nR: slip jig\nK: Emin\nEDE FEF G2 F| E3 B2A BGE| EDE FED G2 A| BAG FAG FED:|\nw: E D E F E F G2 F E3 B2 A B G E E D E F E D G2 A B A G F A G F E D\nBGB AFA G2 D| GAB dge dBA| BGB AFA G2 A| BAG FAG FED:|\nw: B G B A F A G2 D G A B d g e d B A B G B A F A G2 A B A G F A G F E D\ngfg eBe e2 f|gfg efg afd| gfg eBe ega|bag fag fed:|\nw: g f g e B e e2 f g f g e f g a f d g f g e B e e g a b a g f a g f e d\neBB e2f g2f|eBB efg afd| eBB e2f g2a|bag fag fed:|\nw: e B B e2 f g2 f e B B e f g a f d e B B e2 f g2 a b a g f a g f e d\nedB dBA G2D|GAB dge dBd|edB dBA G2A|BAG FAG FED:|\nw: e d B d B A G2 D G A B d g e d B d e d B d B A G2 A B A G F A G F E D\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "OWoOEV4dh-8"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=OWoOEV4dh-8"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "wDkqH-SOgTc"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=wDkqH-SOgTc"
       }
-    ]
+    ],
+    "id": "rltqh4xdq3q"
   },
   {
     "title": "Morrison's",
     "abc": "X: 1\nT: Morrison's\nM: 6/8\nL: 1/8\nR: jig\nK: Edor\n|:~E3 ~B3|EBE AFD|~E3 ~B3|dcB AFD|\nw: E3 B3 E B E A F D E3 B3 d c B A F D\n~E3 ~B3|EBE AFD|GFG FGA|dAG FED:|\nw: E3 B3 E B E A F D G F G F G A d A G F E D\nBee fee|aee fee|Bee fee|fag fed|\nw: B e e f e e a e e f e e B e e f e e f a g f e d\nBee fee|aee fee|gfe d2A|BAG FED|\nw: B e e f e e a e e f e e g f e d2 A B A G F E D\nBee fee|aee fee|Bee fee|faf def|\nw: B e e f e e a e e f e e B e e f e e f a f d e f\ng3 gfe|def g2d|edc d2A|BAG FED||\nw: g3 g f e d e f g2 d e d c d2 A B A G F E D\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "XtJX_37P-WY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=XtJX_37P-WY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "vl-gAxpRJ-k"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=vl-gAxpRJ-k"
       }
-    ]
+    ],
+    "id": "m1he7zj644f"
   },
   {
     "title": "Leitrim Fancy, The",
     "abc": "X: 1\nT: Leitrim Fancy, The\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nGBG FAF|E2B BAB|GBG FAF|D2A AFD|\nw: G B G F A F E2 B B A B G B G F A F D2 A A F D\nGBG FAF|E2B BAB|GAB dBG|ABG FED:|\nw: G B G F A F E2 B B A B G A B d B G A B G F E D\nGAB dBd|edB dBA|GAB dBG|ABG FED|\nw: G A B d B d e d B d B A G A B d B G A B G F E D\nGAB dBd|edB def|gfe dBG|ABG FED:|\nw: G A B d B d e d B d e f g f e d B G A B G F E D",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "aKCDfsVhHcQ"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=aKCDfsVhHcQ"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "qFi18UKq6zg"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=qFi18UKq6zg"
       }
-    ]
+    ],
+    "id": "h9epr9vy93b"
   },
   {
     "title": "Bank Of Ireland, The",
     "abc": "X: 1\nT: Bank Of Ireland, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmix\ned|c2AB cABG|EGDG EGAB|c2AB cABG|Add^c dfed|\nw: e d c2 A B c A B G E G D G E G A B c2 A B c A B G A d d #c d f e d\nc2AB cABG|EGDG EGAB|c2AB cABG|Add^c d2:|\nw: c2 A B c A B G E G D G E G A B c2 A B c A B G A d d #c d2\nK:D\ne|f2df e3 c|dfed cAAg|fedf e2fg|afge d2cd|\nw: e f2 d f e3 c d f e d c A A g f e d f e2 f g a f g e d2 c d\neaag egfe|dfed cAGB|Addc defg|af (3gfe d2:|\nw: e a a g e g f e d f e d c A G B A d d c d e f g a f g f e d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "utuX0WMaHOU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=utuX0WMaHOU"
       }
-    ]
+    ],
+    "id": "ijoo1y1los"
   },
   {
     "title": "The Woman of the House",
     "abc": "X: 1\nT:The Woman of the House\nM:4/4\nL:1/8\nK:G\nDBBA B2BA|GABd eBdB|(3ABA GB A2 (3Bcd|eB (3BAB eBdB|\nw: D B B A B2 B A G A B d e B d B A B A G B A2 B c d e B B A B e B d B\nDBBA B2BA|GABd eBdB|GABG (3ABA GA|BGAG EG D2:|\nw: D B B A B2 B A G A B d e B d B G A B G A B A G A B G A G E G D2\nf2fd edBd |edge dABd|f2fd edBd|eaag a3b|\nw: f2 f d e d B d e d g e d A B d f2 f d e d B d e a a g a3 b\nf2fd edBd|g2ge dcBA|GABG (3ABA GA|BGAG EG D2:|\nw: f2 f d e d B d g2 g e d c B A G A B G A B A G A B G A G E G D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "_7RJyQo8W2M"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=_7RJyQo8W2M"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "DiDGCCIn1H0"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=DiDGCCIn1H0"
       }
-    ]
+    ],
+    "id": "v3nz9xzx40l"
   },
   {
     "title": "Kerry Reel",
     "abc": "X: 1\nT: Kerry Reel\nT: Green Fields Of Rosbeigh, The\nM: 4/4\nL: 1/8\nR: reel\nK: Edor\nBE (3EDE BAFA|ABde fded|BE (3EDE BAFA|(3BcB AF E2FA|\nw: B E E D E B A F A A B d e f d e d B E E D E B A F A B c B A F E2 F A\nBE (3EDE BAFA|ABde fded|BE (3EDE BAFA|BFAF E2FA:||\nw: B E E D E B A F A A B d e f d e d B E E D E B A F A B F A F E2 F A\n(3Bcd ef g2fe|dB (3BAB dBAd|(3Bcd ef gfge|dBAF E2ef|\nw: B c d e f g2 f e d B B A B d B A d B c d e f g f g e d B A F E2 e f\ngfga gfeg|fefg fedB|ABde fgfe|dBAF E2FA:||\nw: g f g a g f e g f e f g f e d B A B d e f g f e d B A F E2 F A\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Bonhrpac37s"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Bonhrpac37s"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "nncvk5q-TvE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=nncvk5q-TvE"
       }
-    ]
+    ],
+    "id": "5cj1bho6wdk"
   },
   {
     "title": "Lilting Banshee, The",
     "abc": "X: 1 - Speed 55\nT: Lilting Banshee, The\nT: Shannon Lesson 3/3/07\nM: 6/8\nL: 1/8\nR: jig\nK: Ador\n|:EAA EAA|{c}BAB G2A|Bee {a}edB|dBA GED|\nw: E A A E A A B A B G2 A B e e e d B d B A G E D\nEAA EAA|{c}BAB G2A|Bee {a}edB|dBA A3:|\nw: E A A E A A B A B G2 A B e e e d B d B A A3\neaa {c'}age|dBA G2A|Bee {a}edB|def gfg|\nw: e a a a g e d B A G2 A B e e e d B d e f g f g\neaa {c'}age|dBA G2A|Bee {a}edB|dBA A3:|\nw: e a a a g e d B A G2 A B e e e d B d B A A3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Pd6xNjRExAM"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Pd6xNjRExAM"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "68Zcbo2OCKA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=68Zcbo2OCKA"
       }
-    ]
+    ],
+    "id": "e2z9e24i3w7"
   },
   {
     "title": "Haste To The Wedding",
     "abc": "X: 1 - 45\nT: Haste To The Wedding\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\n|:A|AFA Agf|ede fdB|AFA AGF|GFG EFG|\nw: A A F A A g f e d e f d B A F A A G F G F G E F G\nAFA Agf|ede fdB|ABA faf|ded d2:|\nw: A F A A g f e d e f d B A B A f a f d e d d2\n|:a|afa afa|bgb bgb|afa agf|gfg efg|\nw: a a f a a f a b g b b g b a f a a g f g f g e f g\na2z f2z|ede fdB|ABA faf|ded d2:|\nw: a2 f2 e d e f d B A B A f a f d e d d2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "hlYccqU6evk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=hlYccqU6evk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "FrGsMgXjTmA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=FrGsMgXjTmA"
       }
-    ]
+    ],
+    "id": "fj2muioy1jq"
   },
   {
     "title": "Maid On The Green, The",
     "abc": "X: 1\nT: Maid On The Green, The\nM: 6/8\nL: 1/8\nR: jig\nK: Gmaj\nd|gfg e2d|Bee dBA|BGG dBG|BAG ABd|\nw: d g f g e2 d B e e d B A B G G d B G B A G A B d\ngfg e2d|Bee dBA|BGG dBA|BGF G2:|\nw: g f g e2 d B e e d B A B G G d B A B G F G2\n|:g|gfg afd|gfg a2f|gfg eag|fdd dga|\nw: g g f g a f d g f g a2 f g f g e a g f d d d g a\nbgb afa|gfg e2d|Bee dBA|BGF G2:|\nw: b g b a f a g f g e2 d B e e d B A B G F G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "7RmUPM4OYFc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7RmUPM4OYFc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "9x9hF95GJOU"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=9x9hF95GJOU"
       }
-    ]
+    ],
+    "id": "zt83acxhfda"
   },
   {
     "title": "Over The Moor To Maggie",
     "abc": "X: 1\nT: Over The Moor To Maggie\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:DE|G2GA BABd|efge dBAG|EAAG ABAG|EAAG AcBA|\nw: D E G2 G A B A B d e f g e d B A G E A A G A B A G E A A G A c B A\nGFGA BABd|efge dBAG|DG (3GFG BG (3GFG|EGFA G2:|\nw: G F G A B A B d e f g e d B A G D G G F G B G G F G E G F A G2\n|:ga|bg (3gfg agef|gage d2 (3Bcd |eaag abag|eaag a2 ga|\nw: g a b g  g f g a g e f g a g e d2 B c d e a a g a b a g e a a g a2 g a\nbg (3gfg agef|gage d2 (3Bcd|eg(3gfg bgag|egfa g2:|\nw: b g g f g a g e f g a g e d2 B c d e g g f g b g a g e g f a g2\n|:Bd|e2ec d2dB|c2cA BAGD|EAAG ABAG|EAAG A2 (3Bcd|\nw: B d e2 e c d2 d B c2 c A B A G D E A A G A B A G E A A G A2 B c d\ne2ec d2dB|c2cA B2 AG|EG (3GFG BGAG|EGFA G2:|\nw: e2 e c d2 d B c2 c A B2 A G E G G F G B G A G E G F A G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "Fa5mWyu0_8c"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=Fa5mWyu0_8c"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "ca47dO-_SwY"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=ca47dO-_SwY"
       }
-    ]
+    ],
+    "id": "fwqoyvshffr"
   },
   {
     "title": "Lady Anne Montgomery",
     "abc": "X: 1 - 75\nT: Lady Anne Montgomery\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\nAG|:FADA FADA|FAdA BAdA|FADF E\"B\"DEF|DBAB D2 AG|\nw: A G F A D A F A D A F A d A B A d A F A D F E D E F D B A B D2 AG\nFADA FADA|FAdA BABc|dBAF E\"B\"DEF|1DBAB D2 AG:|2DBAB D2 de||\nw: F A D A F A D A F A d A B A B c d B A F E D E F D B A B D2 AG D B A B D2 d e\n|:\"R\"f3 g fede|fedB ABde|\"B\"f3g fede|faaf e\"B\"fde|\nw: f3 g f e d e f e d B A B d e f3 g e f e d e f a a f e f d e\n\"R\"f3 g fede|fedB A\"B\"Bde|fded BdAd|eg fe d3e:|\nw: f3 g f e d e f e d B A B d e f d e d B d A d e g f e d3 e\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "t01D1lwvasA"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=t01D1lwvasA"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "JNU5o-PdZXE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=JNU5o-PdZXE"
       }
-    ]
+    ],
+    "id": "lq46ux5hibf"
   },
   {
     "title": "Maude Millar",
     "abc": "X: 1\nT:Maude Millar\nM: 4/4\nR:reel\nK:G\ngf|edBA GEDE|G2BG DGBd|eBdB ABGA|Beed efgf|\nw: g f e d B A G E D E G2 B G D G B d e B d B A B G A B e e d e f g f\nedBA GEDE|G2BG DGBd|eBdB ABGA|Beed e2:|\nw: e d B A G E D E G2 B G D G B d e B d B A B G A B e e d e2\nge|dega bg ~g2|agef gage|dega bg~g2|aged eage|\nw: g e d e g a b g g2 a g e f g a g e d e g a b g g2 a g e d e a g e\ndega bg~g2|agef gfga|bgaf gfed|Beed e2:|\nw: d e g a b g g2 a g e f g f g a b g a f g f e d B e e d e2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "JLUxhelZIPY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=JLUxhelZIPY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "UlyQ6nhZbBs"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=UlyQ6nhZbBs"
       }
-    ]
+    ],
+    "id": "s8cwv963k8k"
   },
   {
     "title": "The Frost is All Over",
     "abc": "X: 1\nT:The Frost is All Over\nZ:id:hn-jig-206\nM:6/8\nK:D\ndef edB|AFD FED|DFA AFA|Bee edB|\nw: d e f e d B A F D F E D D F A A F A B e e e d B\ndef edB|AFD FED|DFA AFA|1 Bdd d2A:|2 Bdd d2e||\nw: d e f e d B A F D F E D D F A A F A B d d d2 A B d d d2 e\n|:fdd ede|f3 d2e|fef def|gfg efg|\nw: f d d e d e f3 d2 e f e f d e f g f g e f g\nfed B2A|AdF G2A|ABA F2E|1 EDD D2e:|2 EDD D3||\nw: f e d B2 A A d F G2 A A B A F2 E E D D D2 e E D D D3\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "-k0IBmINyqU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=-k0IBmINyqU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "YycwajPrcOY"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=YycwajPrcOY"
       }
-    ]
+    ],
+    "id": "3s8tlyayv7k"
   },
   {
     "title": "the Eavesdropper",
     "abc": "X: 1\nT:the Eavesdropper\nR:Jig\nM:6/8\nK:G\nE|DBB BAG|Bdd dBG|cde dBG|BAA AGE|\nw: E D B B B A G B d d d B G c d e d B G B A A A G E\nDBB BAG|Bdd dBG|cde dBA|BGF G2 :|\nw: D B B B A G B d d d B G c d e d B A B G F G2\n|d|g3 afd|efg dBG|cde dBG|BAA A2d|\nw: d g3 a f d e f g d B G c d e d B G B A A A2 d\ngab afd|efg dBG|cde dBA|BGF G2:|\nw: g a b a f d e f g d B G c d e d B A B G F G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "BXbP5Z2eKvI"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=BXbP5Z2eKvI"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "P6VqPbm2ykQ"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=P6VqPbm2ykQ"
       }
-    ]
+    ],
+    "id": "euld6dkqr0p"
   },
   {
     "title": "Sixpenny Money",
     "abc": "X: 1\nT: Sixpenny Money\nM: 6/8\nL: 1/8\nR: jig\nK: Dmaj\nfAA fAA|BAG FGE|DED AFA|dfd efg|\nw: f A A f A A B A G F G E D E D A F A d f d e f g\nfAA fAA|BAG FGE|DED AFA|dfd e2 d:||\nw: f A A f A A B A G F G E D E D A F A d f d e2 d\nfef gfg|afd ecA|fef gfg|afd e2 d|\nw: f e f g f g a f d e c A f e f g f g a f d e2 d\nfef gfg|afd ecA|ABA AFA|dfd e2 d:||\nw: f e f g f g a f d e c A A B A A F A d f d e2 d",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "lPw8avrSLZo"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=lPw8avrSLZo"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "jisVqOrBrYA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=jisVqOrBrYA"
       }
-    ]
+    ],
+    "id": "6q2mbeusvgh"
   },
   {
     "title": "Sweeny's",
     "abc": "X: 1\nT: Sweeny's\nM: 2/4\nL: 1/8\nQ: 325\nR: Polka\nK: A\nef/e/ ce|Ae ce|f/g/a/f/ ec|BA F2|\nw: e f e c e A e c e f g a f e c B A F2\nef/e/ ce|Ae ce|f/g/a/f/ ec|BA A2 :|\nw: e f e c e A e c e f g a f e c B A A2\nce a>f|ec BA|ce a>f|ec B2|\nw: c e a f e c B A c e a f e c B2\nce f/g/a/f/|ec BA|ef/e/ cB|BA A2 :|\nw: c e f g a f e c B A e f e c B B A A2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "vU0APMfT4jY"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=vU0APMfT4jY"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "ub4AorVvPaE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=ub4AorVvPaE"
       }
-    ]
+    ],
+    "id": "wivr8jpybpd"
   },
   {
     "title": "Dennis Murphy's",
     "abc": "X: 1\nT: Dennis Murphy's\nM: 2/4\nL: 1/16\nR: polka\nK: Dmaj\nfgfe dcdB|A2D2 F2A2|G2E2 e3d|c2B2 B2A2|\nw: f g f e d c d B A2 D2 F2 A2 G2 E2 e3 d c2 B2 B2 A2\n|fgfe dcdB|A2D2 F2A2|G2E2 e3f|e2d2d4:|\nw: f g f e d c d B A2 D2 F2 A2 G2 E2 e3 f e2 d2 d4\n|A2f2 fef2|A2g2 gfg2|A2f2 f2d2|efed B2A2|\nw: A2 f2 f e f2 A2 g2 g f g2 A2 f2 f2 d2 e f e d B2 A2\nA2f2 fef2|A2g2 gfga|b2a2 faaf| e2d2d4:|\nw: A2 f2 f e f2 A2 g2 g f g a b2 a2 f a a f e2 d2 d4\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "rvd-5owbuBc"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=rvd-5owbuBc"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "DlRRanjM8Nk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=DlRRanjM8Nk"
       }
-    ]
+    ],
+    "id": "mp3r9mn9g0n"
   },
   {
     "title": "Maggie In The Woods",
     "abc": "X: 1 - Speed 50\nT: Maggie In The Woods\nM: 2/4\nL: 1/16\nR: polka\nK: Gmaj\n|:BA|G2D2 G2A2|B2e2 e4|d2B2 G2A2|B2A2 A2BA|\nw: B A G2 D2 G2 A2 B2 e2 e4 d2 B2 G2 A2 B2 A2 A2 B A\n  G2D2 G2A2|B2e2 e4|d2B2 A2BA|G4 G2:|\nw: G2 D2 G2 A2 B2 e2 e4 d2 B2 A2 B A G4 G2\nd2|g2f2 e2d2|B2e2 e4| d2B2 G2A2|B2A2 A4|\nw:   d2 g2 f2 e2 d2 B2 e2 e4 d2 B2 G2 A2 B2 A2 A4 \ng2f2 e2d2|B2e2 e4|d2B2 A2BA|G4 G2:|\nw: g2 f2 e2 d2 B2 e2 e4 d2 B2 A2 B A G4 G2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "4i8b5Vf7Oqk"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=4i8b5Vf7Oqk"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "Pb5FsY3Vslk"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=Pb5FsY3Vslk"
       }
-    ]
+    ],
+    "id": "oxf5dmwldes"
   },
   {
     "title": "Salamanca, The",
     "abc": "X: 1\nT: Salamanca, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\n|:dB|AD (3FED AD (3FED|Adcd fedc|BE ~E2 BE~E2|Bded cdeg|\nw: d B A D F E D A D F E D A d c d f e d c B E E2 B E E2 B d e d c d e g\nfB ~B2 FB ~B2|fgfe dfag|fgec dBAG|FGEF D2:|\nw: f B B2 F B B2 f g f e d f a g f g e c d B A G F G E F D2\n|:fg|afdg bgeg|fdcd BAFA|Addc defg|(3aba gb a2 fg|\nw: f g a f d g b g e g f d c d B A F A A d d c d e f g a b a g b a2 f g\n~a3f ~g3f |~f3e dfag|fdec dBAG|FGEF D2:|\nw: a3 f g3 f f3 e d f a g f d e c d B A G F G E F D2\n",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "O69UIi7Nds0"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=O69UIi7Nds0"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "vVOwf2DfuOE"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=vVOwf2DfuOE"
       }
-    ]
+    ],
+    "id": "fwwchx8abla"
   },
   {
     "title": "Banshee, The",
     "abc": "X: 1 - Speed 60\nT: Banshee, The\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:G2 \"|\"GD EDEG|AGAB d2 Bd|eged BAGA|BAGE \"|\"ED\"|\"DE|\nw: G2 G D E D E G A G A B d2 B d e g e d B A G A B A G E E D D E\nG2 \"|\"GD EDEG|AGAB d2 Bd|eged BAGA|BAGE \"|\"ED \"|\"D2:|\nw: G2 G D E D E G A G A B d2 B d e g e d B A G A B A G E E D D2\n|:ea \"~\"a2 efgf|eB\"|\"BA B2 Bd|eB \"~\"B2 efgf| eB\"|\"BA B2 Bd|\nw: e a a2 e f g f e B B A B2 B d e B B2 e f g f e B B A B2 B d\nea \"~\"a2 efgf|eB\"|\"BA B2 Bd|eged BAGA|BAGE \"|\"ED\"|\"D2:|\nw: e a a2 e f g f e B B A B2 B d e g e d B A G A B A G E E D D2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "U6-310PiLV8"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=U6-310PiLV8"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "bpRkHTcZEfA"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=bpRkHTcZEfA"
       }
-    ]
+    ],
+    "id": "lcurxbh6ngn"
   },
   {
     "title": "Sailor's Bonnet, The",
     "abc": "X: 1\nT: Sailor's Bonnet, The\nM: 4/4\nL: 1/8\nR: reel\nK: Dmaj\nA2 FA d~f3|dfef d~B3| A2 FA dfec|dBAF ADD2:||\nw: A2 F A d f3 d f e f d B3 A2 F A d f e c d B A F A D D2\n|:~a3 a afdf|afef d~B3|fb ~b2 bafa|b2af fee2|\nw: a3 a a f d f a f e f d B3 f b  b2 b a f a b2 a f f e e2\nbf ~f2 afef|afef d~B3|A2 FA dfec |dBAF ADD2:||\nw: b f f2 a f e f a f e f d B3 A2 F A d f e c d B A F A D D2",
     "videos": [
       {
-        "source": "Foinn Seisiún 1",
-        "youtubeId": "IYDYNOYHisU"
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=IYDYNOYHisU"
       },
       {
-        "source": "The Whistler",
-        "youtubeId": "IoyeyYS6Dbo"
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=IoyeyYS6Dbo"
       }
-    ]
+    ],
+    "id": "0sxp9vksrdym"
   }
 ]

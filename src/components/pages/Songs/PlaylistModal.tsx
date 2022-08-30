@@ -1,15 +1,15 @@
-import { Tune } from "./types";
+import { Song } from "types";
 
 export const PlaylistModal = ({
-  tune,
+  song,
   onSelect,
 }: {
-  tune: Tune;
+  song: Song;
   onSelect: any;
 }) => {
   return (
     <dialog open>
-      {tune.videos.map((v, index) => (
+      {/* {tune.videos.map((v, index) => (
         <button
           key={v.youtubeId}
           style={{
@@ -24,7 +24,7 @@ export const PlaylistModal = ({
         >
           {v.source}
         </button>
-      ))}
+      ))} */}
     </dialog>
   );
 };
