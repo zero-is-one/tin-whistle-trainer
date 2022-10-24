@@ -1,45 +1,121 @@
 import { useState, useEffect } from "react";
 import songsJson from "assets/songs.json";
-import { Song, Playlist, PlaylistItem } from "types";
+import { Playlist, PlaylistItem } from "types";
 import useLocalStorage from "use-local-storage";
 
 export const usePlaylistManager = () => {
-  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlist", []);
-  const [playhead, setPlayhead] = useState(0);
-  const songs = songsJson as Song[];
-  const playlistItem = playlist[playhead];
-  const song = songs.find((s) => s.id === playlistItem?.songId);
+  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv6", {
+    items: [],
+  } as Playlist);
 
-  const add = (song: Song) => {
-    setPlaylist([
-      ...playlist,
-      { songId: song.id, videoUrl: song.videos[0].url, playbackRate: 1 },
-    ]);
+  const [itemPlayheadId, setItemPlayheadId] = useState<string | null>();
+  const itemPlayhead = playlist.items.find(
+    (item) => item.id === itemPlayheadId
+  );
+
+  // load songs if empty
+  useEffect(() => {
+    if (playlist.items.length > 0) return;
+
+    const items = songsJson.map((song, index) => {
+      return {
+        id: Math.random().toString(36).replace("0.", ""),
+        songId: song.id,
+        videoUrl: song.videos[0].url,
+        playbackRate: 1,
+        isFavorite: false,
+        isSelected: false,
+        index,
+      };
+    });
+
+    setPlaylist({
+      items,
+    });
+  }, [playlist, setPlaylist]);
+
+  useEffect(() => {
+    if (playlist.items.length === 0 || itemPlayhead) return;
+    setItemPlayheadId(playlist.items.filter((i) => i.isSelected)[0]?.id);
+  }, [playlist, itemPlayhead]);
+
+  const updateItem = (id: string, val: PlaylistItem) => {
+    const items = [...playlist.items];
+    const index = playlist.items.findIndex((i) => i.id === id);
+    items[index] = val;
+
+    setPlaylist({ ...playlist, items });
   };
 
-  const remove = (song: Song) => {
-    setPlaylist(playlist.filter((s) => s.songId !== song.id));
+  const movePlayhead = (dir: number) => {
+    const items = playlist.items.filter((i) => i.isSelected);
+    let index = items.findIndex((item) => item.id === itemPlayhead?.id) || 0;
+    index += dir;
+    index = Math.min(index, items.length - 1);
+    index = Math.max(index, 0);
+    setItemPlayheadId(items[index].id);
+  };
+  const next = () => {
+    movePlayhead(1);
+  };
+  const previous = () => {
+    movePlayhead(-1);
   };
 
-  const hasSong = (song: Song) => {
-    return !!playlist.find((s) => s.songId === song.id);
+  const randomizeItems = () => {
+    const favs = [...playlist.items]
+      .filter((i) => i.isFavorite)
+      .filter((i) => i.isSelected)
+      .sort((a, b) => b.index - a.index);
+
+    const norms = shuffle(
+      [...playlist.items]
+        .filter((i) => !i.isFavorite)
+        .filter((i) => i.isSelected)
+    );
+
+    const remaining = [
+      ...playlist.items
+        .filter((i) => !i.isSelected)
+        .sort((a, b) => a.index - b.index),
+    ];
+
+    setPlaylist({ ...playlist, items: [...favs, ...norms, ...remaining] });
   };
 
-  const setPlaybackRate = (rate: number) => {};
+  const sort = () => {
+    const items = [...playlist.items].sort((a, b) => a.index - b.index);
 
-  const next = () => {};
-  const prev = () => {};
+    setPlaylist({ ...playlist, items });
+  };
 
   return {
     playlist,
-    songs,
-    song,
-    add,
-    hasSong,
-    remove,
-    playlistItem,
-    setPlaybackRate,
+    sort,
+    updateItem,
     next,
-    prev,
+    previous,
+    playlistItem: itemPlayhead,
+    randomizeItems,
   };
 };
+
+export function shuffle<T>(array: T[]): T[] {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex !== 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}

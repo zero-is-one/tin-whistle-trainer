@@ -13,9 +13,15 @@ export interface Song {
 }
 
 export interface PlaylistItem {
+  id: string;
   songId: string;
   videoUrl: string;
   playbackRate: number;
+  isFavorite: boolean;
+  isSelected: boolean;
+  index: number;
 }
 
-export type Playlist = PlaylistItem[];
+export interface Playlist {
+  items: PlaylistItem[];
+}

@@ -1,17 +1,17 @@
-import { Song } from "types";
+import { Song, Video } from "types";
 
-export const PlaylistModal = ({
+export const VideoSelectModal = ({
   song,
   onSelect,
 }: {
   song: Song;
-  onSelect: any;
+  onSelect: (video: Video) => void;
 }) => {
   return (
     <dialog open>
-      {/* {tune.videos.map((v, index) => (
+      {song.videos.map((v, index) => (
         <button
-          key={v.youtubeId}
+          key={v.title}
           style={{
             display: "block",
             width: "100%",
@@ -19,12 +19,12 @@ export const PlaylistModal = ({
             fontSize: 40,
           }}
           onClick={() => {
-            onSelect(index);
+            onSelect(v);
           }}
         >
-          {v.source}
+          {v.title}
         </button>
-      ))} */}
+      ))}
     </dialog>
   );
 };

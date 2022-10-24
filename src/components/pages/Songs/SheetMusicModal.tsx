@@ -1,10 +1,16 @@
 import { Abc } from "components/Abc/Abc";
 
-export const SheetMusicModal = ({ tune, close }: any) => {
+export const SheetMusicModal = ({
+  abc,
+  close,
+}: {
+  abc: string;
+  close: () => void;
+}) => {
   return (
     <dialog open style={{ textAlign: "center" }}>
       <Abc
-        abc={tune.abc}
+        abc={abc}
         params={{
           responsive: "resize",
           paddingbottom: 0,

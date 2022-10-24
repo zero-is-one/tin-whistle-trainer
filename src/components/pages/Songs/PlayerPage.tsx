@@ -1,25 +1,32 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import BaseReactPlayer from "react-player/base";
 import { SheetMusicModal } from "./SheetMusicModal";
-import { PlaylistModal } from "./PlaylistModal";
+import { VideoSelectModal } from "./VideoSelectModal";
 import songsJson from "assets/songs.json";
-
-import { Song, PlaylistItem } from "types";
+import { Video, Song } from "types";
 import { usePlaylistManager } from "hooks/usePlaylistManager";
 import { PlaylistPage } from "./PlaylistPage";
 
 export const PlayerPage = ({ changePage }: { changePage: Function }) => {
-  const { playlistItem, setPlaybackRate, next, prev, song } =
-    usePlaylistManager();
+  const { playlistItem, next, previous, updateItem } = usePlaylistManager();
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
 
   const playerRef = useRef<BaseReactPlayer<any>>(null);
   const [showSheetMusic, setShowSheetMusic] = useState(false);
-  const [showPlaylist, setShowPlaylist] = useState(false);
+  const [showVideoSelect, setShowVideoSelect] = useState(false);
   const [loop, setLoop] = useState([-1, -1]);
+  const song: Song | undefined = songsJson.find(
+    (i) => i.id === playlistItem?.songId
+  );
+
+  const onVideoSelect = (video: Video) => {
+    setShowVideoSelect(false);
+    if (!playlistItem) return;
+    updateItem(playlistItem?.id, { ...playlistItem, videoUrl: video.url });
+  };
 
   const onProgress = (e: { playedSeconds: number }) => {
     setProgress(e.playedSeconds);
@@ -41,12 +48,6 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
     setProgress(position);
   };
 
-  const onPlaylistSelect = (index: number) => {
-    // setShowPlaylist(false);
-    // if (!settings) return;
-    // updateSettings({ ...settings, videoIndex: index });
-  };
-
   const setLoopHead = () => {
     if (loop[0] === -1) {
       setLoop([progress, -1]);
@@ -59,12 +60,16 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
 
   return (
     <>
-      {/* {showSheetMusic && (
-        <SheetMusicModal tune={tune} close={() => setShowSheetMusic(false)} />
+      {showSheetMusic && song && (
+        <SheetMusicModal
+          abc={song.abc}
+          close={() => setShowSheetMusic(false)}
+        />
       )}
-      {showPlaylist && (
-        <PlaylistModal tune={tune} onSelect={onPlaylistSelect} />
-      )} */}
+
+      {showVideoSelect && song && (
+        <VideoSelectModal song={song} onSelect={onVideoSelect} />
+      )}
 
       <div
         className="page col"
@@ -74,30 +79,41 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
       >
         <div
           className="button-row"
-          style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
+          style={{ gridTemplateColumns: "1fr 1fr 1fr 1fr" }}
         >
-          {[0.5, 0.75, 1].map((playbackRate, index) => (
+          {[0.5, 0.75, 0.9, 1].map((playbackRate, index) => (
             <button
               key={playbackRate}
               className={` ${
                 playlistItem?.playbackRate === playbackRate && "active"
               } `}
               onClick={() => {
-                setPlaybackRate(playbackRate);
+                if (!playlistItem) return;
+                updateItem(playlistItem.id, { ...playlistItem, playbackRate });
               }}
             >
-              {["🐌", "🐢", "🐇"][index]}
+              {["🐌", "🐢", "🐏", "🐇"][index]}
               <br />
               {`${playbackRate}`.replace("0.", ".")}
             </button>
           ))}
         </div>
-
         <div
           className="button-row"
           style={{ gridTemplateColumns: "1fr 1fr 2fr 1fr" }}
         >
-          <button onClick={() => seekTo(0)}>↺</button>
+          <button onClick={setLoopHead}>
+            🔁
+            {loop[0] !== -1 && (
+              <p style={{ fontSize: 18, fontFamily: "monospace" }}>
+                {Math.floor(loop[0])}:
+                <span className={loop[1] === -1 ? "blink" : ""}>
+                  {loop[1] === -1 ? Math.floor(progress) : Math.floor(loop[1])}
+                </span>
+              </p>
+            )}
+          </button>
+
           <button onClick={() => seekTo(progress - 1)}>
             🕖
             <br /> -1
@@ -118,28 +134,9 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
 
         <div
           className="button-row"
-          style={{ gridTemplateColumns: "1fr 3fr 1fr" }}
+          style={{ gridTemplateColumns: "1fr 2fr 1fr" }}
         >
-          <button onClick={() => changePage(PlaylistPage)}>📻</button>
-          <button onClick={setLoopHead}>
-            🔁
-            {loop[0] !== -1 && (
-              <p style={{ fontSize: 18, fontFamily: "monospace" }}>
-                {Math.floor(loop[0])}:
-                <span className={loop[1] === -1 ? "blink" : ""}>
-                  {loop[1] === -1 ? Math.floor(progress) : Math.floor(loop[1])}
-                </span>
-              </p>
-            )}
-          </button>
-          <button onClick={() => setShowSheetMusic(true)}>🎼</button>
-        </div>
-
-        <div
-          className="button-row"
-          style={{ gridTemplateColumns: "1fr 3fr 1fr" }}
-        >
-          <button onClick={prev}>⏪</button>
+          <button onClick={previous}>⏪</button>
           <div>
             <p>{song?.title}</p>
             <p style={{ fontFamily: "monospace" }}>
@@ -166,6 +163,27 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
             />
           </div>
           <button onClick={next}>⏩</button>
+        </div>
+        <div
+          className="button-row"
+          style={{ gridTemplateColumns: "1fr 1fr 1fr 1fr" }}
+        >
+          <button onClick={() => setShowVideoSelect(!showVideoSelect)}>
+            📺
+          </button>
+          <button
+            onClick={() =>
+              playlistItem &&
+              updateItem(playlistItem.id, {
+                ...playlistItem,
+                isFavorite: !playlistItem.isFavorite,
+              })
+            }
+          >
+            {playlistItem?.isFavorite ? "★" : "☆"}
+          </button>
+          <button onClick={() => changePage(PlaylistPage)}>📻</button>
+          <button onClick={() => setShowSheetMusic(true)}>🎼</button>
         </div>
       </div>
     </>

@@ -8,11 +8,13 @@ export const Abc = ({
   abc: string;
   params?: abcjs.AbcVisualParams;
 }) => {
-  const inputEl = useRef(null);
+  const ele = useRef(null);
 
   useEffect(() => {
-    inputEl?.current && abcjs.renderAbc(inputEl.current, abc, params);
-  }, [abc, params, inputEl]);
+    if (!ele?.current) return;
+    console.log(ele?.current, abc, params);
+    abcjs.renderAbc(ele.current, abc, params);
+  }, [abc, params, ele]);
 
-  return <div ref={inputEl}></div>;
+  return <div ref={ele}></div>;
 };

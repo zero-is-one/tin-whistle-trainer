@@ -18,11 +18,9 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  // removed because of https://github.com/cookpete/react-player/issues/1453
-  // if fixed updated remove allow strict mode
-  // <React.StrictMode>
-  <BrowserRouter basename="tin-whistle-trainer">
-    <App />
-  </BrowserRouter>
-  // </React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter basename="tin-whistle-trainer">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
