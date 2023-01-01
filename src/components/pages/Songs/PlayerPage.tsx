@@ -9,7 +9,14 @@ import { usePlaylistManager } from "hooks/usePlaylistManager";
 import { PlaylistPage } from "./PlaylistPage";
 
 export const PlayerPage = ({ changePage }: { changePage: Function }) => {
-  const { playlistItem, next, previous, updateItem } = usePlaylistManager();
+  const {
+    playlistItem,
+    next,
+    previous,
+    updateItem,
+    selectedPlaylistItemIndex,
+    selectedPlaylistItems,
+  } = usePlaylistManager();
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
@@ -138,7 +145,10 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
         >
           <button onClick={previous}>⏪</button>
           <div>
-            <p>{song?.title}</p>
+            <p>
+              {selectedPlaylistItemIndex}/{selectedPlaylistItems.length}{" "}
+              {song?.title}
+            </p>
             <p style={{ fontFamily: "monospace" }}>
               ⏲ {Math.floor(progress)} : {duration}
             </p>

@@ -6,12 +6,7 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
   const { playlist, updateItem, randomizeItems, sort } = usePlaylistManager();
 
   return (
-    <div
-      className="page"
-      style={{
-        gridTemplateRows: "1fr 4fr",
-      }}
-    >
+    <div className="page" style={{ display: "flex", flexDirection: "column" }}>
       <div
         style={{
           border: "1px solid #0E172C",
@@ -33,7 +28,7 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
         <button onClick={randomizeItems}>🔀</button>
       </div>
       <div style={{ overflow: "auto", width: "100%", height: " 100%" }}>
-        <ul>
+        <ul style={{ overflow: "auto", width: "100%", height: " 100%" }}>
           {playlist.items.map((item) => (
             <li
               key={item.id}
