@@ -4,8 +4,9 @@ import { BrowserRouter } from "react-router-dom";
 import "modern-css-reset/dist/reset.min.css";
 import "./assets/index.css";
 import { App } from "./components/App/App";
-import NoSleep from "nosleep.js";
-new NoSleep();
+
+// import { here } from "utils/songsim";
+// console.log(here);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
