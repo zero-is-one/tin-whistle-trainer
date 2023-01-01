@@ -15,16 +15,16 @@ export const usePlaylistManager = () => {
 
   // load songs if empty
   useEffect(() => {
-    if (playlist.items.length > 0) return;
-
     const items = songsJson.map((song, index) => {
+      const playlistItem = playlist.items?.[index];
+
       return {
-        id: Math.random().toString(36).replace("0.", ""),
+        id: playlistItem?.id || Math.random().toString(36).replace("0.", ""),
         songId: song.id,
-        videoUrl: song.videos[0].url,
-        playbackRate: 1,
-        isFavorite: false,
-        isSelected: false,
+        videoUrl: playlistItem?.videoUrl || song.videos[0].url,
+        playbackRate: playlistItem?.playbackRate || 1,
+        isFavorite: playlistItem?.isFavorite || false,
+        isSelected: playlistItem?.isSelected || false,
         index,
       };
     });
@@ -89,12 +89,18 @@ export const usePlaylistManager = () => {
     setPlaylist({ ...playlist, items });
   };
 
+  const selectedPlaylistItems = playlist.items.filter((i) => i.isSelected);
+
   return {
     playlist,
+    selectedPlaylistItems,
     sort,
     updateItem,
     next,
     previous,
+    selectedPlaylistItemIndex: itemPlayhead
+      ? selectedPlaylistItems.indexOf(itemPlayhead) + 1
+      : 0,
     playlistItem: itemPlayhead,
     randomizeItems,
   };
