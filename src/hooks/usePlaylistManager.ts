@@ -32,7 +32,7 @@ export const usePlaylistManager = () => {
     setPlaylist({
       items,
     });
-  }, [playlist, setPlaylist]);
+  }, []);
 
   useEffect(() => {
     if (playlist.items.length === 0 || itemPlayhead) return;
