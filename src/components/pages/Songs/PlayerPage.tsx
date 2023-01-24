@@ -179,7 +179,8 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
           style={{ gridTemplateColumns: "1fr 1fr 1fr 1fr" }}
         >
           <button onClick={() => setShowVideoSelect(!showVideoSelect)}>
-            📺
+            <div>📺</div>
+            <div style={{ fontSize: 12 }}>{song?.videos.length}</div>
           </button>
           <button
             onClick={() =>

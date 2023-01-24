@@ -4,7 +4,7 @@ import { Playlist, PlaylistItem } from "types";
 import useLocalStorage from "use-local-storage";
 
 export const usePlaylistManager = () => {
-  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv6", {
+  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv7", {
     items: [],
   } as Playlist);
 
@@ -13,8 +13,9 @@ export const usePlaylistManager = () => {
     (item) => item.id === itemPlayheadId
   );
 
-  // load songs if empty
   useEffect(() => {
+    if (songsJson.length === playlist.items.length) return;
+
     const items = songsJson.map((song, index) => {
       const playlistItem = playlist.items?.[index];
 
