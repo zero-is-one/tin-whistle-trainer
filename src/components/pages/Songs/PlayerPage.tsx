@@ -3,19 +3,19 @@ import ReactPlayer from "react-player";
 import BaseReactPlayer from "react-player/base";
 import { SheetMusicModal } from "./SheetMusicModal";
 import { VideoSelectModal } from "./VideoSelectModal";
-import songsJson from "assets/songs.json";
-import { Video, Song } from "types";
+import { Video } from "types";
 import { usePlaylistManager } from "hooks/usePlaylistManager";
 import { PlaylistPage } from "./PlaylistPage";
 
 export const PlayerPage = ({ changePage }: { changePage: Function }) => {
   const {
-    playlistItem,
+    playheadItem,
     next,
     previous,
     updateItem,
-    selectedPlaylistItemIndex,
-    selectedPlaylistItems,
+    playheadSong: song,
+    playheadIndex,
+    playlist,
   } = usePlaylistManager();
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(-1);
@@ -25,14 +25,11 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showVideoSelect, setShowVideoSelect] = useState(false);
   const [loop, setLoop] = useState([-1, -1]);
-  const song: Song | undefined = songsJson.find(
-    (i) => i.id === playlistItem?.songId
-  );
 
   const onVideoSelect = (video: Video) => {
     setShowVideoSelect(false);
-    if (!playlistItem) return;
-    updateItem(playlistItem?.id, { ...playlistItem, videoUrl: video.url });
+    if (!playheadItem) return;
+    updateItem({ ...playheadItem, videoUrl: video.url });
   };
 
   const onProgress = (e: { playedSeconds: number }) => {
@@ -92,11 +89,11 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
             <button
               key={playbackRate}
               className={` ${
-                playlistItem?.playbackRate === playbackRate && "active"
+                playheadItem?.playbackRate === playbackRate && "active"
               } `}
               onClick={() => {
-                if (!playlistItem) return;
-                updateItem(playlistItem.id, { ...playlistItem, playbackRate });
+                if (!playheadItem) return;
+                updateItem({ ...playheadItem, playbackRate });
               }}
             >
               {["🐌", "🐢", "🐏", "🐇"][index]}
@@ -146,17 +143,16 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
           <button onClick={previous}>⏪</button>
           <div>
             <p>
-              {selectedPlaylistItemIndex}/{selectedPlaylistItems.length}{" "}
-              {song?.title}
+              {playheadIndex + 1}/{playlist.items.length} {song?.title}
             </p>
             <p style={{ fontFamily: "monospace" }}>
               ⏲ {Math.floor(progress)} : {duration}
             </p>
             <ReactPlayer
               style={{ height: 64, width: 48 }}
-              playbackRate={playlistItem?.playbackRate}
+              playbackRate={playheadItem?.playbackRate}
               playing={playing}
-              url={playlistItem?.videoUrl}
+              url={playheadItem?.videoUrl}
               width={"100%"}
               height={100}
               controls={false}
@@ -184,14 +180,14 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
           </button>
           <button
             onClick={() =>
-              playlistItem &&
-              updateItem(playlistItem.id, {
-                ...playlistItem,
-                isFavorite: !playlistItem.isFavorite,
+              playheadItem &&
+              updateItem({
+                ...playheadItem,
+                isFavorite: !playheadItem.isFavorite,
               })
             }
           >
-            {playlistItem?.isFavorite ? "★" : "☆"}
+            {playheadItem?.isFavorite ? "★" : "☆"}
           </button>
           <button onClick={() => changePage(PlaylistPage)}>📻</button>
           <button onClick={() => setShowSheetMusic(true)}>🎼</button>

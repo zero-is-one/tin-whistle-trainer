@@ -1,9 +1,25 @@
 import { usePlaylistManager } from "hooks/usePlaylistManager";
 import { PlayerPage } from "./PlayerPage";
-import songsJson from "assets/songs.json";
+import { useSongs } from "hooks/useSongs";
+import { PlaylistItem } from "types";
 
 export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
-  const { playlist, updateItem, randomizeItems, sort } = usePlaylistManager();
+  const { songs } = useSongs();
+  const {
+    playlist,
+    createItem,
+    updateItem,
+    deleteItem,
+    sortByRandom,
+    sortBySongIndex,
+  } = usePlaylistManager();
+
+  const displaySongs = [
+    ...playlist.items.map((i) => songs[i.songIndex]),
+    ...songs.filter(
+      (s) => !playlist.items.find((i) => i.songIndex === s.index)
+    ),
+  ];
 
   return (
     <div className="page" style={{ display: "flex", flexDirection: "column" }}>
@@ -22,55 +38,60 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
         >
           🔙
         </button>
-        <button style={{ minWidth: 60 }} onClick={sort}>
-          ↧
-        </button>
-        <button onClick={randomizeItems}>🔀</button>
+        <div>
+          <span style={{ color: "white" }}>order: </span>
+          <button style={{ minWidth: 60 }} onClick={sortBySongIndex}>
+            ⤵️
+          </button>
+          <button onClick={sortByRandom}>🔀</button>
+        </div>
       </div>
       <div style={{ overflow: "auto", width: "100%", height: " 100%" }}>
         <ul style={{ overflow: "auto", width: "100%", height: " 100%" }}>
-          {playlist.items.map((item) => (
-            <li
-              key={item.id}
-              style={{
-                background: item.isSelected ? "#c9ffc9" : "",
-                cursor: "pointer",
-                fontWeight: item.isSelected ? "bold" : "normal",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
-              <span
-                onClick={() =>
-                  updateItem(item.id, {
-                    ...item,
-                    isSelected: !item.isSelected,
-                  })
-                }
+          {displaySongs.map((song, index) => {
+            const playlistItem = playlist.items.find(
+              (i) => i.songIndex === song.index
+            );
+
+            return (
+              <li
+                key={song.index}
                 style={{
-                  padding: 5,
-                  whiteSpace: "nowrap",
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  maxWidth: "80vw",
-                  display: "block",
+                  background: playlistItem ? "#c9ffc9" : "",
+                  cursor: "pointer",
+                  fontWeight: playlistItem ? "bold" : "normal",
+                  display: "flex",
+                  justifyContent: "space-between",
                 }}
               >
-                {`${item.isSelected ? "☑ " : "☐ "}`}
-                {item.index + 1}.{" "}
-                {songsJson.find((i) => i.id === item.songId)?.title}
-              </span>
-              <span
-                style={{ minWidth: "6vw", textAlign: "center" }}
-                onClick={() =>
-                  updateItem(item.id, {
-                    ...item,
-                    isFavorite: !item.isFavorite,
-                  })
-                }
-              >{`${item.isFavorite ? "★" : "☆"}`}</span>
-            </li>
-          ))}
+                <span
+                  onClick={() =>
+                    playlistItem ? deleteItem(playlistItem) : createItem(song)
+                  }
+                  style={{
+                    padding: 5,
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    maxWidth: "80vw",
+                    display: "block",
+                  }}
+                >
+                  {`${playlistItem ? "☑ " : "☐ "}`}
+                  {playlistItem && <span>{index + 1}.</span>} {song.title}
+                </span>
+                <span
+                  style={{ minWidth: "6vw", textAlign: "center" }}
+                  onClick={() =>
+                    updateItem({
+                      ...(playlistItem as PlaylistItem),
+                      isFavorite: !playlistItem?.isFavorite,
+                    })
+                  }
+                >{`${playlistItem?.isFavorite ? "★" : "☆"}`}</span>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

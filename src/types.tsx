@@ -6,7 +6,7 @@ export interface Video {
 }
 
 export interface Song {
-  id: string;
+  index: number;
   title: string;
   abc: string;
   videos: Video[];
@@ -14,12 +14,10 @@ export interface Song {
 
 export interface PlaylistItem {
   id: string;
-  songId: string;
+  songIndex: number;
   videoUrl: string;
   playbackRate: number;
   isFavorite: boolean;
-  isSelected: boolean;
-  index: number;
 }
 
 export interface Playlist {

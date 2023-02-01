@@ -1,61 +1,57 @@
-import { useState, useEffect } from "react";
-import songsJson from "assets/songs.json";
-import { Playlist, PlaylistItem } from "types";
+import { useState } from "react";
+import { useSongs } from "./useSongs";
+import { Playlist, PlaylistItem, Song } from "types";
 import useLocalStorage from "use-local-storage";
 
 export const usePlaylistManager = () => {
-  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv7", {
-    items: [],
+  const { songs } = useSongs();
+  const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv9", {
+    items: [
+      {
+        id: Math.random().toString(36).replace("0.", ""),
+        isFavorite: false,
+        songIndex: songs[0].index,
+        videoUrl: songs[0].videos[0].url,
+        playbackRate: 1,
+      },
+    ],
   } as Playlist);
 
-  const [itemPlayheadId, setItemPlayheadId] = useState<string | null>();
-  const itemPlayhead = playlist.items.find(
-    (item) => item.id === itemPlayheadId
-  );
+  const [playheadIndex, setPlayheadIndex] = useState<number>(0);
+  const playheadItem = playlist.items[playheadIndex];
+  const playheadSong = songs[playheadItem.songIndex];
 
-  useEffect(() => {
-    if (songsJson.length === playlist.items.length) return;
-
-    const items = songsJson.map((song, index) => {
-      const playlistItem = playlist.items?.[index];
-
-      return {
-        id: playlistItem?.id || Math.random().toString(36).replace("0.", ""),
-        songId: song.id,
-        videoUrl: playlistItem?.videoUrl || song.videos[0].url,
-        playbackRate: playlistItem?.playbackRate || 1,
-        isFavorite: playlistItem?.isFavorite || false,
-        isSelected: playlistItem?.isSelected || false,
-        index,
-      };
-    });
-
-    setPlaylist({
-      items,
-    });
-  }, []);
-
-  useEffect(() => {
-    if (playlist.items.length === 0 || itemPlayhead) return;
-    setItemPlayheadId(playlist.items.filter((i) => i.isSelected)[0]?.id);
-  }, [playlist, itemPlayhead]);
-
-  const updateItem = (id: string, val: PlaylistItem) => {
+  const updateItem = (item: PlaylistItem) => {
     const items = [...playlist.items];
-    const index = playlist.items.findIndex((i) => i.id === id);
-    items[index] = val;
+    const index = playlist.items.findIndex((i) => i.id === item.id);
+    items[index] = item;
 
     setPlaylist({ ...playlist, items });
   };
 
-  const movePlayhead = (dir: number) => {
-    const items = playlist.items.filter((i) => i.isSelected);
-    let index = items.findIndex((item) => item.id === itemPlayhead?.id) || 0;
-    index += dir;
-    index = Math.min(index, items.length - 1);
-    index = Math.max(index, 0);
-    setItemPlayheadId(items[index].id);
+  const deleteItem = (item: PlaylistItem) => {
+    const items = [...playlist.items].filter((i) => i.id !== item.id);
+    setPlaylist({ ...playlist, items });
   };
+
+  const createItem = (song: Song) => {
+    const item: PlaylistItem = {
+      id: Math.random().toString(36).replace("0.", ""),
+      isFavorite: false,
+      songIndex: song.index,
+      videoUrl: song.videos[0].url,
+      playbackRate: 1,
+    };
+
+    setPlaylist({ ...playlist, items: [...playlist.items, item] });
+  };
+
+  const movePlayhead = (dir: number) => {
+    setPlayheadIndex(
+      Math.min(Math.max(playheadIndex + dir, 0), playlist.items.length - 1)
+    );
+  };
+
   const next = () => {
     movePlayhead(1);
   };
@@ -63,47 +59,33 @@ export const usePlaylistManager = () => {
     movePlayhead(-1);
   };
 
-  const randomizeItems = () => {
-    const favs = [...playlist.items]
-      .filter((i) => i.isFavorite)
-      .filter((i) => i.isSelected)
-      .sort((a, b) => b.index - a.index);
-
-    const norms = shuffle(
-      [...playlist.items]
-        .filter((i) => !i.isFavorite)
-        .filter((i) => i.isSelected)
+  const sortByRandom = () => {
+    const faved = [...playlist.items.filter((i) => i.isFavorite)].sort(
+      (a, b) => b.songIndex - a.songIndex
     );
+    const unfaved = shuffle([...playlist.items.filter((i) => !i.isFavorite)]);
 
-    const remaining = [
-      ...playlist.items
-        .filter((i) => !i.isSelected)
-        .sort((a, b) => a.index - b.index),
-    ];
-
-    setPlaylist({ ...playlist, items: [...favs, ...norms, ...remaining] });
+    setPlaylist({ ...playlist, items: [...faved, ...unfaved] });
   };
 
-  const sort = () => {
-    const items = [...playlist.items].sort((a, b) => a.index - b.index);
+  const sortBySongIndex = () => {
+    const items = [...playlist.items].sort((a, b) => a.songIndex - b.songIndex);
 
     setPlaylist({ ...playlist, items });
   };
 
-  const selectedPlaylistItems = playlist.items.filter((i) => i.isSelected);
-
   return {
     playlist,
-    selectedPlaylistItems,
-    sort,
+    createItem,
     updateItem,
+    deleteItem,
+    sortBySongIndex,
+    sortByRandom,
     next,
     previous,
-    selectedPlaylistItemIndex: itemPlayhead
-      ? selectedPlaylistItems.indexOf(itemPlayhead) + 1
-      : 0,
-    playlistItem: itemPlayhead,
-    randomizeItems,
+    playheadIndex,
+    playheadItem,
+    playheadSong,
   };
 };
 
