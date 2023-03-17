@@ -396,7 +396,7 @@
     ]
   },
   {
-    "title": "Armagh Polka (Egan's)",
+    "title": "Armagh Polka (Egan's or John Ryan Polka)",
     "abc": "X: 1\nT: Armagh Polka (Egan's)\nM: 2/4\nL: 1/16\nR: Polka\nK: D\nd2 d2 BcdB|A2F2 A2F2|d2 d2 BcdB|A2F2 E2D2|\nw: d2 d2 B c d B A2 F2 A2 F2 d2 d2 B c d B A2 F2 E2 D2\nd2 d2 BcdB|A2F2 A2de|f2d2 e2c2|d4 d4 :|\nw: d2 d2 B c d B A2 F2 A2 d e f2 d2 e2 c2 d4 d4\nf2d2 d2ef|g2f2 e2de|f2d2 A2d2|f2df a3g|\nw: f2 d2 d2 e f g2 f2 e2 d e f2 d2 A2 d2 f2 d f a3 g\nf2d2 d2ef|g2f2 e2de|f2d2 e2c2|d4 d4 :|\nw: f2 d2 d2 e f g2 f2 e2 d e f2 d2 e2 c2 d4 d4\n",
     "videos": [
       {
@@ -2022,6 +2022,108 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=kali9bzwQBs"
+      }
+    ]
+  },
+  {
+    "title": "Maid On The Green, The",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Foinn Seisiún 1",
+        "url": "https://www.youtube.com/watch?v=7RmUPM4OYFc"
+      },
+      {
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=9x9hF95GJOU"
+      }
+    ]
+  },
+  {
+    "title": "Shandon Bells (D)",
+    "abc": "",
+    "videos": [
+      {
+        "title": "James",
+        "url": "https://youtu.be/cowXmNKDaqA?t=837"
+      },
+      {
+        "title": "Patti Kusturok",
+        "url": "https://www.youtube.com/watch?v=rFckGz8sJdY"
+      }
+    ]
+  },
+  {
+    "title": "The Swallowtail Jig (Em)",
+    "abc": "",
+    "videos": [
+      {
+        "title": "peakfiddler",
+        "url": "https://www.youtube.com/watch?v=3mMXGCTktuI"
+      }
+    ]
+  },
+  {
+    "title": "Donnybrook Fair",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Whistletutor",
+        "url": "https://www.youtube.com/watch?v=pkzJXuLwHeg"
+      },
+      {
+        "title": "Pat Barton Accordion",
+        "url": "https://www.youtube.com/watch?v=Nj0576_8UU0"
+      }
+    ]
+  },
+  {
+    "title": "Rattlin' Bog",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Whistletutor",
+        "url": "https://www.youtube.com/watch?v=RLSeEyZ8_Hk"
+      }
+    ]
+  },
+  {
+    "title": "Inis Oírr",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Trio Elatha",
+        "url": "https://www.youtube.com/watch?v=bQigymTJh7Q"
+      }
+    ]
+  },
+  {
+    "title": "Galway Belle",
+    "abc": "",
+    "videos": [
+      {
+        "title": "School of Irish Music",
+        "url": "https://www.youtube.com/watch?v=h1m0A7ECI0Q"
+      }
+    ]
+  },
+  {
+    "title": "Off to California",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Liz Faiella",
+        "url": "https://www.youtube.com/watch?v=ndIPO0o3s20"
+      }
+    ]
+  },
+  {
+    "title": "Right of Man",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Alisa Jones",
+        "url": "https://www.youtube.com/watch?v=cQSo_PEHLF0"
       }
     ]
   }
