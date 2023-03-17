@@ -17,10 +17,10 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
     playheadIndex,
     playlist,
   } = usePlaylistManager();
-  const [progress, setProgress] = useState(0);
+  const [ellapsedSeconds, setElapsedSeconds] = useState(0);
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
-
+  const progress = useRef(0);
   const playerRef = useRef<BaseReactPlayer<any>>(null);
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showVideoSelect, setShowVideoSelect] = useState(false);
@@ -33,7 +33,6 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
   };
 
   const onProgress = (e: { playedSeconds: number }) => {
-    setProgress(e.playedSeconds);
     if (loop[1] !== -1) {
       if (e.playedSeconds > loop[1]) {
         seekTo(loop[0]);
@@ -44,19 +43,26 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
       return;
     }
 
-    setProgress(e.playedSeconds);
+    progress.current = e.playedSeconds;
+
+    if (Math.floor(e.playedSeconds) === 6) {
+      updateItem({ ...playheadItem, lastPlayedTimestamp: Date.now() });
+    }
+
+    if (Math.floor(e.playedSeconds) === ellapsedSeconds) return;
+    setElapsedSeconds(Math.floor(e.playedSeconds));
   };
 
   const seekTo = (position: number) => {
     playerRef.current?.seekTo(position, "seconds");
-    setProgress(position);
+    setElapsedSeconds(position);
   };
 
   const setLoopHead = () => {
     if (loop[0] === -1) {
-      setLoop([progress, -1]);
+      setLoop([progress.current, -1]);
     } else if (loop[1] === -1) {
-      setLoop([loop[0], progress]);
+      setLoop([loop[0], progress.current]);
     } else {
       setLoop([-1, -1]);
     }
@@ -112,13 +118,15 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
               <p style={{ fontSize: 18, fontFamily: "monospace" }}>
                 {Math.floor(loop[0])}:
                 <span className={loop[1] === -1 ? "blink" : ""}>
-                  {loop[1] === -1 ? Math.floor(progress) : Math.floor(loop[1])}
+                  {loop[1] === -1
+                    ? Math.floor(ellapsedSeconds)
+                    : Math.floor(loop[1])}
                 </span>
               </p>
             )}
           </button>
 
-          <button onClick={() => seekTo(progress - 1)}>
+          <button onClick={() => seekTo(ellapsedSeconds - 1)}>
             🕖
             <br /> -1
           </button>
@@ -130,7 +138,7 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
             <br />
             PLAY
           </button>
-          <button onClick={() => seekTo(progress + 1)}>
+          <button onClick={() => seekTo(ellapsedSeconds + 1)}>
             🕔
             <br /> +1
           </button>
@@ -146,7 +154,7 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
               {playheadIndex + 1}/{playlist.items.length} {song?.title}
             </p>
             <p style={{ fontFamily: "monospace" }}>
-              ⏲ {Math.floor(progress)} : {duration}
+              ⏲ {Math.floor(ellapsedSeconds)} : {duration}
             </p>
             <ReactPlayer
               style={{ height: 64, width: 48 }}
@@ -156,10 +164,10 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
               width={"100%"}
               height={100}
               controls={false}
-              progressInterval={100}
+              ellapsedSecondsInterval={100}
               onProgress={(e) => onProgress(e)}
               onDuration={(d) => setDuration(d)}
-              onSeek={(s) => setProgress(s)}
+              //onSeek={(s) => setElapsedSeconds(s)}
               ref={playerRef}
               config={{
                 youtube: {

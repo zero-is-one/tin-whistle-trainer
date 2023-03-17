@@ -11,6 +11,7 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
     updateItem,
     deleteItem,
     sortByRandom,
+    sortByLastPlayed,
     sortBySongIndex,
   } = usePlaylistManager();
 
@@ -40,7 +41,16 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
         </button>
         <div>
           <span style={{ color: "white" }}>order: </span>
-          <button style={{ minWidth: 60 }} onClick={sortBySongIndex}>
+          <button
+            style={{ minWidth: 60, marginRight: 4 }}
+            onClick={sortByLastPlayed}
+          >
+            ⏲
+          </button>
+          <button
+            style={{ minWidth: 60, marginRight: 4 }}
+            onClick={sortBySongIndex}
+          >
             ⤵️
           </button>
           <button onClick={sortByRandom}>🔀</button>
@@ -51,6 +61,11 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
           {displaySongs.map((song, index) => {
             const playlistItem = playlist.items.find(
               (i) => i.songIndex === song.index
+            );
+
+            const daysSincePlayed = Math.round(
+              (Date.now() - (playlistItem?.lastPlayedTimestamp || 0)) /
+                (1000 * 3600 * 24)
             );
 
             return (
@@ -78,7 +93,13 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
                   }}
                 >
                   {`${playlistItem ? "☑ " : "☐ "}`}
-                  {playlistItem && <span>{index + 1}.</span>} {song.title}
+                  {playlistItem && (
+                    <span>
+                      {index + 1}.
+                      {daysSincePlayed > 10000 ? "" : ` 📅${daysSincePlayed}`}
+                    </span>
+                  )}{" "}
+                  {song.title}
                 </span>
                 <span
                   style={{ minWidth: "6vw", textAlign: "center" }}

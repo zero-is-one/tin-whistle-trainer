@@ -8,11 +8,9 @@ export const usePlaylistManager = () => {
   const [playlist, setPlaylist] = useLocalStorage<Playlist>("playlistv9", {
     items: [
       {
-        id: Math.random().toString(36).replace("0.", ""),
-        isFavorite: false,
+        ...getDefaultPlaylistItem(),
         songIndex: songs[0].index,
         videoUrl: songs[0].videos[0].url,
-        playbackRate: 1,
       },
     ],
   } as Playlist);
@@ -36,11 +34,9 @@ export const usePlaylistManager = () => {
 
   const createItem = (song: Song) => {
     const item: PlaylistItem = {
-      id: Math.random().toString(36).replace("0.", ""),
-      isFavorite: false,
+      ...getDefaultPlaylistItem(),
       songIndex: song.index,
       videoUrl: song.videos[0].url,
-      playbackRate: 1,
     };
 
     setPlaylist({ ...playlist, items: [...playlist.items, item] });
@@ -74,6 +70,14 @@ export const usePlaylistManager = () => {
     setPlaylist({ ...playlist, items });
   };
 
+  const sortByLastPlayed = () => {
+    const items = [...playlist.items].sort(
+      (a, b) => (a.lastPlayedTimestamp || 0) - (b.lastPlayedTimestamp || 0)
+    );
+
+    setPlaylist({ ...playlist, items });
+  };
+
   return {
     playlist,
     createItem,
@@ -81,6 +85,7 @@ export const usePlaylistManager = () => {
     deleteItem,
     sortBySongIndex,
     sortByRandom,
+    sortByLastPlayed,
     next,
     previous,
     playheadIndex,
@@ -88,6 +93,15 @@ export const usePlaylistManager = () => {
     playheadSong,
   };
 };
+
+const getDefaultPlaylistItem = (): PlaylistItem => ({
+  id: Math.random().toString(36).replace("0.", ""),
+  isFavorite: false,
+  songIndex: 0,
+  videoUrl: "",
+  playbackRate: 1,
+  lastPlayedTimestamp: new Date(1).getTime(),
+});
 
 export function shuffle<T>(array: T[]): T[] {
   let currentIndex = array.length,

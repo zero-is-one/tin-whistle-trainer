@@ -18,6 +18,7 @@ export interface PlaylistItem {
   videoUrl: string;
   playbackRate: number;
   isFavorite: boolean;
+  lastPlayedTimestamp: number;
 }
 
 export interface Playlist {
