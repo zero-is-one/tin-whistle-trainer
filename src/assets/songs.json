@@ -2540,5 +2540,33 @@
         "url": "https://www.youtube.com/watch?v=tivVVgJex5c"
       }
     ]
+  },
+  {
+    "title": "Dingle Regatta",
+    "abc": "",
+    "videos": [
+      {
+        "title": "le Ceoltóiri Cultúrlainne",
+        "url": "https://www.youtube.com/watch?v=OcL-AGaWaU8"
+      },
+      {
+        "title": "Pat Barton Accordion",
+        "url": "https://www.youtube.com/watch?v=Ajhdn0ov_5o"
+      }
+    ]
+  },
+  {
+    "title": "Chase Me Charlie",
+    "abc": "",
+    "videos": [
+      {
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=VQMf8gwLbuE"
+      },
+      {
+        "title": "Sophie & Fiachra",
+        "url": "https://www.youtube.com/watch?v=GRvqEAIbjno"
+      }
+    ]
   }
 ]
