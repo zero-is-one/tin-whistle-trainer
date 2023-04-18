@@ -12,7 +12,7 @@ export const Abc = ({
 
   useEffect(() => {
     if (!ele?.current) return;
-    console.log(ele?.current, abc, params);
+
     abcjs.renderAbc(ele.current, abc, params);
   }, [abc, params, ele]);
 
