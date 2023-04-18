@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import ReactPlayer from "react-player";
 import BaseReactPlayer from "react-player/base";
 import { SheetMusicModal } from "./SheetMusicModal";
@@ -6,6 +6,8 @@ import { VideoSelectModal } from "./VideoSelectModal";
 import { Video } from "types";
 import { usePlaylistManager } from "hooks/usePlaylistManager";
 import { PlaylistPage } from "./PlaylistPage";
+
+const progressInterval = 100;
 
 export const PlayerPage = ({ changePage }: { changePage: Function }) => {
   const {
@@ -21,10 +23,15 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
   const [duration, setDuration] = useState(-1);
   const [playing, setPlaying] = useState(false);
   const progress = useRef(0);
+  const playElapsed = useRef(0);
   const playerRef = useRef<BaseReactPlayer<any>>(null);
   const [showSheetMusic, setShowSheetMusic] = useState(false);
   const [showVideoSelect, setShowVideoSelect] = useState(false);
   const [loop, setLoop] = useState([-1, -1]);
+
+  useEffect(() => {
+    playElapsed.current = 0;
+  }, [playheadIndex]);
 
   const onVideoSelect = (video: Video) => {
     setShowVideoSelect(false);
@@ -44,8 +51,9 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
     }
 
     progress.current = e.playedSeconds;
+    playElapsed.current += progressInterval;
 
-    if (Math.floor(e.playedSeconds) === 6) {
+    if (playElapsed.current >= 6000 && playElapsed.current < 7000) {
       updateItem({ ...playheadItem, lastPlayedTimestamp: Date.now() });
     }
 
@@ -164,7 +172,7 @@ export const PlayerPage = ({ changePage }: { changePage: Function }) => {
               width={"100%"}
               height={100}
               controls={false}
-              ellapsedSecondsInterval={100}
+              progressInterval={progressInterval}
               onProgress={(e) => onProgress(e)}
               onDuration={(d) => setDuration(d)}
               //onSeek={(s) => setElapsedSeconds(s)}
