@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tin-whistle-trainer/static/css/main.0d6886b3.css",
-    "main.js": "/tin-whistle-trainer/static/js/main.483cb63d.js",
+    "main.js": "/tin-whistle-trainer/static/js/main.f0d81933.js",
     "index.html": "/tin-whistle-trainer/index.html",
     "main.0d6886b3.css.map": "/tin-whistle-trainer/static/css/main.0d6886b3.css.map",
-    "main.483cb63d.js.map": "/tin-whistle-trainer/static/js/main.483cb63d.js.map"
+    "main.f0d81933.js.map": "/tin-whistle-trainer/static/js/main.f0d81933.js.map"
   },
   "entrypoints": [
     "static/css/main.0d6886b3.css",
-    "static/js/main.483cb63d.js"
+    "static/js/main.f0d81933.js"
   ]
 }
