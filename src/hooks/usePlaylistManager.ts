@@ -55,11 +55,15 @@ export const usePlaylistManager = () => {
     movePlayhead(-1);
   };
 
-  const sortByRandom = () => {
+  const sortByBest = () => {
     const faved = [...playlist.items.filter((i) => i.isFavorite)].sort(
       (a, b) => b.songIndex - a.songIndex
     );
-    const unfaved = shuffle([...playlist.items.filter((i) => !i.isFavorite)]);
+    const unfaved = shuffle([
+      ...playlist.items.filter((i) => !i.isFavorite),
+    ]).sort(
+      (a, b) => (a.lastPlayedTimestamp || 0) - (b.lastPlayedTimestamp || 0)
+    );
 
     setPlaylist({ ...playlist, items: [...faved, ...unfaved] });
   };
@@ -84,7 +88,7 @@ export const usePlaylistManager = () => {
     updateItem,
     deleteItem,
     sortBySongIndex,
-    sortByRandom,
+    sortByBest,
     sortByLastPlayed,
     next,
     previous,

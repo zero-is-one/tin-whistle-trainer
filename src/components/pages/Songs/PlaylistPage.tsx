@@ -10,7 +10,7 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
     createItem,
     updateItem,
     deleteItem,
-    sortByRandom,
+    sortByBest,
     sortByLastPlayed,
     sortBySongIndex,
   } = usePlaylistManager();
@@ -53,7 +53,7 @@ export const PlaylistPage = ({ changePage }: { changePage: Function }) => {
           >
             ⤵️
           </button>
-          <button onClick={sortByRandom}>🔀</button>
+          <button onClick={sortByBest}>🤓</button>
         </div>
       </div>
       <div style={{ overflow: "auto", width: "100%", height: " 100%" }}>
