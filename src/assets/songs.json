@@ -2593,11 +2593,47 @@
     "videos": [
       {
         "title": "Virtual Irish Music Session #74",
-        "url": "https://www.youtube.com/live/50H5lxsBkQg?feature=share&t=3666"
+        "url": "https://www.youtube.com/watch?v=50H5lxsBkQg&t=3666s"
       },
       {
         "title": "Inis Fail",
         "url": "https://www.youtube.com/watch?v=cOR6W6Yazjw"
+      }
+    ]
+  },
+  {
+    "title": "Cup of Tea",
+    "abc": "",
+    "videos": [
+      {
+        "title": "hatao",
+        "url": "https://www.youtube.com/watch?v=iy3EXUv5w-Q"
+      },
+      {
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=XqSUMP1-y5Q"
+      },
+      {
+        "title": "Emerald Road",
+        "url": "https://www.youtube.com/watch?v=55wy5llwETo"
+      }
+    ]
+  },
+  {
+    "title": "Swinging on the Gate (Reel)",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Shannon Heaton",
+        "url": "https://www.youtube.com/watch?v=ZFCC2OJ5AVA"
+      },
+      {
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=95AwIyC3SKA"
+      },
+      {
+        "title": "The Kerry Whistler",
+        "url": "https://www.youtube.com/watch?v=cnnQzhQAD0U"
       }
     ]
   }
