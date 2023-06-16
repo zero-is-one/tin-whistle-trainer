@@ -1026,16 +1026,20 @@
     ]
   },
   {
-    "title": "Cronin's",
-    "abc": "X: 1\nT: Cronin's\nM: 4/4\nL: 1/8\nR: hornpipe\nK: Gmaj\nBA|GABd dBde|gage dega|bage dBGA|BAAG AcBA|\nw: B A G A B d d B d e g a g e d e g a b a g e d B G A B A A G A c B A\nGABd dBde|gage dega|bage dBAc|AG GF G2:|\nw: G A B d d B d e g a g e d e g a b a g e d B A c A G G F G2\n|:(3efg|afd^c dega|beed efga|(3bag (3agf gedB|BAAG AcBA|\nw: e f g a f d c d e g a b e e d e f g a b a g a g f g e d B B A A G A c B A\nGABd dBde|gage dega|bage dBAB|G2 GF G2:|\nw: G A B d d B d e g a g e d e g a b a g e d B A B G2 G F G2\n",
+    "title": "Cronin's Reel",
+    "abc": "",
     "videos": [
-      {
-        "title": "Foinn Seisiún 1",
-        "url": "https://www.youtube.com/watch?v=Q52SM3Jv6LM"
-      },
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=OSSFYppKraY"
+      },
+      {
+        "title": "Whistletutor",
+        "url": "https://youtu.be/1lPAy3O7qZA?list=PLtAIFxEdBkukyLO6k2fs0CLW3slI7EYS9&t=122"
+      },
+      {
+        "title": "Sean McGuire",
+        "url": "https://www.youtube.com/watch?v=9olrQCsIm00"
       }
     ]
   },
@@ -1238,6 +1242,10 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=RtpwwwmIf6Q"
+      },
+      {
+        "title": "Kathy",
+        "url": "https://www.youtube.com/watch?v=2o8S2ZbWkyc"
       }
     ]
   },
@@ -2432,6 +2440,14 @@
       {
         "title": "peakfiddler",
         "url": "https://www.youtube.com/watch?v=3mMXGCTktuI"
+      },
+      {
+        "title": "Live",
+        "url": "https://www.youtube.com/watch?v=UNkLy3yoFDU"
+      },
+      {
+        "title": "Culann's Hounds",
+        "url": "https://www.youtube.com/watch?v=IZBavAyPR0g&t=31s"
       }
     ]
   },
@@ -2634,6 +2650,174 @@
       {
         "title": "The Kerry Whistler",
         "url": "https://www.youtube.com/watch?v=cnnQzhQAD0U"
+      }
+    ]
+  },
+  {
+    "title": "Sheebeg and Sheemore. ( Sí Beag, Sí Mór)",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Dulahan Ireland",
+        "url": "https://www.youtube.com/watch?v=MlFc16vp0f0"
+      },
+      {
+        "title": "Traditional Touch",
+        "url": "https://www.youtube.com/watch?v=GLAvQaodrwQ"
+      },
+      {
+        "title": "The Kerry Whistler",
+        "url": "https://www.youtube.com/watch?v=cnnQzhQAD0U"
+      }
+    ]
+  },
+  {
+    "title": "Arran Boat",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Good Tunes Band",
+        "url": "https://www.youtube.com/watch?v=ui2-4v4INPw"
+      },
+      {
+        "title": "John&Phil Cunningham",
+        "url": "https://www.youtube.com/watch?v=zTa0AM6-GCw"
+      }
+    ]
+  },
+  {
+    "title": "Dawing of the Day",
+    "abc": "",
+    "videos": [
+      {
+        "title": "James Cleveland",
+        "url": "https://youtu.be/ZbflGh1k5Kg?t=14"
+      },
+      {
+        "title": "Laurie Rasmussen",
+        "url": "https://www.youtube.com/watch?v=0dlwtD8dkrg"
+      }
+    ]
+  },
+  {
+    "title": "The Butterfly",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Peak Fiddler",
+        "url": "https://youtu.be/ZeP5tDroavw?t=16"
+      },
+      {
+        "title": "Pierre-Augustin Vallin",
+        "url": "https://www.youtube.com/watch?v=g4jRc-bMc_k"
+      }
+    ]
+  },
+
+  {
+    "title": "Barrowburn ",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Gordon Gunn Band",
+        "url": "https://www.youtube.com/watch?v=zznXYiUgJUI"
+      },
+      {
+        "title": "Tom van Cleve",
+        "url": "https://www.youtube.com/watch?v=UYONPljgBlA"
+      }
+    ]
+  },
+
+  {
+    "title": "Castle Kelly",
+    "abc": "",
+    "videos": [
+      {
+        "title": "hatao’s",
+        "url": "https://www.youtube.com/watch?v=3AvrlXjc4ow"
+      },
+      {
+        "title": "Dirk Freymuth",
+        "url": "https://www.youtube.com/watch?v=Xnfs16k8EOk"
+      }
+    ]
+  },
+
+  {
+    "title": "The Congress",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Fiddle Studio",
+        "url": "https://www.youtube.com/watch?v=riioAazcuC8"
+      },
+      {
+        "title": "Martial BENOIT",
+        "url": "https://youtu.be/ED2jFqZTn2A?t=8"
+      },
+      {
+        "title": "Chris Droney",
+        "url": "https://www.youtube.com/watch?v=20XO1iQ_bMk"
+      }
+    ]
+  },
+  {
+    "title": "Cronin's Hornpipe",
+    "abc": "",
+    "videos": [
+      {
+        "title": "hatao’s",
+        "url": "https://www.youtube.com/watch?v=n196dONLjW8"
+      },
+      {
+        "title": "Dulahan Ireland",
+        "url": "https://www.youtube.com/watch?v=Sizy21creJk"
+      },
+
+      {
+        "title": "Fergal Scahill",
+        "url": "https://youtu.be/KFlhZbNh-dA?t=27"
+      }
+    ]
+  },
+
+  {
+    "title": "Spootiskerry",
+    "abc": "",
+    "videos": [
+      {
+        "title": "fiddle castro",
+        "url": "https://www.youtube.com/watch?v=WPjBXCIaxck8"
+      },
+      {
+        "title": "Paul Young",
+        "url": "https://www.youtube.com/watch?v=IHQuSFDNl2k"
+      },
+
+      {
+        "title": "Laura Carr",
+        "url": "https://youtu.be/oxAWUZyFemQ?t=98"
+      }
+    ]
+  },
+
+  {
+    "title": "Wind that Shakes the Barley",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Craig Duncan",
+        "url": "https://www.youtube.com/watch?v=LtOYPuMVCgQ"
+      },
+      {
+        "title": "The Whistler",
+        "url": "https://www.youtube.com/watch?v=DYsRNqB_2D0"
+      },
+
+      {
+        "title": "the good tune",
+        "url": "https://youtu.be/uiGKnFf2-mA?t=94"
       }
     ]
   }
