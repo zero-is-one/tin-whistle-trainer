@@ -2254,6 +2254,10 @@
       {
         "title": "Hatao Songs",
         "url": "https://www.youtube.com/watch?v=CFMwdv7QZ9Y"
+      },
+      {
+        "title": "Aideen O'Brien",
+        "url": "https://youtu.be/20rYLUjZAFk?t=80"
       }
     ]
   },
@@ -2909,25 +2913,10 @@
       {
         "title": "Dougie MacLean",
         "url": "https://www.youtube.com/watch?v=1APeW6jJeo0"
-      }
-    ]
-  },
-
-  {
-    "title": "Haste to the Wedding",
-    "abc": "",
-    "videos": [
-      {
-        "title": "Dulahan Ireland",
-        "url": "https://www.youtube.com/watch?v=UfRjdDwgzoM"
       },
       {
-        "title": "The Whistler",
-        "url": "https://www.youtube.com/watch?v=FrGsMgXjTmA"
-      },
-      {
-        "title": "pluckinstrings",
-        "url": "https://www.youtube.com/watch?v=vqM1FV-S2Wo"
+        "title": "4stringjoe",
+        "url": "https://youtu.be/c_Odu0L8WLk?t=3"
       }
     ]
   },
@@ -2987,6 +2976,138 @@
       {
         "title": "whistletutor",
         "url": "https://www.youtube.com/watch?v=AK6A0zcfLKc"
+      }
+    ]
+  },
+
+  {
+    "title": "Red Haired Boy",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Liz Faiella",
+        "url": "https://www.youtube.com/watch?v=LlNKBPfYVzs"
+      },
+      {
+        "title": "Shannon Heaton",
+        "url": "https://youtu.be/dZ2KkFqachk?t=57"
+      }
+    ]
+  },
+  {
+    "title": "Down by the Sally Gardens",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Joanie Madden",
+        "url": "https://www.youtube.com/watch?v=9LUUfkLgDfE"
+      },
+      {
+        "title": "Sir James Galway",
+        "url": "https://www.youtube.com/watch?v=BzvL5BKvnJU"
+      }
+    ]
+  },
+
+  {
+    "title": "Boys of Ballisodare",
+    "abc": "",
+    "videos": [
+      {
+        "title": " Cathal Hayden",
+        "url": "https://www.youtube.com/watch?v=TVthNIP0MvI"
+      },
+      {
+        "title": "hatao",
+        "url": "https://youtu.be/wnqEwKgK8OM?t=5"
+      },
+
+      {
+        "title": "Sarah Hale",
+        "url": "https://youtu.be/zp8tYL3W55A?t=35"
+      }
+    ]
+  },
+  {
+    "title": "Fanny Power",
+    "abc": "",
+    "videos": [
+      {
+        "title": "OnlineLessonVideos",
+        "url": "https://youtu.be/D3sbWtLOWtE?t=9"
+      },
+
+      {
+        "title": "Craig Duncan ",
+        "url": "https://www.youtube.com/watch?v=Akj6lpCKBxo"
+      },
+      {
+        "title": "Liz Faiella",
+        "url": "https://www.youtube.com/watch?v=O4TfOe4TSbE"
+      }
+    ]
+  },
+  {
+    "title": "Mountains of Pomeroy",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Sean Keane",
+        "url": "https://www.youtube.com/watch?v=1eLw28vyB8U"
+      },
+      {
+        "title": "Ron Kavana · The Alias Acoustic Band",
+        "url": "https://www.youtube.com/watch?v=XqYbHN-8rmk"
+      },
+      {
+        "title": "Mithril",
+        "url": "https://www.youtube.com/watch?v=70CTP-e9w0Q"
+      }
+    ]
+  },
+  {
+    "title": "Flowers of Edinburgh",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Duncan Cameron Music",
+        "url": "https://www.youtube.com/watch?v=9xeY0thq6es"
+      },
+      {
+        "title": "Sligo Rags",
+        "url": "https://www.youtube.com/watch?v=iSpLf1t2830"
+      },
+      {
+        "title": "Gordon Hudson",
+        "url": "https://www.youtube.com/watch?v=I5_OE-refYU"
+      }
+    ]
+  },
+  {
+    "title": "The Galway",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Dulahan Ireland",
+        "url": "https://www.youtube.com/watch?v=aAUCn0bPfUc"
+      },
+      {
+        "title": "Aaron O'Hagan",
+        "url": "https://www.youtube.com/watch?v=9jb5UFKl6T8"
+      }
+    ]
+  },
+  {
+    "title": "Boolavogue",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Jessica McAllister",
+        "url": "https://youtu.be/nJ305ZWreWA?t=8"
+      },
+      {
+        "title": "Merlin Celtic Orchestra",
+        "url": "https://www.youtube.com/watch?v=EI9mbeHTVBU"
       }
     ]
   }
