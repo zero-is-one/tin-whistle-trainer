@@ -908,6 +908,14 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=1i-v72LfZS4"
+      },
+      {
+        "title": "peakfiddler",
+        "url": "https://www.youtube.com/watch?v=kTcU1dz4qng"
+      },
+      {
+        "title": "craigduncanmusic",
+        "url": "https://www.youtube.com/watch?v=b7g0J_RCX4k"
       }
     ]
   },
@@ -3108,6 +3116,82 @@
       {
         "title": "Merlin Celtic Orchestra",
         "url": "https://www.youtube.com/watch?v=EI9mbeHTVBU"
+      }
+    ]
+  },
+  {
+    "title": "The Bucks of Oranmore",
+    "abc": "",
+    "videos": [
+      {
+        "title": "AllThingsFolk",
+        "url": "https://www.youtube.com/watch?v=-DTJ7B_O7e8"
+      },
+      {
+        "title": "Martin Hayes",
+        "url": "https://www.youtube.com/watch?v=nTDAQlvMgKw"
+      },
+      {
+        "title": "Mcneela",
+        "url": "https://youtu.be/x80MqGX-uCY?t=4"
+      }
+    ]
+  },
+  {
+    "title": "Road to Lisdoonvarna",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Banish Misfortune",
+        "url": "https://www.youtube.com/watch?v=ERyVJZxD59Q"
+      },
+      {
+        "title": "David Sicilia",
+        "url": "https://www.youtube.com/watch?v=LMoQg4qzwJs"
+      },
+      {
+        "title": "Lalla Rookh",
+        "url": "https://www.youtube.com/watch?v=SRaKy_iK79c&t=89s"
+      }
+    ]
+  },
+  {
+    "title": "Johnny Redmond (Leather Away with the Wattle O)",
+    "abc": "",
+    "videos": [
+      {
+        "title": "The Kilfenora Céilí Band",
+        "url": "https://www.youtube.com/watch?v=rA9Vs-6GZXg&t=17s"
+      },
+      {
+        "title": "fiddle castro",
+        "url": "https://www.youtube.com/watch?v=M68xt2h8mpc"
+      },
+      {
+        "title": "Brian O'Connor",
+        "url": "https://youtu.be/9ymQ58Hv3-Y?t=4"
+      }
+    ]
+  },
+  {
+    "title": "Spanish Lady",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Patrick Steinbach",
+        "url": "https://www.youtube.com/watch?v=DyAq9I2tOsM"
+      },
+      {
+        "title": "Eamonn Ceannt Céilí Band",
+        "url": "https://www.youtube.com/watch?v=I86wMj-Crv0"
+      },
+      {
+        "title": "Rachael Lewis",
+        "url": "https://youtu.be/FbkS9ZhhDIM?t=100"
+      },
+      {
+        "title": "Fables",
+        "url": "https://www.youtube.com/watch?v=Ef8LO0WEoCQ"
       }
     ]
   }
