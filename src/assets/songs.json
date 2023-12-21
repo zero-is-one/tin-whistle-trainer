@@ -898,7 +898,7 @@
     ]
   },
   {
-    "title": "The Fox-Hunter",
+    "title": "The Fox-Hunter Reel",
     "abc": "X: 1\nT:The Fox-Hunter\nM:4/4\nL:1/8\nK:G\nd2 BG dGBG |d2BG AGEG |d2 BG dGBG |GABG AGEG :|\nw: d2 B G d G B G d2 B G A G E G d2 B G d G B G G A B G A G E G\n|:D3 B BAGE |D2 BG AGEG |D3 B BABG |A/B/c BG AGEG :|\nw: D3 B B A G E D2 B G A G E G D3 B B A B G A B c B G A G E G\ngedB G2 Bd |gdBd eA A2 |gedB GBdB|ABcd eA A2 :|\nw: g e d B G2 B d g d B d e A A2 g e d B G B d B A B c d e A A2\ndggf g3 e |dgg/f/g ef/g/dB |dggf g3 d |egdB AGAB :|\nw: d g g f g3 e d g g f g e f g d B d g g f g3 d e g d B A G A B\n|:G2 BG dGBG |GBB/A/B AGAB |G2 BG dGBG |egdB AGAB :|\nw: G2 B G d G B G G B B A B A G A B G2 B G d G B G e g d B A G A B",
     "videos": [
       {
@@ -908,14 +908,6 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=1i-v72LfZS4"
-      },
-      {
-        "title": "peakfiddler",
-        "url": "https://www.youtube.com/watch?v=kTcU1dz4qng"
-      },
-      {
-        "title": "craigduncanmusic",
-        "url": "https://www.youtube.com/watch?v=b7g0J_RCX4k"
       }
     ]
   },
@@ -1740,6 +1732,10 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=O0VU26RNTN4"
+      },
+      {
+        "title": "https://www.youtube.com/watch?v=5_yt_1dPU_4",
+        "url": "https://youtu.be/5_yt_1dPU_4?t=18"
       }
     ]
   },
@@ -3192,6 +3188,20 @@
       {
         "title": "Fables",
         "url": "https://www.youtube.com/watch?v=Ef8LO0WEoCQ"
+      }
+    ]
+  },
+  {
+    "title": "FoxHunter's Jig",
+    "abc": "",
+    "videos": [
+      {
+        "title": "peakfiddler",
+        "url": "https://www.youtube.com/watch?v=kTcU1dz4qng"
+      },
+      {
+        "title": "craigduncanmusic",
+        "url": "https://www.youtube.com/watch?v=b7g0J_RCX4k"
       }
     ]
   }
