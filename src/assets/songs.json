@@ -1576,6 +1576,14 @@
       {
         "title": "Dulahan Ireland Songs",
         "url": "https://www.youtube.com/watch?v=8ntbojC27nI"
+      },
+      {
+        "title": "Perrine Bakubama",
+        "url": "https://www.youtube.com/watch?v=YaSSeTYgqLI"
+      },
+      {
+        "title": "Shannon Heaton",
+        "url": "https://youtu.be/tS7gMsGjpRc?t=27"
       }
     ]
   },
@@ -2080,11 +2088,15 @@
       {
         "title": "The Whistler",
         "url": "https://www.youtube.com/watch?v=9x9hF95GJOU"
+      },
+      {
+        "title": "Shannon Heaton",
+        "url": "https://youtu.be/xKJKUbygc6w?t=28"
       }
     ]
   },
   {
-    "title": "Over The Moor To Maggie",
+    "title": "Over The Moor To Maggie (Reel)",
     "abc": "X: 1\nT: Over The Moor To Maggie\nM: 4/4\nL: 1/8\nR: reel\nK: Gmaj\n|:DE|G2GA BABd|efge dBAG|EAAG ABAG|EAAG AcBA|\nw: D E G2 G A B A B d e f g e d B A G E A A G A B A G E A A G A c B A\nGFGA BABd|efge dBAG|DG (3GFG BG (3GFG|EGFA G2:|\nw: G F G A B A B d e f g e d B A G D G G F G B G G F G E G F A G2\n|:ga|bg (3gfg agef|gage d2 (3Bcd |eaag abag|eaag a2 ga|\nw: g a b g  g f g a g e f g a g e d2 B c d e a a g a b a g e a a g a2 g a\nbg (3gfg agef|gage d2 (3Bcd|eg(3gfg bgag|egfa g2:|\nw: b g g f g a g e f g a g e d2 B c d e g g f g b g a g e g f a g2\n|:Bd|e2ec d2dB|c2cA BAGD|EAAG ABAG|EAAG A2 (3Bcd|\nw: B d e2 e c d2 d B c2 c A B A G D E A A G A B A G E A A G A2 B c d\ne2ec d2dB|c2cA B2 AG|EG (3GFG BGAG|EGFA G2:|\nw: e2 e c d2 d B c2 c A B2 A G E G G F G B G A G E G F A G2\n",
     "videos": [
       {
@@ -2098,6 +2110,14 @@
       {
         "title": "Hatao Songs",
         "url": "https://www.youtube.com/watch?v=AAPXffQpDxc"
+      },
+      {
+        "title": "Conor O'Bryan",
+        "url": "https://youtu.be/G2DcLmsHThk?t=93"
+      },
+      {
+        "title": "Perrine Bakubama",
+        "url": "https://www.youtube.com/watch?v=cW-GwDFdW2o"
       }
     ]
   },
@@ -3192,7 +3212,7 @@
     ]
   },
   {
-    "title": "FoxHunter's Jig",
+    "title": "Fox Hunter's Jig",
     "abc": "",
     "videos": [
       {
@@ -3202,6 +3222,70 @@
       {
         "title": "craigduncanmusic",
         "url": "https://www.youtube.com/watch?v=b7g0J_RCX4k"
+      }
+    ]
+  },
+  {
+    "title": "Da Slockit Light",
+    "abc": "",
+    "videos": [
+      {
+        "title": "FIDDLEVIDEO",
+        "url": "https://www.youtube.com/watch?v=srOvjOHFU8o"
+      },
+      {
+        "title": "hatao’s Irish tune of the day",
+        "url": "https://www.youtube.com/watch?v=_-q3kjwRUNA"
+      },
+      {
+        "title": "Alasdair Fraser",
+        "url": "https://www.youtube.com/watch?v=e4c2vvPQG0U"
+      }
+    ]
+  },
+  {
+    "title": "Girl I left Behind Me",
+    "abc": "",
+    "videos": [
+      {
+        "title": "TurkeyCreekSB",
+        "url": "https://www.youtube.com/watch?v=srOvjOHFU8o"
+      },
+      {
+        "title": "angloconc",
+        "url": "https://youtu.be/ucU4yVjbnDQ?t=5"
+      }
+    ]
+  },
+  {
+    "title": "Sean South/Roddy McCorley",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Julia McDonald-Plumb",
+        "url": "https://www.youtube.com/watch?v=57Yr2Dplkgg"
+      },
+      {
+        "title": "fiddle castro",
+        "url": "https://www.youtube.com/watch?v=vIebVl657tc"
+      }
+    ]
+  },
+  {
+    "title": "Top of Cork Road",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Cynthia MacLeod",
+        "url": "https://youtu.be/6JTyeAKk9jo?t=23"
+      },
+      {
+        "title": "fiddle castro",
+        "url": "https://www.youtube.com/watch?v=OgbySwbQYH8"
+      },
+      {
+        "title": "Rex McGee",
+        "url": "https://www.youtube.com/watch?v=wQiUNp5mtzE"
       }
     ]
   }
