@@ -3288,5 +3288,41 @@
         "url": "https://www.youtube.com/watch?v=wQiUNp5mtzE"
       }
     ]
+  },
+  {
+    "title": "Ger the Rigger",
+    "abc": "",
+    "videos": [
+      {
+        "title": "Kat Wallace and David Sasso",
+        "url": "https://youtu.be/YEGaRbTcPTE?t=10"
+      },
+      {
+        "title": "Broch Inspectors",
+        "url": "https://www.youtube.com/watch?v=BnPCVTFiFY4"
+      },
+      {
+        "title": "fiddle castro",
+        "url": "https://www.youtube.com/watch?v=XXqr89boZzg"
+      }
+    ]
+  },
+  {
+    "title": "Lucy Farr",
+    "abc": "",
+    "videos": [
+      {
+        "title": "the good tune",
+        "url": "https://www.youtube.com/watch?v=LJ_P5ffxXFo"
+      },
+      {
+        "title": "Martin Hayes",
+        "url": "https://www.youtube.com/watch?v=kZzTGWcLavI"
+      },
+      {
+        "title": "Dulahan Ireland",
+        "url": "https://www.youtube.com/watch?v=09ObGd4AD2c"
+      }
+    ]
   }
 ]
